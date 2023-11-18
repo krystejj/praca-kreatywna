@@ -15,4 +15,4 @@ Jest również **przystosowana do działania z urządzeniami mobilnymi**. Poleca
 
 <img width="300px" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/2.png">
 
-**Miłego czytania!**
+**Miłego czytania!** 😽

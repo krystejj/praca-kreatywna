@@ -13,4 +13,6 @@ Strona posiada **funkcje wyszukiwania** oraz **różne motywy** dostępne u gór
 
 Jest również **przystosowana do działania z urządzeniami mobilnymi**. Polecam sprawdzić, ale tak na wypadek gdyby Panu się nie chciało i tak dam screena, żeby to udowodnić.
 
+<img width="300px" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/2.png">
+
 **Miłego czytania!**

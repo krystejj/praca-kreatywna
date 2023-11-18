@@ -1,0 +1,19 @@
+[book]
+title = "Projektowanie Aplikacji"
+authors = ["Krystian Wiecheć"]
+description = "Praca kreatywna na lekcję projektowania oprogramowania."
+language = "pl"
+
+[rust]
+edition = "2021"
+
+[build]
+create-missing = false
+
+[output.html]
+mathjax-support = true
+default-theme = "coal"
+preferred-dark-theme = "coal"
+
+# [output.html.playground]
+# runnable = true

@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="pl" class="coal" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Dziel i Zwyciężaj - Projektowanie Aplikacji</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "coal" : "coal";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('coal')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Strona Tytułowa</a></li><li class="chapter-item expanded affix "><a href="../../wstep.html">Wstęp</a></li><li class="chapter-item expanded "><a href="../../zcc/index.html"><strong aria-hidden="true">1.</strong> Zasady Clean Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../zcc/kiss.html"><strong aria-hidden="true">1.1.</strong> Keep It Simple, Stupid!</a></li><li class="chapter-item expanded "><a href="../../zcc/dry.html"><strong aria-hidden="true">1.2.</strong> Don't Repeat Yourself</a></li><li class="chapter-item expanded "><a href="../../zcc/yagni.html"><strong aria-hidden="true">1.3.</strong> You Ain't Gonna Need It</a></li><li class="chapter-item expanded "><a href="../../zcc/stnc.html"><strong aria-hidden="true">1.4.</strong> Stick To Naming Conventions</a></li><li class="chapter-item expanded "><a href="../../zcc/ff.html"><strong aria-hidden="true">1.5.</strong> Fail Fast</a></li><li class="chapter-item expanded "><a href="../../zcc/cad.html"><strong aria-hidden="true">1.6.</strong> Code as Documentation</a></li><li class="chapter-item expanded "><a href="../../zcc/rtfm.html"><strong aria-hidden="true">1.7.</strong> Read The Fricking Manual</a></li><li class="chapter-item expanded "><a href="../../zcc/tdd.html"><strong aria-hidden="true">1.8.</strong> Test-Driven Development</a></li><li class="chapter-item expanded "><a href="../../zcc/rdd.html"><strong aria-hidden="true">1.9.</strong> Rubber Duck Debugging</a></li></ol></li><li class="chapter-item expanded "><a href="../../zpo/index.html"><strong aria-hidden="true">2.</strong> Zasady Programowania Obiektowego</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../zpo/solid/index.html"><strong aria-hidden="true">2.1.</strong> SOLID</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../zpo/solid/srp.html"><strong aria-hidden="true">2.1.1.</strong> Single-Responsibility Principle</a></li><li class="chapter-item expanded "><a href="../../zpo/solid/ocp.html"><strong aria-hidden="true">2.1.2.</strong> Open-Closed Principle</a></li><li class="chapter-item expanded "><a href="../../zpo/solid/lsp.html"><strong aria-hidden="true">2.1.3.</strong> Liskov Substitution Principle</a></li><li class="chapter-item expanded "><a href="../../zpo/solid/isp.html"><strong aria-hidden="true">2.1.4.</strong> Interface Segregation Principle</a></li><li class="chapter-item expanded "><a href="../../zpo/solid/dip.html"><strong aria-hidden="true">2.1.5.</strong> Dependency Inversion Principle</a></li></ol></li><li class="chapter-item expanded "><a href="../../zpo/lod.html"><strong aria-hidden="true">2.2.</strong> Law of Demeter</a></li><li class="chapter-item expanded "><a href="../../zpo/coi.html"><strong aria-hidden="true">2.3.</strong> Composition Over Inheritance</a></li></ol></li><li class="chapter-item expanded "><a href="../../dk.html"><strong aria-hidden="true">3.</strong> Dokumentowanie Kodu</a></li><li class="chapter-item expanded "><a href="../../algorytm/index.html"><strong aria-hidden="true">4.</strong> Algorytm</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../algorytm/pa/index.html"><strong aria-hidden="true">4.1.</strong> Projektowanie Algorytmu</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../algorytm/pa/diz.html" class="active"><strong aria-hidden="true">4.1.1.</strong> Dziel i Zwyciężaj</a></li><li class="chapter-item expanded "><a href="../../algorytm/pa/lk.html"><strong aria-hidden="true">4.1.2.</strong> Lista Kroków</a></li><li class="chapter-item expanded "><a href="../../algorytm/pa/pse.html"><strong aria-hidden="true">4.1.3.</strong> Pseudokod</a></li><li class="chapter-item expanded "><a href="../../algorytm/pa/dd.html"><strong aria-hidden="true">4.1.4.</strong> Drzewo Decyzyjne</a></li><li class="chapter-item expanded "><a href="../../algorytm/pa/sb.html"><strong aria-hidden="true">4.1.5.</strong> Schemat Blokowy</a></li><li class="chapter-item expanded "><a href="../../algorytm/pa/por.html"><strong aria-hidden="true">4.1.6.</strong> Porównanie</a></li></ol></li><li class="chapter-item expanded "><a href="../../algorytm/zo.html"><strong aria-hidden="true">4.2.</strong> Złożoność Obliczeniowa</a></li><li class="chapter-item expanded "><a href="../../algorytm/rek.html"><strong aria-hidden="true">4.3.</strong> Rekurencja</a></li><li class="chapter-item expanded "><a href="../../algorytm/as/index.html"><strong aria-hidden="true">4.4.</strong> Algorytmy Sortujące</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../algorytm/as/bab.html"><strong aria-hidden="true">4.4.1.</strong> Bąbelkowe</a></li><li class="chapter-item expanded "><a href="../../algorytm/as/pws.html"><strong aria-hidden="true">4.4.2.</strong> Przez Wstawianie</a></li><li class="chapter-item expanded "><a href="../../algorytm/as/pwy.html"><strong aria-hidden="true">4.4.3.</strong> Przez Wybór</a></li><li class="chapter-item expanded "><a href="../../algorytm/as/stog.html"><strong aria-hidden="true">4.4.4.</strong> Stogowe</a></li><li class="chapter-item expanded "><a href="../../algorytm/as/por.html"><strong aria-hidden="true">4.4.5.</strong> Porównanie</a></li></ol></li><li class="chapter-item expanded "><a href="../../algorytm/wb.html"><strong aria-hidden="true">4.5.</strong> Wyszukiwanie Binarne</a></li><li class="chapter-item expanded "><a href="../../algorytm/sc.html"><strong aria-hidden="true">4.6.</strong> Szyfr Cezara</a></li><li class="chapter-item expanded "><a href="../../algorytm/ah.html"><strong aria-hidden="true">4.7.</strong> Algorytmy Heurystyczne</a></li></ol></li><li class="chapter-item expanded "><a href="../../pk/index.html"><strong aria-hidden="true">5.</strong> Projektowanie Klas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../pk/uml.html"><strong aria-hidden="true">5.1.</strong> Unified Modeling Language</a></li><li class="chapter-item expanded "><a href="../../pk/diag.html"><strong aria-hidden="true">5.2.</strong> Diagramy</a></li></ol></li><li class="chapter-item expanded "><a href="../../zakonczenie.html">Zakończenie</a></li><li class="chapter-item expanded affix "><a href="../../zin.html">Źródła i Narzędzia</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Projektowanie Aplikacji</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="dziel-i-zwyciężaj"><a class="header" href="#dziel-i-zwyciężaj">Dziel i Zwyciężaj</a></h1>
+<p><strong>Dziel i zwyciężaj</strong> to metoda projektowania algorytmu, która polega na <strong>podziale problemu na mniejsze podproblemy</strong>, które są następnie rozwiązywane rekurencyjnie. Jest ona najczęściej używana do projektowania algorytmów sortujących.</p>
+<h2 id="sposób-działania"><a class="header" href="#sposób-działania">Sposób Działania</a></h2>
+<p>Metoda <strong>dziel i zwyciężaj</strong> działa w następujących etapach:</p>
+<ol>
+<li>problem dzieli się na <strong>mniejsze podproblemy</strong>.</li>
+<li>podproblemy są <strong>rozwiązywane rekurencyjnie</strong>.</li>
+<li>rozwiązania podproblemów są <strong>łączone</strong>, aby uzyskać rozwiązanie problemu oryginalnego.</li>
+</ol>
+<h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
+<p><strong>Dziel i zwyciężaj</strong> ma następujące zalety:</p>
+<ul>
+<li>jest często <strong>efektywna</strong>, ponieważ rozwiązuje problem poprzez rozwiązanie jego mniejszych podproblemów,</li>
+<li>jest <strong>prosta do zaimplementowania</strong>.</li>
+</ul>
+<h2 id="wady"><a class="header" href="#wady">Wady</a></h2>
+<p><strong>Dziel i zwyciężaj</strong> ma również wady:</p>
+<ul>
+<li>może być <strong>trudna do zrozumienia</strong> dla początkujących programistów,</li>
+<li>może <strong>wymagać dużej ilości czasu</strong>, jeśli podproblemy są duże.</li>
+</ul>
+<h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
+<p>Metoda <strong>dziel i zwyciężaj</strong> to potężna metoda projektowania algorytmów, która może być używana do rozwiązywania wielu różnych problemów. Nie ma problemu, którego nie moglibyśmy rozwiązać używając tej metody.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../algorytm/pa/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../algorytm/pa/lk.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../algorytm/pa/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../algorytm/pa/lk.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

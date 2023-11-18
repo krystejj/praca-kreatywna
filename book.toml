@@ -8,6 +8,7 @@ language = "pl"
 edition = "2021"
 
 [build]
+build-dir = "build"
 create-missing = false
 
 [output.html]

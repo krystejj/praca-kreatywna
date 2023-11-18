@@ -2,6 +2,10 @@
 
 **Sortowanie przez wybór** to algorytm sortowania, który działa poprzez wyszukiwanie elementu o najmniejszej wartości w zbiorze nieuporządkowanym i umieszczanie go na początku zbioru posortowanego. Następnie algorytm powtarza tę operację dla pozostałej części zbioru nieuporządkowanego, aż cały zbiór będzie posortowany.
 
+Animacja pokazująca działanie **sortowania przez wybór**:
+
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif">
+
 ## Cechy
 
 ### Złożoność Czasowa
@@ -20,6 +24,14 @@
 3. **cykl zewnętrzny** - cykl zewnętrzny algorytmu będzie wykonywać się od \\( 0 \\) do \\( n-1 \\), gdzie \\( n \\) jest liczbą elementów w zbiorze. W każdym przejściu cyklu zewnętrznego algorytm będzie znajdował najmniejszy element w zbiorze od indeksu \\( i \\) do końca zbioru.
 4. **przeniesienie elementów** - jeśli bieżący element jest mniejszy niż najmniejszy element w zbiorze, algorytm zamieni je miejscami.
 5. **koniec cyklu** - gdy cykl zewnętrzny zakończy się, zbiór będzie posortowany.
+
+Oto **schemat blokowy** przedstawiający sposób działania **sortowania przez wybór**:
+
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/3.png">
+
+**Dane wejściowe** dla algorytmu widocznego na schemacie to:
+- `d[]` - zbiór liczb do sortowania,
+- `n` - długość zbioru `d[]`.
 
 ## Podsumowanie
 **Sortowanie przez wybór** jest algorytmem sortującym, który jest **niestabilny** i **działa w miejscu**. Jednak jego złożoność czasowa rzędu \\( O(n^2) \\) sprawia, że **nie jest ono wydajne w przypadku dużych zbiorów danych**.

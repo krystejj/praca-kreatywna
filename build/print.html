@@ -9,7 +9,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -174,8 +174,8 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 style="font-size: 3.2em; text-align: center; margin-top: 36vh; margin-bottom: 0;">Praca Kreatywna</h1>
-<h2 style="font-size: 1.3em; text-align: center; margin-top: 0.3em;">Autorstwa Krystiana Wiecheć 2AP</h1>
+                        <h1 style="font-size: 3.2em; text-align: center; margin-top: 36vh; margin-bottom: 0;">Projektowanie Aplikacji</h1>
+<h2 style="font-size: 1.3em; text-align: center; margin-top: 0.3em;">Praca Kreatywna Autorstwa Krystiana Wiecheć 2AP</h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="wstęp"><a class="header" href="#wstęp">Wstęp</a></h1>
 <p>W tej pracy przedstawię <strong>wiele pojęć i zasad</strong> związanych z programowaniem oraz informatyką. Omówione zostaną następujące tematy:</p>
 <ol>
@@ -183,12 +183,17 @@
 <li><a href="zpo/index.html"><strong>Zasady Programowania Obiektowego</strong></a> - zasady tworzenia wysokiej jakości programów obiektowych.</li>
 <li><a href="dk.html"><strong>Dokumentowanie Kodu</strong></a> - sposób opisywania kodu w celu ułatwienia jego zrozumienia i utrzymania.</li>
 <li><a href="algorytm/index.html"><strong>Algorytm</strong></a> - zestaw instrukcji, które określają sposób rozwiązania problemu.</li>
-<li><a href="pk/README.html"><strong>Projektowanie Klas</strong></a> - sposób tworzenia obiektów, które są ze sobą powiązane w logiczny sposób.</li>
+<li><a href="pk/index.html"><strong>Projektowanie Klas</strong></a> - sposób tworzenia obiektów, które są ze sobą powiązane w logiczny sposób.</li>
 </ol>
-<p>W całej pracy obecne są przykłady kodu i nie tylko, tabele porównujące, schematy, zdjęcia, animacje oraz filmy.</p>
+<p>W całej pracy obecne są <strong>przykłady kodu, schematy, diagramy, tabele porównujące, zdjęcia, animacje oraz filmy</strong>.</p>
+<p>Strona posiada <strong>funkcje wyszukiwania</strong> oraz <strong>różne motywy</strong> dostępne u góry strony.</p>
+<p>Jest również <strong>przystosowana do działania z urządzeniami mobilnymi</strong>. Polecam sprawdzić, ale tak na wypadek gdyby Panu się nie chciało i tak dam screena, żeby to udowodnić.</p>
 <p><strong>Miłego czytania!</strong></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="zasady-clean-code"><a class="header" href="#zasady-clean-code">Zasady Clean Code</a></h1>
-<p><strong>Zasady clean code</strong> lub po prostu <strong>czysty kod</strong>, to zasady oraz wytyczne, dotyczące pisania kodu, który jest <strong>łatwy do zrozumienia, utrzymania i modyfikacji</strong>. Kładzie nacisk na <strong>prostotę, czytelność i klarowność</strong>, dążąc do stworzenia kodu, który jest <strong>samowystarczalny i minimalizuje ryzyko błędów</strong>.</p>
+<p><strong>Zasady clean code</strong> lub po prostu <strong>czysty kod</strong>, to zasady oraz wytyczne, dotyczące pisania kodu, który jest <strong>łatwy do zrozumienia, utrzymania i modyfikacji</strong>. Kładą nacisk na <strong>prostotę, czytelność i klarowność</strong>, dążąc do stworzenia kodu, który jest <strong>samowystarczalny i minimalizuje ryzyko błędów</strong>.</p>
+<blockquote>
+<p>&quot;Każdy głupiec może napisać kod zrozumiały dla komputera. Dobrzy programiści piszą kod zrozumiały <strong>dla ludzi</strong>.&quot; – <a href="https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)">Martin Fowler</a></p>
+</blockquote>
 <h2 id="cel"><a class="header" href="#cel">Cel</a></h2>
 <p>Dzięki stosowaniu zasad <strong>clean code</strong>, tworzymy kod który jest:</p>
 <ul>
@@ -200,16 +205,23 @@
 <h2 id="podstawowe-zasady"><a class="header" href="#podstawowe-zasady">Podstawowe Zasady</a></h2>
 <p>Najbardziej kluczowe zasady <strong>clean code</strong> to:</p>
 <ul>
-<li>używaj <strong>jasnego i czytelnego</strong> języka,</li>
-<li>stosuj <strong>spójne</strong> formatowania,</li>
-<li>nadawaj <strong>sensowne</strong> nazwy zmiennym, funkcjom oraz innym elementom programu,</li>
-<li><strong>komentuj i testuj</strong> kod.</li>
+<li><a href="zcc/kiss.html"><strong>Keep it simple, stupid!</strong></a> - pisz prosty, nie skomplikowany kod.</li>
+<li><a href="zcc/dry.html"><strong>Don't repeat yourself</strong></a> - unikaj powtórzeń.</li>
+<li><a href="zcc/yagni.html"><strong>You ain't gonna need it</strong></a> - nie pisz kodu, którego nie potrzebujesz w aktualnym momencie.</li>
+<li><a href="zcc/stnc.html"><strong>Stick to naming conventions</strong></a> - stosuj się do konwencji nazewniczych języka.</li>
+<li><a href="zcc/ff.html"><strong>Fail fast</strong></a> - gdy wystąpi problem, zakończ natychmiast.</li>
+<li><a href="zcc/cas.html"><strong>Code as documentation</strong></a> - pisz kod który jest czytelny i tłumaczy sam siebie.</li>
+<li><a href="zcc/rtfm.html"><strong>Read the fricking manual</strong></a> - jeśli masz pytanie, sprawdź dokumentacje oraz internet przed zadaniem go.</li>
+<li><a href="zcc/tdd.html"><strong>Test-driven development</strong></a> - na bierząco testuj swój kod.</li>
+<li><a href="zcc/rdd.html"><strong>Rubber duck debugging</strong></a> - zasada pomagająca w debugowaniu kodu.</li>
 </ul>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zcc/imgs/1.png">
 <p>Pisanie czytego kodu <strong>wymaga czasu i praktyki</strong> lecz <strong>każdy programista powinien znać te zasady i stosować je w swojej pracy</strong>. Dzięki temu będzie mógł pisać kod, który jest <strong>wysokiej jakości, łatwy w utrzymaniu i modyfikowaniu oraz bezproblemowo czytelny dla innych</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="keep-it-simple-stupid-kiss"><a class="header" href="#keep-it-simple-stupid-kiss">Keep It Simple, Stupid! (KISS)</a></h1>
 <p><strong>Keep it simple, stupid!</strong> czyli po polsku <strong>nie komplikuj, głupcze!</strong> lub w skrócie <strong>KISS</strong>, to jedna z <strong>najważniejszych i najbardziej podstawowych</strong> zasad <a href="zcc/index.html"><strong>clean code</strong></a>. Mówi ona, że rozwiązania powinny być <strong>jak najprostsze</strong>, ponieważ <strong>im coś jest prostsze, tym łatwiej jest to zrozumieć</strong>. Oznacza to że w kodzie powinno się <strong>unikać trudnych do zrozumienia</strong> i dalszego eksploatowania rozwiązań.</p>
 <h2 id="pochodzenie"><a class="header" href="#pochodzenie">Pochodzenie</a></h2>
+<img class="right" width="200px" style="margin-left: 15px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Kelly Johnson, 1975" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/ClarenceLeonardKellyJohnson.jpg">
 <p>Wbrew pozorom zasada ta nie została pierwotnie stworzona z myślą o programowaniu. Została ona sformułowana przez amerykańskiego wojskowego inżyniera lotnictwa <a href="https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)">Kelly'ego Johnsona</a> w latach 60-tych, a jej przekazem miało być tworzenie samolotów w tak <strong>prosty sposób</strong>, aby każdy <strong>nawet najmniej uzdolniony mechanik</strong> mógł je naprawić w każdych, nawet najcięższych warunkach takich jak polowe oraz przy użyciu najbardziej podstawowych narzędzi.</p>
 <h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
 <p><strong>KISS</strong> ma wiele zalet, w tym:</p>
@@ -255,7 +267,9 @@ else:
 a jest mniejsze od b
 a nie jest równe b
 </code></pre>
-<p>Jak widać <strong>kod ten wyświetla nie potrzebne informacje</strong>, jeśli zostaje wyświetlona informacja że <code>b jest większe od a</code> to logicznym jest że <code>a jest mniejsze od b</code> oraz <code>a nie jest równe b</code>, <strong>te informacje wywołują nie potrzebny bałagan</strong> w kodzie oraz w wyniku programu.</p>
+<div class="warning">
+    Jak widać <b>kod ten wyświetla nie potrzebne informacje</b>, jeśli zostaje wyświetlona informacja że <code>b jest większe od a</code> to logicznym jest że <code>a jest mniejsze od b</code> oraz <code>a nie jest równe b</code>, <b>te informacje wywołują nie potrzebny bałagan</b> w kodzie oraz w wyniku programu.
+</div>
 <h3 id="po-zastosowaniu"><a class="header" href="#po-zastosowaniu">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady KISS:</p>
 <pre><code class="language-python">def compare(a, b):
@@ -303,7 +317,9 @@ print(&quot;Witaj, Laura!&quot;)
 Witaj, Karol!
 Witaj, Laura!
 </code></pre>
-<p>Jak widać kod działa poprawnie, wyświetla porządane informacje w prawidłowy sposób.</p>
+<div class="warning">
+    Ten kod, pomimo że działa prawidłowo, jest on <b>niezgodny z zasadą DRY</b>, ponieważ zawiera powtórzenia. Przy chęci zmiany treści wiadomości, musielibyśmy edytować ją w <b>trzech różnych miejscach</b> w kodzie.
+</div>
 <h3 id="po-zastosowaniu-1"><a class="header" href="#po-zastosowaniu-1">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady DRY:</p>
 <pre><code class="language-python">def greeting(name):
@@ -318,7 +334,10 @@ greeting(&quot;laura&quot;)
 <h2 id="podsumowanie-2"><a class="header" href="#podsumowanie-2">Podsumowanie</a></h2>
 <p><strong>Zasada DRY również jest prosta, ale znacząca.</strong> Tak jak poprzednia zasada nie jest nakazem lecz przyczynia się do tworzenia kodu w którym istnieje <strong>mniejsze prawdopodobieństwo wystąpienia błędów oraz jest czytelniejszy i krótszy</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="you-aint-gonna-need-it-yagni"><a class="header" href="#you-aint-gonna-need-it-yagni">You Ain't Gonna Need It (YAGNI)</a></h1>
-<p><strong>You ain't gonna need it</strong> czyli po polsku <strong>nie będziesz tego potrzebował</strong> lub w skrócie <strong>YAGNI</strong>, to także jedna z <strong>najbardziej podstawowych</strong> zasad <a href="zcc/index.html"><strong>clean code</strong></a>. Zakłada ona, że nie powinniśmy pisać tak zwanego <strong>dead code</strong> czyli kodu który jest po prostu <strong>nie używany</strong>. Nawet gdy planujemy użyć tego kodu w późniejszych etapach tworzenia programu, <strong>nie warto jest go tworzyć teraz</strong>, a tylko wtedy gdy już będzie nam potrzebny. Piszemy kod, którego potrzebujemy tylko w <strong>aktualnym momencie</strong>, a nie później.</p>
+<p><strong>You ain't gonna need it</strong> czyli po polsku <strong>nie będziesz tego potrzebował</strong> lub w skrócie <strong>YAGNI</strong>, to także jedna z <strong>najbardziej podstawowych</strong> zasad <a href="zcc/index.html"><strong>clean code</strong></a>. Zakłada ona, że nie powinniśmy pisać tak zwanego <strong>martwego kodu (dead code)</strong> czyli kodu który jest po prostu <strong>nie używany</strong>. </p>
+<div class="warning">
+    Nawet gdy planujemy użyć tego kodu w późniejszych etapach tworzenia programu, <b>nie warto jest go tworzyć teraz</b>, a tylko wtedy gdy już będzie nam potrzebny. Piszemy kod, którego potrzebujemy tylko w <b>aktualnym momencie</b>, a nie później.
+</div>
 <h2 id="zalety-2"><a class="header" href="#zalety-2">Zalety</a></h2>
 <p>Jedne z wielu zalet stosowania <strong>YAGNI</strong> to:</p>
 <ul>
@@ -347,7 +366,9 @@ print(sum(5, 8))
 <p><strong>Wynikiem</strong> uruchomienia tego kodu jest:</p>
 <pre><code>13
 </code></pre>
-<p>Jak widać kod działa poprawnie, wyświetla porządane informacje w prawidłowy sposób.</p>
+<div class="warning">
+    Pomimo tego że ten kod działa prawidłowo, jest <b>niezgodny z zasadą YAGNI</b>, ponieważ zawiera w sobie nigdy nie używaną funkcję.
+</div>
 <h3 id="po-zastosowaniu-2"><a class="header" href="#po-zastosowaniu-2">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady YAGNI:</p>
 <pre><code class="language-python">def sum(a, b):
@@ -358,9 +379,12 @@ print(sum(5, 8))
 <p><strong>Wynik</strong> uruchomienia tego kodu jest <strong>identyczny</strong> jak przed zastosowaniem zasady.</p>
 <p>Jedyna rzecz jaka zmieniła się po zastosowaniu metody YAGNI, to <strong>usunięcie funkcji</strong> <code>sub</code> z kodu. Usunięcie tej funkcji nastąpiło dlatego, gdyż była ona po prostu <strong>nie używana</strong> co sprawiało ją <strong>bezużyteczną i zaśmiecającą kod</strong>.</p>
 <h2 id="podsumowanie-3"><a class="header" href="#podsumowanie-3">Podsumowanie</a></h2>
-<p>Zasada <strong>YAGNI</strong> to kolejna <strong>banalna ale ważna zasada</strong>. Pozwala na pisanie <strong>krótszego kodu</strong> który jest <strong>pozbawiony nie używanych funkcji i innych nie używanych elementów</strong>.</p>
+<p>Zasada <strong>YAGNI</strong> to kolejna <strong>banalna ale ważna zasada</strong>. Pozwala na pisanie <strong>krótszego kodu</strong> który jest pozbawiony nie używanych funkcji i innych nie używanych elementów.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="stick-to-naming-conventions-stnc"><a class="header" href="#stick-to-naming-conventions-stnc">Stick To Naming Conventions (STNC)</a></h1>
-<p><strong>Stick to naming conventions</strong> czyli po polsku <strong>trzymaj się konwencji nazewnictwa</strong> lub w skrócie <strong>STNC</strong>, to <strong>bardzo prosta i krótka</strong> zasada <a href="zcc/index.html"><strong>clean code</strong></a>. Mówi ona, że powinniśmy <strong>trzymać się konwencji</strong> nazewniczych ustalonych przez twórców danego języka. Oznacza to że nazywając funkcje, klasy i inne elementy kodu, powinniśmy <strong>stosować konwencje nazewnicze języka z którego korzystamy</strong>.</p>
+<p><strong>Stick to naming conventions</strong> czyli po polsku <strong>trzymaj się konwencji nazewniczych</strong> lub w skrócie <strong>STNC</strong>, to <strong>bardzo prosta i krótka</strong> zasada <a href="zcc/index.html"><strong>clean code</strong></a>. Mówi ona, że powinniśmy <strong>trzymać się konwencji</strong> nazewniczych ustalonych przez twórców danego języka. Oznacza to że nazywając funkcje, klasy i inne elementy kodu, powinniśmy <strong>stosować konwencje nazewnicze języka z którego korzystamy</strong>.</p>
+<blockquote>
+<p>Konwencje nazewnicze oraz poradniki dotyczące stylu <strong>zawsze znajdziemy w dokumentacji</strong> języka programowania. Przykładowo, dla <strong>Pythona</strong> możemy znaleźć je <a href="https://peps.python.org/pep-0008/">tutaj</a>.</p>
+</blockquote>
 <h2 id="zalety-3"><a class="header" href="#zalety-3">Zalety</a></h2>
 <p>Przykładowymi zaletami stosowania <strong>STNC</strong> są:</p>
 <ul>
@@ -376,6 +400,9 @@ print(sum(5, 8))
 def capitalizeName(Name):
     return Name.capitalize()
 </code></pre>
+<div class="warning">
+    Ten kod, jest <b>niezgodny z zasadą STNC</b>, ponieważ <b>nie stosuje się</b> do konwencji nazewniczych Pythona.
+</div>
 <h3 id="po-zastosowaniu-3"><a class="header" href="#po-zastosowaniu-3">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady STNC:</p>
 <pre><code class="language-python">my_name = &quot;adam&quot;
@@ -385,7 +412,7 @@ def capitalize_name(name):
 </code></pre>
 <p>Po zastosowaniu metody STNC <strong>zmieniły się nazwy zmiennych i funkcji w kodzie</strong>. Python używa <strong>snake case</strong> do nazewnictwa zmiennych i funkcji, dlatego ta zmiana była wymagana aby była <strong>zgodna z konwencjami</strong>. Zmiana ta <strong>nie zmieniła sposobu działania programu</strong>, lecz poprawiła <strong>czytelność i klarowność</strong> kodu.</p>
 <h2 id="podsumowanie-4"><a class="header" href="#podsumowanie-4">Podsumowanie</a></h2>
-<p>Zasada <strong>STNC</strong> to prawdopodobnie <strong>najprostsza</strong> ze wszystkich zasad. Sprawia że pisany przez nas kod będzie <strong>łatwiej zrozumiały</strong> dla innych programistów.</p>
+<p>Zasada <strong>STNC</strong> to prawdopodobnie <strong>najprostsza</strong> ze wszystkich zasad. Sprawia że pisany przez nas kod będzie <strong>łatwiej zrozumiały</strong> dla innych programistów, co pomaga w współpracy oraz zrozumieniu się nawzajem.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="fail-fast-ff"><a class="header" href="#fail-fast-ff">Fail Fast (FF)</a></h1>
 <p><strong>Fail fast</strong> czyli po polsku <strong>szybka awaria</strong> lub w skrócie <strong>FF</strong>, to również <strong>bardzo prosta i krótka</strong> zasada <a href="zcc/index.html"><strong>clean code</strong></a>. Mówi ona, że program po otrzymaniu nie prawidłowych danych lub wystąpieniu błędu powinien <strong>natychmiast zakończyć swoje działanie</strong>.</p>
 <h2 id="zalety-4"><a class="header" href="#zalety-4">Zalety</a></h2>
@@ -406,6 +433,9 @@ def capitalize_name(name):
 <p>Kod <strong>przed zastosowaniem</strong> metody FF:</p>
 <pre><code class="language-python">result = input(&quot;Wpisz `tak` lub `nie`: &quot;)
 </code></pre>
+<div class="warning">
+    Ten kod, jest <b>niezgodny z zasadą Fail Fast</b>, ponieważ po pobraniu wartości od użytkownika <b>nie ma sprawdzenia</b> czy podana wartość jest poprawna.
+</div>
 <h3 id="po-zastosowaniu-4"><a class="header" href="#po-zastosowaniu-4">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady FF:</p>
 <pre><code class="language-python">result = input(&quot;Wpisz `tak` lub `nie`: &quot;)
@@ -416,9 +446,15 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 </code></pre>
 <p>Zastosowanie metody FF zmieniło to, że gdy zostanie podana inna wartość niż <code>tak</code> lub <code>nie</code> program <strong>wyświetli informacje o nie prawidłowej odpowiedzi i zakończy swoje działanie</strong>. Nie będzie kontynuował działania z <strong>nieprawidłowymi informacjami</strong>.</p>
 <h2 id="podsumowanie-5"><a class="header" href="#podsumowanie-5">Podsumowanie</a></h2>
+<blockquote>
+<p>Więcej o <strong>Fail Fast</strong> na przykładzie <strong>Javy</strong> możesz dowiedzieć się z <a href="https://softwareskill.pl/fail-fast">artykułu SoftwareSkill</a>.</p>
+</blockquote>
 <p>Zasada <strong>FF</strong> jest <strong>bardzo ważną zasadą jeśli chodzi o bezpieczeństwo</strong>. Dzięki niej, tworzymy program, który jest w stanie <strong>rozpoznać nieprawidłowe informacje i odrzucić je</strong> a nie kontynuować swoje działanie z <strong>nieprawidłowymi danymi</strong> i <strong>spowodować potencjalne szkody</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="code-as-documentation-cad"><a class="header" href="#code-as-documentation-cad">Code as Documentation (CaD)</a></h1>
-<p><strong>Code as documentation</strong> czyli po polsku <strong>kod jako dokumentacja</strong> lub w skrócie <strong>CaD</strong>, to zasada <a href="zcc/index.html"><strong>clean code</strong></a> dotycząca komentowania kodu. Mówi ona, że <strong>kod powinien być sam w sobie zrozumiały, a komentarze powinny wyjaśniać dlaczego a nie co</strong>. Znaczenie tej zasady jest takie, że powinniśmy pisać kod który jest <strong>prosty w zrozumieniu</strong>. Kod powinien być taki, że po przeczytaniu go wiemy w jaki sposób działa. Komentarze powinny wyjaśniać dlaczego tak działa i jakie jest jego użycie, <strong>a nie to jak działa</strong>.</p>
+<p><strong>Code as documentation</strong> czyli po polsku <strong>kod jako dokumentacja</strong> lub w skrócie <strong>CaD</strong>, to zasada <a href="zcc/index.html"><strong>clean code</strong></a> dotycząca komentowania kodu. Mówi ona, że <strong>kod powinien być sam w sobie zrozumiały, a komentarze powinny wyjaśniać dlaczego a nie co</strong>. Znaczenie tej zasady jest takie, że powinniśmy pisać kod który jest <strong>prosty w zrozumieniu</strong>.</p>
+<blockquote>
+<p>&quot;Kod powinien być taki, że po przeczytaniu go wiemy w jaki sposób działa. Komentarze powinny wyjaśniać dlaczego tak działa i jakie jest jego użycie, <strong>a nie to jak działa</strong>.&quot; - <a href="https://bard.google.com/">Bard AI by Google</a></p>
+</blockquote>
 <h2 id="zalety-5"><a class="header" href="#zalety-5">Zalety</a></h2>
 <p>Przykładowymi zaletami stosowania <strong>CaD</strong> są:</p>
 <ul>
@@ -431,47 +467,77 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <ul>
 <li><strong>używanie opisowych nazw zmiennych i funkcji</strong> - nazwy, które opisują, co zmienne lub funkcje reprezentują, ułatwiają zrozumienie kodu.</li>
 <li><strong>używanie struktur danych i algorytmów, które są dobrze znane</strong> - struktury danych i algorytmy, które są dobrze znane, są łatwiejsze do zrozumienia.</li>
-<li><strong>używanie konwencji nazewnictwa</strong> - konwencje nazewnictwa pomagają zachować spójność kodu i ułatwiają jego zrozumienie.</li>
+<li><a href="zcc/stnc.html"><strong>używanie konwencji nazewnictwa</strong></a> - konwencje nazewnictwa pomagają zachować spójność kodu i ułatwiają jego zrozumienie.</li>
 </ul>
+<h2 id="przykład-zastosowania-5"><a class="header" href="#przykład-zastosowania-5">Przykład Zastosowania</a></h2>
+<p>Oto <strong>przykładowy kod</strong> napisany w języku <strong>Python</strong>, który prezentuje wyniki zastosowania metody <strong>CaD</strong>.</p>
+<h3 id="przed-zastosowaniem-5"><a class="header" href="#przed-zastosowaniem-5">Przed Zastosowaniem</a></h3>
+<p>Kod <strong>przed zastosowaniem</strong> metody CaD:</p>
+<pre><code class="language-python">def tomato(a, b):
+    return a / b
+</code></pre>
+<div class="warning">
+    Ten kod <b>narusza zasadę CaD</b> ponieważ nazwa funkcji <code>tomato()</code> w żaden sposób nie przedstawia działania tej funkcji.
+</div>
+<h3 id="po-zastosowaniu-5"><a class="header" href="#po-zastosowaniu-5">Po Zastosowaniu</a></h3>
+<p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady CaD:</p>
+<pre><code class="language-python">def divide(a, b):
+    return a / b
+</code></pre>
+<p>Nazwa funkcji <code>tomato()</code> została <strong>zamieniona</strong> na <code>divide()</code>, teraz <strong>od razu wiadomo</strong>, że funkcja wykonuje działanie dzielenia.</p>
 <h2 id="podsumowanie-6"><a class="header" href="#podsumowanie-6">Podsumowanie</a></h2>
 <p>Zasada <strong>CaD</strong> jest prostą ale <strong>przydatną w pracy zespołowej i nie tylko</strong> zasadą. Dzięki niej, możemy <strong>przyspieszyć pracę nad programem</strong>, a także <strong>ułatwić innym programistom prace z nim</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="read-the-fricking-manual-rtfm"><a class="header" href="#read-the-fricking-manual-rtfm">Read The Fricking Manual (RTFM)</a></h1>
-<p><strong>Read the fricking manual</strong> czyli po polsku <strong>przeczytaj cholerną instrukcję</strong> lub w skrócie <strong>RTFM</strong> to zasada, która bardziej dotyczy nauki i znajdywania odpowiedzi na problemy oraz pytania niż pisania kodu. Mówi ona, że <strong>przed zadaniem pytania, należy najpierw sprawdzić, czy odpowiedź nie jest dostępna w dokumentacji</strong>. Oczywiście, <strong>nie zawsze można znaleźć odpowiedź w dokumentacji.</strong> W takich przypadkach należy zadać pytanie, ale <strong>najpierw należy sprawdzić, czy pytanie nie zostało już zadane i czy odpowiedź nie jest dostępna w internecie</strong>. Zasada ta może być również stosowana w innych dziedzinach niż informatyka. </p>
+<p><strong>Read the fricking manual</strong> czyli po polsku <strong>przeczytaj cholerną instrukcję</strong> lub w skrócie <strong>RTFM</strong> to zasada, która bardziej dotyczy nauki i znajdywania odpowiedzi na pytania niż pisania kodu. Mówi ona, że <strong>przed zadaniem pytania, należy najpierw sprawdzić, czy odpowiedź nie jest dostępna w dokumentacji</strong>. Oczywiście, nie zawsze można znaleźć odpowiedź w dokumentacji. W takich przypadkach należy zadać pytanie, ale <strong>najpierw należy sprawdzić, czy pytanie nie zostało już zadane i czy odpowiedź nie jest dostępna w internecie</strong>. Zasada ta może być również stosowana w innych dziedzinach niż informatyka. </p>
+<blockquote>
+<p>RTFM jest również slangiem, często używanym na forach internetowych.</p>
+</blockquote>
+<p>Oto <strong>bardzo rzadko spotykany</strong> okaz osoby czytającej <em>cholerną instrukcję</em>.</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zcc/imgs/2.png">
 <h2 id="zalety-6"><a class="header" href="#zalety-6">Zalety</a></h2>
 <p><strong>RTFM</strong> ma kilka zalet:</p>
 <ul>
-<li><strong>oszczędza czas</strong> - zamiast czekać na odpowiedź od drugiej osoby, można samodzielnie znaleźć odpowiedź w dokumentacji. W ten sposób oszczędzamy też czas innych osób, które próbowałyby nam pomóc z znalezieniem odpowiedzi.</li>
+<li><strong>oszczędza czas</strong> - zamiast czekać na odpowiedź od drugiej osoby, można samodzielnie znaleźć odpowiedź w dokumentacji. W ten sposób oszczędzamy czas swój, ale również innych osób, które próbowałyby nam pomóc z znalezieniem odpowiedzi.</li>
 <li><strong>pomaga w nauce</strong> - czytanie dokumentacji może pomóc w zrozumieniu działania danego produktu lub usługi.</li>
 <li><strong>poprawia wydajność</strong> - jeśli wszyscy pracownicy stosują tą zasadę, łatwiej jest im się dogadać i współpracować.</li>
 </ul>
-<h2 id="metody-stosowania-5"><a class="header" href="#metody-stosowania-5">Metody Stosowania</a></h2>
+<h2 id="etapy"><a class="header" href="#etapy">Etapy</a></h2>
 <p><strong>RTFM</strong> powinna być stosowana w następujący sposób:</p>
 <ol>
 <li>przed zadaniem pytania, należy <strong>najpierw sprawdzić dokumentację</strong> produktu lub usługi, której dotyczy pytanie.</li>
 <li>jeśli nie można znaleźć odpowiedzi w dokumentacji, <strong>należy sprawdzić, czy pytanie nie zostało już wcześniej zadane</strong>.</li>
-<li>jeśli pytanie nie zostało jeszcze zadane, można je zadać, ale <strong>należy wcześniej sprawdzić, czy nie jest to pytanie głupie lub dziwne</strong>.</li>
+<li>jeśli pytanie nie zostało jeszcze zadane, można je zadać, ale <strong>należy się upewnić, czy nie jest to pytanie głupie lub dziwne</strong>.</li>
 </ol>
 <h2 id="podsumowanie-7"><a class="header" href="#podsumowanie-7">Podsumowanie</a></h2>
-<p>Ogólnie rzecz biorąc, zasada <strong>RTFM</strong> jest <strong>dobrą zasadą</strong>, która <strong>pomaga w oszczędzaniu czasu, poprawie wydajności i nauce</strong>.</p>
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/-XqpAvOaYgY?si=z_XFEv_xPVY4vi9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>Ogólnie rzecz biorąc, zasada <strong>RTFM</strong> jest <strong>prostą oraz dobrą zasadą</strong>, która <strong>pomaga w oszczędzaniu czasu, poprawie wydajności i nauce</strong>. Znacząco pomoże nam podczas rozwiązywania problemów oraz szukaniu odpowiedzi na pytania.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="test-driven-development-tdd"><a class="header" href="#test-driven-development-tdd">Test-Driven Development (TDD)</a></h1>
-<p><strong>Test-driven development</strong> czyli po polsku <strong>rozwój oparty na testach</strong> lub w skrócie <strong>TDD</strong>, to zasada programowania, która <strong>polega na pisaniu testów jednostkowych</strong> przed zatwierdzeniem kodu. Zasada ta opiera się na założeniu, że <strong>kod powinien być napisany w taki sposób, aby spełniał wszystkie wymagania testów</strong>.</p>
+<p><strong>Test-driven development</strong> czyli po polsku <strong>rozwój oparty na testach</strong> lub w skrócie <strong>TDD</strong>, to zasada programowania, która <strong>polega na pisaniu testów</strong> przed zatwierdzeniem kodu. Zasada ta opiera się na założeniu, że <strong>kod powinien być napisany w taki sposób, aby spełniał wszystkie wymagania testów</strong>.</p>
 <h2 id="zalety-7"><a class="header" href="#zalety-7">Zalety</a></h2>
 <p>Niektóre z wielu zalet <strong>TDD</strong> to:</p>
 <ul>
 <li><strong>pomaga w pisaniu lepszego kodu</strong> - wymusza na programistach myślenie o wymaganiach przed napisaniem kodu.</li>
 <li><strong>zwiększa niezawodność kodu</strong> - pomaga w wykrywaniu błędów w kodzie na wczesnym etapie rozwoju.</li>
 </ul>
-<h2 id="etapy"><a class="header" href="#etapy">Etapy</a></h2>
+<h2 id="etapy-1"><a class="header" href="#etapy-1">Etapy</a></h2>
 <p><strong>TDD</strong> jest podzielony na trzy etapy:</p>
 <ol>
-<li><strong>stworzenie przypadku testowego</strong> - pierwszym etapem TDD jest stworzenie przypadku testowego, który definiuje oczekiwany rezultat działania kodu.</li>
-<li><strong>pisanie kodu</strong> - drugim etapem TDD jest napisanie kodu, który spełnia wymagania określone w przypadku testowym.</li>
-<li><strong>wykonanie testu</strong> - trzecim i ostatnim etapem TDD jest uruchomienie testu, aby sprawdzić, czy kod spełnia wymagania.</li>
+<li><strong>stworzenie przypadku testowego</strong> - pierwszym etapem jest stworzenie przypadku testowego, który definiuje oczekiwany rezultat działania kodu.</li>
+<li><strong>pisanie kodu</strong> - drugim etapem jest napisanie kodu, który spełnia wymagania określone w przypadku testowym.</li>
+<li><strong>wykonanie testu</strong> - trzecim i ostatnim etapem jest uruchomienie testu, aby sprawdzić, czy kod spełnia wymagania.</li>
 </ol>
 <h2 id="podsumowanie-8"><a class="header" href="#podsumowanie-8">Podsumowanie</a></h2>
+<blockquote>
+<p>Więcej o <strong>rozwoju opartym na testach</strong> możesz dowiedzieć się z <a href="https://www.youtube.com/watch?v=z6gOPonp2t0">crash course YouTubera Amigoscode</a>. </p>
+</blockquote>
 <p><strong>TDD</strong> może być trudne do stosowania na początku, ale z czasem staje się łatwiejsze. Może być również bardziej <strong>czasochłonne</strong>, ale w dłuższej perspektywie <strong>znacząco poprawia jakość kodu i zmniejsza ilość błędów</strong>. Pomaga w pisaniu <strong>lepszego, bardziej niezawodnego kodu</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="rubber-duck-debugging-rdd"><a class="header" href="#rubber-duck-debugging-rdd">Rubber Duck Debugging (RDD)</a></h1>
-<p><strong>Rubber duck debugging</strong> czyli po polsku <strong>debugging gumowej kaczuszki</strong> lub w skrócie <strong>RDD</strong>, to też bardziej technika debugowania kodu niż zasada <a href="zcc/index.html"><strong>clean code</strong></a>, jednakże warto o niej również wspomnieć. Polega ona na wyjaśnieniu problemu nieożywionemu obiektowi, takiemu jak gumowa kaczuszka. Technika ta opiera się na idei, że <strong>wypowiedzenie problemu może pomóc w jego zidentyfikowaniu i rozwiązaniu</strong>.</p>
+<img class="right" width="170px" style="margin-left: 15px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Gumowa kaczka" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rubber_duck_assisting_with_debugging.jpg">
+<p><strong>Rubber duck debugging</strong> czyli po polsku <strong>debugging gumowej kaczki</strong> lub w skrócie <strong>RDD</strong>, to bardziej technika debugowania kodu niż zasada <a href="zcc/index.html"><strong>clean code</strong></a>, jednakże warto o niej również wspomnieć. Polega ona na wyjaśnieniu problemu nieożywionemu obiektowi, takiemu jak gumowa kaczka. Technika ta opiera się na idei, że <strong>wypowiedzenie problemu może pomóc w jego zidentyfikowaniu i rozwiązaniu</strong>.</p>
+<br />
+<blockquote>
+<p>Istnieje nawet strona internetowa <strong>w całości poświęcona</strong> tej zasadzie - <a href="https://rubberduckdebugging.com/">https://rubberduckdebugging.com/</a></p>
+</blockquote>
 <h2 id="zalety-8"><a class="header" href="#zalety-8">Zalety</a></h2>
 <p><strong>RDD</strong> ma kilka zalet:</p>
 <ul>
@@ -479,18 +545,17 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li>pomaga w <strong>poprawie zrozumienia własnego kodu</strong>,</li>
 <li>pomaga w <strong>skuteczniejszej komunikacji</strong> kodu z innymi.</li>
 </ul>
-<h2 id="etapy-1"><a class="header" href="#etapy-1">Etapy</a></h2>
-<p><strong>RDD</strong> jest zazwyczaj wykonywany w następujących krokach:</p>
+<h2 id="etapy-2"><a class="header" href="#etapy-2">Etapy</a></h2>
+<p><strong>RDD</strong> jest wykonywany w następujących krokach:</p>
 <ol>
 <li><strong>zdobądź</strong> gumową kaczkę lub inny nieożywiony obiekt.</li>
 <li><strong>wyjaśnij gumowej kaczce problem</strong>, który próbujesz rozwiązać.</li>
 <li><strong>omawiaj</strong> swój kod liniami, <strong>wyjaśniając</strong>, co robi każda linia.</li>
 <li>podczas rozmowy możesz <strong>dojść do wniosku</strong>, jak rozwiązać swój problem.</li>
 </ol>
-<h1 id="przykład"><a class="header" href="#przykład">Przykład</a></h1>
-<p>Jako przykład możesz obejrzeć krótki film o <strong>RDD</strong> autorstwa Google'a:</p>
-<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/fdaqudiSo5c?si=AeadcHSRNjChlH5F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h2 id="podsumowanie-9"><a class="header" href="#podsumowanie-9">Podsumowanie</a></h2>
+<p>Możesz obejrzeć krótki film o <strong>RDD</strong> autorstwa Google'a:</p>
+<iframe width="700" height="394" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/fdaqudiSo5c?si=AeadcHSRNjChlH5F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <p><strong>RDD</strong> to <strong>prosta, ale skuteczna technika</strong>, którą mogą stosować programiści na każdym poziomie doświadczenia. Ogólnie rzecz biorąc, technika ta <strong>jest cennym narzędziem</strong>, które może pomóc w <strong>szybszym rozwiązywaniu problemów</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="zasady-programowania-obiektowego"><a class="header" href="#zasady-programowania-obiektowego">Zasady Programowania Obiektowego</a></h1>
 <p><strong>Zasady programowania obiektowego</strong> pomagają w tworzeniu efektywnego i utrzymywalnego kodu obiektowego. Zasady te <strong>są oparte na koncepcjach programowania obiektowego</strong>, takich jak <strong>abstrakcja, dziedziczenie, kompozycja i polimorfizm</strong>. Przydają się one zawsze, gdy tworzymy kod obiektowy.</p>
@@ -502,17 +567,25 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>testowalny</strong> - można go łatwo przetestować, aby upewnić się, że działa poprawnie.</li>
 </ul>
 <h2 id="podstawowe-zasady-1"><a class="header" href="#podstawowe-zasady-1">Podstawowe Zasady</a></h2>
-<p>Stosowanie zasad programowania obiektowego wymaga pewnego doświadczenia i umiejętności. Jednak <strong>istnieje kilka ogólnych wskazówek</strong>, które mogą pomóc w ich stosowaniu:</p>
+<p>Najbardziej kluczowe zasady <strong>programowania obiektowego</strong> to:</p>
 <ul>
-<li><strong>rozważmy, jaka jest odpowiedzialność każdej klasy</strong> - każda klasa powinna mieć tylko jedną odpowiedzialność.</li>
-<li><strong>używajmy interfejsów i metod abstrakcyjnych</strong> - aby zapewnić otwartość dla rozszerzania.</li>
-<li><strong>testujmy podtypy</strong> - aby upewnić się, że zachowują się w taki sam sposób jak ich typy bazowe.</li>
-<li><strong>używajmy wstrzykiwania zależności</strong> - aby zapewnić odwracanie zależności.</li>
+<li><a href="zpo/solid.html"><strong>SOLID</strong></a> - zbiór 5 zasad pozwalających na pisanie elastycznijeszego i ławtiejszego w utrzymaniu kodu.
+<ul>
+<li><a href="zpo/solid/srp.html"><strong>Single-responsibility principle</strong></a> - klasa powinna skupiać się na wykonywaniu tylko jednego zadania.</li>
+<li><a href="zpo/solid/ocp.html"><strong>Open-closed principle</strong></a> - kod powinien być zaprojektowany z myślą o możliwości późniejszego łatwego rozszerzania go.</li>
+<li><a href="zpo/solid/lsp.html"><strong>Liskov substitution principle</strong></a> - kod, który działa z typem bazowym, powinien również działać z podtypem.</li>
+<li><a href="zpo/solid/isp.html"><strong>Interface segregation principle</strong></a> - lepiej jest mieć wiele interfejsów specyficznych niż jeden interfejs ogólny.</li>
+<li><a href="zpo/solid/dip.html"><strong>Dependency inversion principle</strong></a> - kod powinien opierać się na abstrakcjach a nie implementacjach.</li>
+</ul>
+</li>
+<li><a href="zpo/lod.html"><strong>Law of Demeter</strong></a> - kod powinien ograniczać dostęp z klas do klas, z którymi nie ma bezpośredniego związku.</li>
+<li><a href="zpo/coi.html"><strong>Composition over inheritance</strong></a> - lepiej jest używać kompozycji niż dziedziczenia.</li>
 </ul>
 <h2 id="podsumowanie-10"><a class="header" href="#podsumowanie-10">Podsumowanie</a></h2>
 <p>Stosowanie zasad programowania obiektowego <strong>wymaga pewnego wysiłku i czasu</strong>, ale <strong>przyniesie wiele korzyści</strong>. Kod, który jest zgodny z tymi zasadami, <strong>jest bardziej elastyczny, utrzymywalny i testowalny</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="solid"><a class="header" href="#solid">SOLID</a></h1>
-<p>Zasada <strong>SOLID</strong> to <strong>zbiór pięciu zasad programowania obiektowego</strong>, które <strong>mają na celu ułatwienie zrozumienia kodu oraz sprawienia go elastyczniejszym i łatwiejszym do utrzymywania</strong>. Zasady te zostały opracowane przez amerykańskiego programistę <a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Roberta Cecila Martina</a> i są powszechnie <strong>akceptowane jako dobre praktyki programowania obiektowego</strong>.</p>
+<img class="right" width="250px" style="margin-left: 15px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Roberta Cecil Martin, 2020" src="https://upload.wikimedia.org/wikipedia/commons/2/27/Robert_C._Martin_surrounded_by_computers.jpg">
+<p>Zasada <strong>SOLID</strong> to <strong>zbiór pięciu <a href="zpo/solid/../index.html">zasad programowania obiektowego</a></strong>, które mają na celu <strong>ułatwienie zrozumienia kodu obiektowego</strong> oraz sprawienia go <strong>elastyczniejszym i łatwiejszym do utrzymywania</strong>. Zasady te zostały opracowane przez amerykańskiego programistę <a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Roberta Cecila Martina</a> i są powszechnie <strong>akceptowane jako dobre praktyki programowania obiektowego</strong>.</p>
 <h2 id="zasady"><a class="header" href="#zasady">Zasady</a></h2>
 <p>Wyżej wspomnianymi pięcioma zasadami <strong>SOLID</strong> są:</p>
 <ol>
@@ -531,7 +604,10 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 </ul>
 <p>Korzystanie z zasad <strong>SOLID</strong> wymaga poświęcenia pewnej uwagi i staranności, lecz za to <strong>znacznie poprawia jakość pisanego kodu</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="single-responsibility-principle-srp"><a class="header" href="#single-responsibility-principle-srp">Single-Responsibility Principle (SRP)</a></h1>
-<p>Zasada <strong>single-responsibility principle</strong> czyli po polsku <strong>zasada jednej odpowiedzialności</strong> lub w skrócie <strong>SRP</strong>, to pierwsza z zasad <a href="zpo/solid/index.html"><strong>SOLID</strong></a>. Jej oryginalna treść to <strong>&quot;a module should be responsible to one, and only one, actor&quot;</strong>. Tłumacząc na polski, mówi ona, że każda <strong>klasa powinna mieć tylko jedną odpowiedzialność</strong>, czyli <strong>powinna być odpowiedzialna tylko za jedną funkcję lub zadanie</strong>.</p>
+<p>Zasada <strong>single-responsibility principle</strong> czyli po polsku <strong>zasada jednej odpowiedzialności</strong> lub w skrócie <strong>SRP</strong>, to pierwsza z zasad <a href="zpo/solid/index.html"><strong>SOLID</strong></a>. Mówi ona, że każda <strong>klasa powinna mieć tylko jedną odpowiedzialność</strong>, czyli <strong>powinna być odpowiedzialna tylko za jedną funkcję lub zadanie</strong>.</p>
+<blockquote>
+<p>&quot;A module should be responsible to one, and only one, actor.&quot; - <a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert Cecil Martin</a></p>
+</blockquote>
 <h2 id="zalety-9"><a class="header" href="#zalety-9">Zalety</a></h2>
 <p><strong>SRP</strong> ma kilka zalet:</p>
 <ul>
@@ -539,47 +615,94 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>upraszcza testowanie kodu</strong> - gdy klasa ma tylko jedną odpowiedzialność, łatwiej jest napisać testy, które sprawdzają, czy działa poprawnie.</li>
 <li><strong>sprawia, że kod jest łatwiej rozszerzalny</strong> - gdy klasa ma tylko jedną odpowiedzialność, łatwiej jest dodać nowe funkcje lub zadania bez naruszania istniejącego kodu.</li>
 </ul>
-<h2 id="metody-stosowania-6"><a class="header" href="#metody-stosowania-6">Metody Stosowania</a></h2>
+<h2 id="metody-stosowania-5"><a class="header" href="#metody-stosowania-5">Metody Stosowania</a></h2>
 <p>Oto kilka wskazówek, jak stosować zasadę <strong>SRP</strong>:</p>
 <ul>
 <li><strong>rozważ, jakie są obowiązki klasy</strong> - czy klasa ma tylko jedną odpowiedzialność?</li>
 <li><strong>zastanów się, czy klasa potrzebuje więcej niż jednej odpowiedzialności</strong> - czy można podzielić ją na dwie różne klasy?</li>
 </ul>
+<h2 id="przykład-zastosowania-6"><a class="header" href="#przykład-zastosowania-6">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>User</code> reprezentującą użytkownika systemu. Klasa ta posiada następujące pola oraz metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/1.png">
+<div class="warning">
+    Klasa ta <b>narusza zasadę SRP</b>, ponieważ ma więcej niż jedną odpowiedzialność. Klasa ta odpowiada za reprezentowanie użytkownika, ale również za zapisywanie, aktualizowanie i usuwanie użytkowników z bazy danych.
+</div>
+<p>Aby naprawić to naruszenie, możemy <strong>podzielić</strong> klasę <code>User</code> na dwie klasy:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/2.png">
+<p>Klasa <code>User</code> nadal odpowiada za reprezentowanie użytkownika, natomiast klasa <code>UserRepository</code> odpowiada za dostęp do bazy danych i wykonywanie operacji na użytkownikach. W ten sposób każda klasa <strong>posiada jedną odpowiedzialność</strong>.</p>
 <h2 id="podsumowanie-12"><a class="header" href="#podsumowanie-12">Podsumowanie</a></h2>
 <p>Zasada <strong>SRP</strong> to ważna zasada programowania obiektowego, która <strong>pomaga w tworzeniu bardziej czytelnego, testowalnego i rozszerzalnego kodu</strong>. Stosowanie jej sprawi, że <strong>praca z naszym kodem w przyszłości będzie dużo prostsza i przyjemniejsza</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="open-closed-principle-ocp"><a class="header" href="#open-closed-principle-ocp">Open-Closed Principle (OCP)</a></h1>
-<p>Zasada <strong>open-closed principle</strong> czyli po polsku <strong>zasada otwarte-zamknięte</strong> lub w skrócie <strong>OCP</strong>, to druga zasada <a href="zpo/solid/index.html"><strong>SOLID</strong></a>. Jej oryginalna treść to <strong>&quot;software entities should be open for extension, but closed for modification&quot;</strong>. Tłumacząc na polski, mówi ona, że każdy element kodu <strong>(klasa, metoda, itd.)</strong> powinien być <strong>otwarty na rozszerzenie</strong>, ale <strong>zamknięty na modyfikację</strong>.</p>
+<img class="right" height="200px" style="margin-left: 30px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Bertrand Meyer" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Bertrand_Meyer_recent.jpg">
+<p>Zasada <strong>open-closed principle</strong> czyli po polsku <strong>zasada otwarte-zamknięte</strong> lub w skrócie <strong>OCP</strong>, to druga zasada <a href="zpo/solid/index.html"><strong>SOLID</strong></a>. Mówi ona, że każdy element kodu (klasa, metoda, itd.) powinien być <strong>otwarty na rozszerzenie</strong>, ale <strong>zamknięty na modyfikację</strong>.</p>
+<p><br /><br /><br /><br /></p>
+<blockquote>
+<p>&quot;Software entities should be open for extension, but closed for modification.&quot; - <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">Bertrand Meyer</a></p>
+</blockquote>
 <h2 id="zalety-10"><a class="header" href="#zalety-10">Zalety</a></h2>
 <p><strong>OCP</strong> ma kilka zalet:</p>
 <ul>
-<li><strong>większa rozszerzalność kodu</strong> - gdy klasa jest otwarta na rozszerzenie, można dodać nowe funkcje lub zadania bez naruszania istniejącego kodu.</li>
+<li><strong>zwiększa rozszerzalność kodu</strong> - gdy klasa jest otwarta na rozszerzenie, można dodać nowe funkcje lub zadania bez naruszania istniejącego kodu.</li>
 <li><strong>ułatwia utrzymanie kodu i zapobiega występywaniu błędów</strong> - gdy klasa jest zamknięta na modyfikację, zmiany są ograniczone do nowych rozszerzeń, co ułatwia utrzymanie kodu i zapobiega błędom.</li>
 <li><strong>upraszcza etap testowania kodu</strong> - gdy klasa jest otwarta na rozszerzenie, można napisać testy dla nowych rozszerzeń, co pomaga zapewnić ich poprawne działanie.</li>
 </ul>
-<h2 id="metody-stosowania-7"><a class="header" href="#metody-stosowania-7">Metody Stosowania</a></h2>
+<h2 id="metody-stosowania-6"><a class="header" href="#metody-stosowania-6">Metody Stosowania</a></h2>
 <p>Oto kilka wskazówek, jak stosować zasadę <strong>OCP</strong>:</p>
 <ul>
 <li><strong>używaj dziedziczenia</strong> - dziedziczenie pozwala na dodanie nowych funkcji lub zadań do istniejącej klasy bez modyfikowania tej klasy.</li>
 <li><strong>używaj interfejsów</strong> - interfejsy pozwalają na dodanie nowych funkcji lub zadań do istniejącej klasy bez modyfikowania jej.</li>
 <li><strong>używaj abstrakcji</strong> - abstrakcja pozwala na ukrycie szczegółów implementacji, co ułatwia rozszerzanie kodu.</li>
 </ul>
+<h2 id="przykład-zastosowania-7"><a class="header" href="#przykład-zastosowania-7">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>Shape</code> reprezentującą kształt. Klasa ta posiada następujące pola i metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/3.png">
+<p>Klasa ta implementuje metody do rysowania, obliczania pola powierzchni i obwodu różnych kształtów.</p>
+<div class="warning">
+    Jeśli chcemy dodać nowy kształt, np. koło lub kwadrat, musimy zmodyfikować klasę <code>Shape</code>. Możemy to zrobić, dodając do klasy nowe metody do rysowania kwadratu, obliczania jego pola powierzchni i obwodu.
+    <br /><br />
+    To <b>naruszenie zasady OCP</b>, ponieważ wymaga modyfikacji istniejącego kodu.
+</div>
+<p>Aby naprawić to naruszenie, możemy <strong>uczynić klasę</strong> <code>Shape</code> <strong>abstrakcyjną</strong>, będzie ona reprezentować abstrakcyjny kształt. Klasa ta będzie definiować metody abstrakcyjne do rysowania, obliczania pola powierzchni i obwodu kształtu.</p>
+<p>Konkretne klasy kształtów, takie jak <code>Circle</code> czy <code>Square</code>, będą <strong>dziedziczyć</strong> po klasie <code>Shape</code> i <strong>implementować</strong> metody abstrakcyjne.</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/4.png">
+<p>W tym przypadku, aby dodać nowy kształt, wystarczy utworzyć nową klasę <strong>dziedziczącą</strong> po klasie <code>Shape</code> i <strong>zaimplementować</strong> metody abstrakcyjne. <strong>Nie musimy modyfikować istniejącego kodu.</strong></p>
 <h2 id="podsumowanie-13"><a class="header" href="#podsumowanie-13">Podsumowanie</a></h2>
 <p>Zasada <strong>OCP</strong> to również ważna zasada programowania obiektowego, która <strong>pomaga w tworzeniu łatwiej rozszerzalnego kodu, w którym będzie mniejsze prawdopodobieństwo wystąpienia problemów</strong>. Stosowanie jej sprawi, że <strong>późniejsze wzbogacanie o nowe funkcje i testowanie naszego kodu będzie dużo prostsze</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="liskov-substitution-principle-lsp"><a class="header" href="#liskov-substitution-principle-lsp">Liskov Substitution Principle (LSP)</a></h1>
-<p>Zasada <strong>liskov substitution principle</strong> czyli po polsku <strong>zasada podstawienia Liskov</strong> lub w skrócie <strong>LSP</strong>, to trzecia zasada <a href="zpo/solid/index.html"><strong>SOLID</strong></a>. Wymyślona przez amerykańską informatyczkę <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbarę Liskov</a> w roku 1987. Jej oryginalna treść to <strong>&quot;if S subtypes T, what holds for T-objects holds for S-objects&quot;</strong>. Tłumacząc na polski, mówi ona, że <strong>jeśli S jest podtypem T, to obiekty typu S mogą być używane wszędzie tam, gdzie oczekiwane są obiekty typu T</strong>.</p>
+<img class="right" height="200px" style="margin-left: 30px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Barbara Liskov, 2010" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Barbara_Liskov_MIT_computer_scientist_2010.jpg">
+<p>Zasada <strong>Liskov substitution principle</strong> czyli po polsku <strong>zasada podstawienia Liskov</strong> lub w skrócie <strong>LSP</strong>, to trzecia zasada <a href="zpo/solid/index.html"><strong>SOLID</strong></a>. Wymyślona przez amerykańską informatyczkę <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbarę Liskov</a> w roku 1987. Mówi ona, że <strong>jeśli S jest podtypem T, to obiekty typu S mogą być używane wszędzie tam, gdzie oczekiwane są obiekty typu T</strong>.</p>
+<p><br /><br /><br /></p>
+<blockquote>
+<p>&quot;If S subtypes T, what holds for T-objects holds for S-objects.&quot; - <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbara Liskov</a></p>
+</blockquote>
 <h2 id="zalety-11"><a class="header" href="#zalety-11">Zalety</a></h2>
 <p><strong>LSP</strong> ma kilka zalet:</p>
 <ul>
 <li><strong>większa użyteczność klas</strong> - gdy podtyp zachowuje się w taki sam sposób jak typ bazowy, można go używać w miejscu typu bazowego, bez konieczności modyfikowania kodu.</li>
 <li><strong>ułatwia utrzymanie kodu</strong> - gdy podtyp zachowuje się w taki sam sposób jak typ bazowy, zmiany w typie bazowym nie wpływają na podtyp.</li>
 </ul>
-<h2 id="metody-stosowania-8"><a class="header" href="#metody-stosowania-8">Metody Stosowania</a></h2>
+<h2 id="metody-stosowania-7"><a class="header" href="#metody-stosowania-7">Metody Stosowania</a></h2>
 <p>Oto kilka wskazówek, jak stosować zasadę <strong>LSP</strong>:</p>
 <ul>
 <li><strong>przy tworzeniu podtypów, należy zachować zachowania typu bazowego</strong> - podtyp powinien być w stanie wykonać wszystkie operacje, które może wykonać typ bazowy, w taki sam sposób jak typ bazowy.</li>
 <li><strong>należy unikać nadpisywania metod typu bazowego</strong> - nadpisanie metody typu bazowego może spowodować, że podtyp nie będzie zachowywał się w taki sam sposób jak typ bazowy.</li>
 <li><strong>należy unikać dodawania nowych ograniczeń do podtypów</strong> - dodanie nowego ograniczenia do podtypu może spowodować, że podtyp nie będzie mógł być używany w miejscu typu bazowego.</li>
 </ul>
+<h2 id="przykład-zastosowania-8"><a class="header" href="#przykład-zastosowania-8">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>Shape</code> reprezentującą kształt oraz <code>Circle</code> dziedziczącą po <code>Shape</code>. Klasy te posiadają następujące pola i metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/5.png">
+<pre><code class="language-python">def get_area(self):
+    return self.width * self.height
+</code></pre>
+<p>Klasa <code>Shape</code> implementuje metodę <code>get_area()</code>, która oblicza pole powierzchni kształtu.</p>
+<div class="warning">
+    Klasa <code>Circle</code> dziedziczy po klasie <code>Shape</code>, więc posiada również metodę <code>get_area()</code>, która oblicza pole powierzchni w taki sam sposób jak zaimplementowano to w klasie <code>Shape</code>.
+    <br /><br />
+    <b>Narusza to zasadę LSP</b>, ponieważ metoda <code>get_area()</code> liczy pole powierzchni dla prostokąta, co powoduje że metoda <code>get_area()</code> w klasie <code>Circle</code> także będzie liczyć pole powierzchni dla prostokąta zamiast koła.
+</div>
+<p>Aby naprawić to naruszenie, możemy <strong>zmodyfikować</strong> klasę <code>Circle</code> i <strong>zastąpić</strong> metodę <code>get_area()</code> własną implementacją.</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/6.png">
+<p>W tym przypadku klasa <code>Circle</code> jest pełnoprawnym podtypem klasy <code>Shape</code> i <strong>zachowuje spójność zachowań oraz prawidłowo oblicza pole powierzchni koła</strong>.</p>
 <h2 id="podsumowanie-14"><a class="header" href="#podsumowanie-14">Podsumowanie</a></h2>
 <p>Zasada <strong>LSP</strong> to kolejna ważna zasada programowania obiektowego, która <strong>pomaga w tworzeniu łatwiejszego do utrzymania i łatwiej rozszerzalnego kodu</strong>. Stosowanie jej sprawi, że <strong>utrzymywanie naszego kodu w przyszłości będzie prostsze</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="interface-segregation-principle-isp"><a class="header" href="#interface-segregation-principle-isp">Interface Segregation Principle (ISP)</a></h1>
@@ -591,16 +714,31 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>pozwala na bardziej dokładne testowanie</strong> - gdy interfejs jest podzielony na mniejsze, bardziej specyficzne interfejsy, łatwiej jest napisać testy, które sprawdzają, czy działa poprawnie.</li>
 <li><strong>sprawia, że dodawanie nowych funkcjonalności jest prostsze</strong> - gdy interfejs jest podzielony na mniejsze, bardziej specyficzne interfejsy, łatwiej jest dodać nowe funkcje lub zadania bez naruszania istniejącego kodu.</li>
 </ul>
-<h2 id="metody-stosowania-9"><a class="header" href="#metody-stosowania-9">Metody Stosowania</a></h2>
+<h2 id="metody-stosowania-8"><a class="header" href="#metody-stosowania-8">Metody Stosowania</a></h2>
 <p>Oto kilka wskazówek, jak stosować zasadę <strong>ISP</strong>:</p>
 <ul>
 <li><strong>rozważ, jakie są potrzeby klas implementujących interfejs</strong> - czy klasa potrzebuje wszystkich metod interfejsu? Jeśli nie, rozdziel ten interfejs na dwa mniejsze. Jeden, który zawiera metody, których używa ta konkretna klasa, oraz drugi, który zawiera resztę.</li>
 <li><strong>zastanów się, czy można podzielić interfejs na mniejsze, bardziej specyficzne interfejsy</strong> - czy można utworzyć osobne interfejsy dla różnych grup klas?</li>
 </ul>
+<h2 id="przykład-zastosowania-9"><a class="header" href="#przykład-zastosowania-9">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>BankAccount</code> reprezentującą rachunek bankowy. Klasa ta posiada następujące pola i metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/7.png">
+<p>Klasa ta implementuje metody do wykonywania podstawowych operacji na rachunku bankowym, takich jak wpłata, wypłata, sprawdzenie salda oraz historii transakcji.</p>
+<div class="warning">
+    Ta implementacja <b>narusza zasadę ISP</b>, ponieważ metoda <code>get_transaction_history()</code> nie jest istotna dla wszystkich rachunków bankowych.
+</div>
+<p>Aby naprawić to naruszenie, możemy <strong>podzielić</strong> klasę <code>BankAccount</code> na dwie klasy:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/8.png">
+<p>Klasa <code>TransactionAccount</code> dziedziczy po klasie <code>BankAccount</code> i <strong>implementuje</strong> metodę <code>get_transaction_history()</code>.</p>
+<p>Klasa <code>SavingAccount</code> dziedziczy również po klasie <code>BankAccount</code>, ale <strong>nie implementuje</strong> metody <code>get_transaction_history()</code> tylko <code>get_interest_rate()</code>.</p>
+<p>W ten sposób klienci, którzy <strong>potrzebują dostępu do historii transakcji</strong>, mogą korzystać z klasy <code>TransactionAccount</code>. Za to klienci, którzy <strong>nie potrzebują dostępu do historii transakcji</strong>, mogą korzystać z klasy <code>SavingAccount</code>.</p>
 <h2 id="podsumowanie-15"><a class="header" href="#podsumowanie-15">Podsumowanie</a></h2>
 <p>Zasada <strong>ISP</strong> to następna znacząca zasada programowania obiektowego, która <strong>pomaga w tworzeniu bardziej uporządkowanego i prostszego w rozszerzaniu kodu</strong>. Stosowanie jej sprawi, że <strong>rozszerzanie, testowanie oraz interpretowanie naszego kodu będzie dużo prostsze</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="dependency-inversion-principle-dip"><a class="header" href="#dependency-inversion-principle-dip">Dependency Inversion Principle (DIP)</a></h1>
-<p>Zasada <strong>dependency inversion principle</strong> czyli po polsku <strong>zasada odwrócenia zależności</strong> lub w skrócie <strong>DIP</strong>, to czwarta z zasad <a href="zpo/solid/index.html"><strong>SOLID</strong></a>. Jej oryginalna uproszczona treść to <strong>&quot;high-level modules should not import anything from low-level modules, both should depend on abstractions&quot;</strong>. Tłumacząc na polski, mówi ona, że <strong>wysokopoziomowe moduły nie powinny zależeć od modułów niskiego poziomu, oba powinny zależeć od abstrakcji</strong>.</p>
+<p>Zasada <strong>dependency inversion principle</strong> czyli po polsku <strong>zasada odwrócenia zależności</strong> lub w skrócie <strong>DIP</strong>, to piąta i ostatnia zasada <a href="zpo/solid/index.html"><strong>SOLID</strong></a>. Mówi ona, że <strong>wysokopoziomowe moduły nie powinny zależeć od modułów niskiego poziomu, oba powinny zależeć od abstrakcji</strong>.</p>
+<blockquote>
+<p>&quot;High-level modules should not import anything from low-level modules, both should depend on abstractions.&quot; - <a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert Cecil Martin</a></p>
+</blockquote>
 <h2 id="zalety-13"><a class="header" href="#zalety-13">Zalety</a></h2>
 <p><strong>DIP</strong> ma kilka zalet:</p>
 <ul>
@@ -608,16 +746,28 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>ułatwia rozszerzanie kodu</strong> - gdy moduły zależą od abstrakcji, można łatwo dodać nowe moduły bez konieczności modyfikowania istniejących modułów.</li>
 <li><strong>łatwiejsze utrzymanie kodu oraz mniejsze ryzyko popełnienia błędu</strong> - gdy moduły zależą od abstrakcji, zmiany w implementacji jednego modułu nie wpływają na inne moduły.</li>
 </ul>
-<h2 id="metody-stosowania-10"><a class="header" href="#metody-stosowania-10">Metody Stosowania</a></h2>
+<h2 id="metody-stosowania-9"><a class="header" href="#metody-stosowania-9">Metody Stosowania</a></h2>
 <p>Oto kilka wskazówek, jak stosować zasadę <strong>DIP</strong>:</p>
 <ul>
 <li><strong>używaj interfejsów</strong> - interfejsy to abstrakcje, które definiują kontrakt, który muszą spełniać moduły.</li>
 <li><strong>używaj zależności konstruktora</strong> - zależności konstruktora to sposób na zapewnienie, że moduły zależą od abstrakcji, a nie od konkretnych implementacji.</li>
 </ul>
+<h2 id="przykład-zastosowania-10"><a class="header" href="#przykład-zastosowania-10">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>BankAccount</code> reprezentującą rachunek bankowy. Klasa ta posiada następujące pola i metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/9.png">
+<p>Klasa ta implementuje metody do wykonywania podstawowych operacji na rachunku bankowym, takich jak wpłata, wypłata oraz sprawdzenie salda.</p>
+<div class="warning">
+    Ta implementacja <b>narusza zasadę DIP</b>, ponieważ klasa <code>BankAccount</code> nie zależy od abstrakcji.
+</div>
+<p>Aby naprawić to naruszenie klasa <code>BankAccount</code> powinna być zaprojektowana w taki sposób, aby mogła współpracować z różnymi systemami bankowymi. Aby to osiągnąć możemy <strong>utworzyć</strong> interfejs <code>BankingService</code>, który będzie definiował metody, które są potrzebne do wykonywania operacji na rachunkach bankowych. Klasa <code>BankAccount</code> będzie implementować interfejs <code>BankingService</code>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="zpo/solid/imgs/10.png">
 <h2 id="podsumowanie-16"><a class="header" href="#podsumowanie-16">Podsumowanie</a></h2>
-<p>Zasada <strong>DIP</strong> to ważna zasada programowania obiektowego, która <strong>pomaga w tworzeniu łatwiejszego w utrzymaniu oraz posiadającego mniejsze prawdopodobieństwo popełnienia błędu kodu</strong>. Zastosowanie jej sprawi, że <strong>istnieje mniejsza szansa, że popełnimy błąd oraz roszerzanie i testowanie kodu będą prostszymi zadaniami</strong>.</p>
+<p>Zasada <strong>DIP</strong> to ważna zasada programowania obiektowego, która pomaga w tworzeniu <strong>łatwiejszego w utrzymaniu</strong> oraz posiadającego <strong>mniejsze prawdopodobieństwo popełnienia błędu</strong> kodu. Zastosowanie jej sprawi, że istnieje mniejsza szansa, że popełnimy błąd oraz roszerzanie i testowanie kodu <strong>będą prostszymi zadaniami</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="law-of-demeter-lod"><a class="header" href="#law-of-demeter-lod">Law of Demeter (LoD)</a></h1>
-<p>Zasada <strong>law of demeter</strong> czyli po polsku <strong>prawo demeter</strong> lub w skrócie <strong>LoD</strong>, to zasada programowania obiektowego, która mówi, że <strong>byt (np. klasa) powinien komunikować się tylko z tymi bytami, które są mu bezpośrednio powiązane</strong>.</p>
+<p>Zasada <strong>law of Demeter</strong> czyli po polsku <strong>prawo Demeter</strong> lub w skrócie <strong>LoD</strong>, to zasada programowania obiektowego, która mówi, że <strong>byt (np. klasa) powinien komunikować się tylko z tymi bytami, które są mu bezpośrednio powiązane</strong>.</p>
+<blockquote>
+<p>Ta zasada została nazwana od nazwy projektu <strong>Demeter Project</strong>, który został tak nazwany na cześć <a href="https://en.wikipedia.org/wiki/Demeter"><strong>Demeter</strong></a>, greckiej bogini rolnictwa.</p>
+</blockquote>
 <h2 id="zalety-14"><a class="header" href="#zalety-14">Zalety</a></h2>
 <p><strong>LoD</strong> ma kilka zalet:</p>
 <ul>
@@ -625,14 +775,24 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>sprawia, że mniej kodu wymaga modyfikacji przy dodawaniu nowych funkcji</strong> - gdy byty komunikują się tylko z bytami, które są im bezpośrednio powiązane, można łatwo dodać nowe funkcje lub zadania bez konieczności modyfikacji innych bytów.</li>
 <li><strong>mniejsze prawdopodobieństwo błędu</strong> - gdy byty komunikują się tylko z bytami, które są im bezpośrednio powiązane, zmiany w jednym bycie nie wpływają na inne byty.</li>
 </ul>
-<h2 id="metody-stosowania-11"><a class="header" href="#metody-stosowania-11">Metody Stosowania</a></h2>
+<h2 id="metody-stosowania-10"><a class="header" href="#metody-stosowania-10">Metody Stosowania</a></h2>
 <p>Oto kilka wskazówek, jak stosować zasadę <strong>LoD</strong>:</p>
 <ul>
 <li><strong>używaj wstrzykiwania zależności</strong> - wstrzykiwanie zależności to technika, która pozwala na przekazanie obiektu do konstruktora lub metody. Wstrzykiwanie zależności może pomóc w zapewnieniu, że klasy komunikują się tylko z obiektami, które są im bezpośrednio powiązane.</li>
 <li><strong>używaj interfejsów</strong> - interfejsy zapewniają spójne metody dla różnych implementacji. Używanie interfejsów może pomóc w zapewnieniu, że klasy komunikują się tylko z bytami, które są potrzebne.</li>
 </ul>
+<h2 id="przykłady-zastosowania"><a class="header" href="#przykłady-zastosowania">Przykłady Zastosowania</a></h2>
+<p>Oto kilka przykładów zastosowania <strong>prawa Demetera</strong>:</p>
+<ul>
+<li>zamiast wysyłać wiadomość do obiektu, aby poprosić go o pobranie właściwości innego obiektu, możesz poprosić pierwszy obiekt o podanie Ci odwołania do drugiego obiektu, a następnie <strong>pobrać właściwości samodzielnie</strong>,</li>
+<li>zamiast wysyłać wiadomość do obiektu, aby wykonać operację na innym obiekcie, możesz poprosić pierwszy obiekt o utworzenie drugiego obiektu, a następnie <strong>wykonać operację samodzielnie</strong>,</li>
+<li>zamiast wysyłać wiadomość do obiektu, aby poprosić go o wykonanie złożonej operacji, możesz <strong>podzielić operację na mniejsze kroki</strong> i <strong>wysyłać oddzielne wiadomości</strong> dla każdego kroku.</li>
+</ul>
 <h2 id="podsumowanie-17"><a class="header" href="#podsumowanie-17">Podsumowanie</a></h2>
-<p>Zasada <strong>LoD</strong> to zasada programowania obiektowego, która <strong>pomaga w pisaniu kodu, którego działanie jest bardziej logiczne</strong>. Stosowanie jej sprawi, że np. <strong>etapy rozszerzania funkcjonalności i testowania kodu będą prostsze i szybsze</strong>.</p>
+<blockquote>
+<p>Więcej o prawie Demeter na przykładzie <strong>Javy</strong> możesz dowiedzieć się z <a href="https://www.baeldung.com/java-demeter-law">artykułu Baeldung</a>.</p>
+</blockquote>
+<p>Zasada <strong>LoD</strong> to zasada programowania obiektowego, która pomaga w pisaniu kodu, którego działanie jest <strong>bardziej logiczne</strong>. Stosowanie jej sprawi, że np. etapy rozszerzania funkcjonalności i testowania kodu będą <strong>prostsze i szybsze</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="composition-over-inheritance-coi"><a class="header" href="#composition-over-inheritance-coi">Composition Over Inheritance (COI)</a></h1>
 <p>Zasada <strong>composition over inheritance</strong> czyli po polsku <strong>kompozycja nad dziedziczeniem</strong> lub w skrócie <strong>COI</strong>, to następna zasada programowania obiektowego. Jej oryginalna treść to <strong>&quot;favor composition over inheritance&quot;</strong>. Tłumacząc na polski, mówi ona, że <strong>powinniśmy preferować kompozycję nad dziedziczeniem</strong>.</p>
 <h2 id="zalety-15"><a class="header" href="#zalety-15">Zalety</a></h2>
@@ -642,18 +802,26 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>ułatwia modularyzację kodu</strong> - gdy klasy są połączone za pomocą kompozycji, można je łatwo podzielić na moduły, które są niezależne od siebie.</li>
 <li><strong>sprawia skalowalność kodu prostszą</strong> - gdy klasy są połączone za pomocą kompozycji, można łatwo dodać nowe funkcje lub zadania bez konieczności modyfikacji istniejących klas.</li>
 </ul>
-<h2 id="metody-stosowania-12"><a class="header" href="#metody-stosowania-12">Metody Stosowania</a></h2>
+<blockquote>
+<p>Bardziej szczegółowo o tym co to jest <strong>polimorfizm</strong> dowiesz się z <a href="https://stackify.com/oop-concept-polymorphism/"><strong>artykułu Stackify</strong></a></p>
+</blockquote>
+<h2 id="metody-stosowania-11"><a class="header" href="#metody-stosowania-11">Metody Stosowania</a></h2>
 <p>Oto kilka wskazówek, jak stosować zasadę <strong>COI</strong>:</p>
 <ul>
 <li><strong>używaj zależności konstruktora</strong> - zależności konstruktora to sposób na zapewnienie, że klasy są połączone za pomocą kompozycji, a nie dziedziczenia.</li>
 <li><strong>używaj interfejsów</strong> - interfejsy to abstrakcje, które definiują kontrakt, który muszą spełniać klasy.</li>
 </ul>
+<h2 id="przykład-zastosowania-11"><a class="header" href="#przykład-zastosowania-11">Przykład Zastosowania</a></h2>
+<p>Przykład zastosowania z zasady <a href="zpo/solid/dip.html"><strong>Dependency Inversion Principle</strong></a> jest poprawny również dla <strong>Composition Over Inheritance</strong>. Sprawdź <a href="zpo/solid/dip.html#przyk%C5%82ad-zastosowania"><strong>tamten przykład</strong></a>.</p>
 <h2 id="podsumowanie-18"><a class="header" href="#podsumowanie-18">Podsumowanie</a></h2>
-<p>Zasada <strong>COI</strong> to zasada programowania obiektowego, która <strong>pomaga w tworzeniu bardziej modularnego i skalowalnego kodu</strong>. Stosowanie jej sprawi, żew naszym kodzie <strong>zacznie być możliwy polimorfizm oraz modularyzacja, będzie również łatwiej skalowalny</strong>.</p>
+<p>Oto film <a href="https://www.youtube.com/@CodeAesthetic">YouTubera CodeAesthetic</a> przedstawiający <strong>problemy z dziedziczeniem</strong>:</p>
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/hxGOiiR9ZKg?si=jAugFzLJ6kRQ1qMR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>Zasada <strong>COI</strong> to zasada programowania obiektowego, która pomaga w tworzeniu bardziej <strong>modularnego i skalowalnego</strong> kodu. Stosowanie jej sprawi, żew naszym kodzie zacznie być możliwy <strong>polimorfizm oraz modularyzacja</strong>, będzie również <strong>łatwiej skalowalny</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="dokumentowanie-kodu"><a class="header" href="#dokumentowanie-kodu">Dokumentowanie Kodu</a></h1>
-<p><strong>Dokumentacja kodu</strong> to proces tworzenia opisu/dokumentacji kodu źródłowego, która ma na celu <strong>ułatwienie jego zrozumienia i wykorzystania</strong>. Może być przeznaczona dla programistów, użytkowników końcowych, a nawet osób nietechnicznych.</p>
+<p><strong>Dokumentowanie kodu</strong> to proces opisu kodu źródłowego, który ma na celu <strong>ułatwienie jego zrozumienia i wykorzystania</strong>. Dokumentacja może być przeznaczona dla programistów, użytkowników końcowych, a nawet osób nietechnicznych.</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/1.png">
 <h2 id="cele"><a class="header" href="#cele">Cele</a></h2>
-<p><strong>Dokumentacja kodu</strong> ma następujące cele:</p>
+<p><strong>Dokumentowanie kodu</strong> ma następujące cele:</p>
 <ul>
 <li><strong>ułatwienie zrozumienia kodu przez programistów</strong> - dobrze napisana dokumentacja pomaga programistom zrozumieć, jak działa kod, jakie są jego ograniczenia i możliwości. Może również pomóc programistom znaleźć i naprawić błędy w kodzie.</li>
 <li><strong>ułatwienie utrzymania kodu przez programistów</strong> - dokumentacja kodu pomaga programistom zrozumieć, jak kod został napisany i dlaczego. Powinna pomóc programistom także wprowadzić zmiany w kodzie bez wprowadzania błędów.</li>
@@ -675,23 +843,101 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>klarowność i jednoznaczność</strong> - dokumentacja powinna być napisana w sposób jasny i jednoznaczny, aby każdy mógł ją zrozumieć.</li>
 <li><strong>łatwość wyszukiwania</strong> - dokumentacja powinna być zorganizowana w sposób, który ułatwia użytkownikowi znalezienie potrzebnych informacji.</li>
 </ul>
+<h2 id="przykład"><a class="header" href="#przykład">Przykład</a></h2>
+<p>Oto przykładowa klasa <code>BankAccount</code> napisana w języku <strong>Java</strong>. Klasa ta <strong>zawiera dokumentację</strong> kodu oraz <strong>jest poprawnie opisana</strong>.</p>
+<pre><code class="language-java">/**
+ * Klasa reprezentująca rachunek bankowy.
+ *
+ * @author Jan Kowalski
+ * @version 1.0
+ */
+public class BankAccount {
+    // Numer konta bankowego.
+    private String accountNumber;
+
+    // Saldo konta bankowego.
+    private double balance;
+
+    /**
+     * Konstruktor klasy BankAccount.
+     * @param accountNumber Numer konta bankowego.
+     * @param balance Saldo konta bankowego.
+     */
+    public BankAccount(String accountNumber, double balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
+
+    /**
+     * Zwraca numer konta bankowego.
+     * @return Numer konta bankowego.
+     */
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    /**
+     * Zwraca saldo konta bankowego.
+     * @return Saldo konta bankowego.
+     */
+    public double getBalance() {
+        return balance;
+    }
+
+    /**
+     * Dokonuje wpłaty na konto bankowe.
+     * @param amount Kwota wpłaty.
+     */
+    public void deposit(double amount) {
+        balance += amount;
+    }
+
+    /**
+     * Dokonuje wypłaty z konta bankowego.
+     * @param amount Kwota wypłaty.
+     */
+    public void withdraw(double amount) {
+        balance -= amount;
+    }
+}
+</code></pre>
+<p>Dokumentacja kodu w Javie jest <strong>tworzona za pomocą komentarzy</strong>. Komentarze w Javie mogą być tworzone na dwa sposoby:</p>
+<ol>
+<li><code>// To jest komentarz.</code></li>
+<li><code>/* To jest komentarz. */</code></li>
+</ol>
+<p>W tym przykładzie dokumentacja <strong>zawiera następujące informacje</strong>:</p>
+<ul>
+<li><strong>nazwa klasy</strong> - <code>BankAccount</code></li>
+<li><strong>autor</strong> - <code>Jan Kowalski</code></li>
+<li><strong>wersja</strong> - <code>1.0</code></li>
+<li><strong>opis ogólny</strong> - klasa reprezentująca rachunek bankowy.</li>
+<li><strong>opis pól:</strong>
+<ul>
+<li><code>accountNumber</code> - numer konta bankowego.</li>
+<li><code>balance</code> - saldo konta bankowego.</li>
+</ul>
+</li>
+<li><strong>opis metod:</strong>
+<ul>
+<li><code>getAccountNumber()</code> - zwraca numer konta bankowego.</li>
+<li><code>getBalance()</code> - zwraca saldo konta bankowego.</li>
+<li><code>deposit()</code> - dokonuje wpłaty na konto bankowe.</li>
+<li><code>withdraw()</code> - dokonuje wypłaty z konta bankowego.</li>
+</ul>
+</li>
+</ul>
 <h2 id="podsumowanie-19"><a class="header" href="#podsumowanie-19">Podsumowanie</a></h2>
-<p><strong>Dokumentacja kodu</strong> jest <strong>ważną częścią procesu tworzenia oprogramowania</strong>. Dobra dokumentacja <strong>ułatwia zrozumienie kodu, jego utrzymanie i wykorzystanie</strong>.</p>
+<p><strong>Dokumentowanie kodu</strong> jest ważną częścią procesu tworzenia oprogramowania. Dobra dokumentacja <strong>ułatwia zrozumienie kodu, jego utrzymanie i wykorzystanie</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="algorytm"><a class="header" href="#algorytm">Algorytm</a></h1>
 <p><strong>Algorytm</strong> to zbiór instrukcji lub w uproszczeniu przepis, który <strong>określa sposób wykonania określonego zadania lub rozwiązania problemu</strong>. Algorytmy nie są używane tylko w programowaniu ale także w wielu innych dziedzinach informatyki, takich jak <strong>analiza danych lub sztuczna inteligencja</strong>.</p>
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/6hfOvs8pY1k?si=b8pxxacTkmjKC9Jt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h2 id="definicja"><a class="header" href="#definicja">Definicja</a></h2>
-<p><strong>Algorytm</strong> można zdefiniować jako zbiór instrukcji, które spełniają następujące warunki:</p>
+<p><strong>Algorytm</strong> można zdefiniować jako zbiór instrukcji, który spełnia następujące warunki:</p>
 <ul>
 <li><strong>skończoność</strong> - algorytm powinien być w stanie wykonać się w skończonym czasie, niezależnie od rozmiaru danych wejściowych.</li>
 <li><strong>ogólność</strong> - algorytm powinien być w stanie rozwiązać problem dla dowolnego zestawu danych wejściowych, który spełnia określone kryteria.</li>
 <li><strong>jednoznaczność</strong> - algorytm powinien zawsze zwracać ten sam wynik dla identycznych danych wejściowych.</li>
-</ul>
-<h2 id="przykłady"><a class="header" href="#przykłady">Przykłady</a></h2>
-<p>Jedne z wielu typów algorytmów w informatyce to:</p>
-<ul>
-<li><strong>sortowania</strong> - służy do uporządkowania listy elementów.</li>
-<li><strong>wyszukiwania</strong> - służy do znalezienia określonego elementu w zbiorze.</li>
-<li><strong>obliczania</strong> - służy do obliczenia określonego wyniku.</li>
 </ul>
 <h2 id="zastosowanie"><a class="header" href="#zastosowanie">Zastosowanie</a></h2>
 <p><strong>Algorytmy</strong> są używane w wielu różnych dziedzinach informatyki. Kilka przykładowych dziedzin, w których algorytmy mają swoje zastosowanie to:</p>
@@ -700,11 +946,19 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>analiza danych</strong> - są używane w analizie danych do sortowania, wyszukiwania i przetwarzania danych.</li>
 <li><strong>sztuczna inteligencja</strong> - są używane w sztucznej inteligencji do rozwiązywania złożonych problemów, takich jak rozpoznawanie obrazów i mowy.</li>
 </ul>
+<h2 id="typy"><a class="header" href="#typy">Typy</a></h2>
+<p>Jedne z wielu typów algorytmów w informatyce to:</p>
+<ul>
+<li><a href="algorytm/as/index.html"><strong>sortowania</strong></a> - służy do uporządkowania listy elementów, na przykład <a href="algorytm/as/bab.html"><strong>algorytm sortowania bąbelkowego</strong></a>.</li>
+<li><strong>wyszukiwania</strong> - służy do znalezienia określonego elementu w zbiorze. Przykładowy taki algorytm to <a href="algorytm/wb.html"><strong>algorytm wyszukiwania binarnego</strong></a>.</li>
+<li><strong>szyfrowania</strong> - służy do szyfrowania danych, na przykład <a href="algorytm/sc.html"><strong>algorytm ROT-13</strong></a>.</li>
+<li><strong>obliczania</strong> - służy do obliczenia określonego wyniku, na przykład <strong>algorytm obliczający ciąg Fibonacciego</strong>.</li>
+</ul>
 <h2 id="podsumowanie-20"><a class="header" href="#podsumowanie-20">Podsumowanie</a></h2>
-<p><strong>Algorytmy</strong> są podstawowym i bardzo <strong>ważnym elementem informatyki</strong>. Są one wykorzystywane do <strong>wykonywania złożonych zadań w sposób wydajny i niezawodny</strong>. Są one również <strong>podstawą wielu systemów</strong>, które są wykorzystywane w naszym codziennym życiu.</p>
+<p><strong>Algorytmy</strong> są podstawowym i bardzo <strong>ważnym elementem informatyki</strong>. Są one wykorzystywane do wykonywania złożonych zadań w sposób <strong>wydajny i niezawodny</strong>. Są one również <strong>podstawą wielu systemów</strong>, które są wykorzystywane w naszym codziennym życiu.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="projektowanie-algorytmu"><a class="header" href="#projektowanie-algorytmu">Projektowanie Algorytmu</a></h1>
-<p><strong>Projektowanie algorytmu</strong> to proces tworzenia algorytmu, który rozwiązuje określony problem.</p>
-<h2 id="etapy-2"><a class="header" href="#etapy-2">Etapy</a></h2>
+<p><strong>Projektowanie algorytmu</strong> to proces tworzenia <a href="algorytm/pa/../index.html"><strong>algorytmu</strong></a>, który rozwiązuje określony problem.</p>
+<h2 id="etapy-3"><a class="header" href="#etapy-3">Etapy</a></h2>
 <p>Proces <strong>projektowania algorytmu</strong> powinniśmy podzielić na następujące etapy:</p>
 <ol>
 <li><strong>sformułowanie problemu</strong> - pierwszym krokiem jest sformułowanie problemu, który chcemy rozwiązać. Należy określić dane wejściowe i dane wyjściowe, a także określić wymagania dotyczące poprawności i wydajności algorytmu.</li>
@@ -725,7 +979,7 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <h2 id="podsumowanie-21"><a class="header" href="#podsumowanie-21">Podsumowanie</a></h2>
 <p><strong>Projektowanie algorytmu</strong> to złożony proces, który <strong>wymaga zrozumienia problemu</strong>, który chcemy rozwiązać. Istnieje wiele metod projektowania algorytmów, a <strong>wybór odpowiedniej metody zależy od rodzaju problemu oraz naszych umiejętności</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="dziel-i-zwyciężaj"><a class="header" href="#dziel-i-zwyciężaj">Dziel i Zwyciężaj</a></h1>
-<p><strong>Dziel i zwyciężaj</strong> to metoda projektowania algorytmu, która polega na <strong>podziale problemu na mniejsze podproblemy</strong>, które są następnie rozwiązywane rekurencyjnie. Jest ona najczęściej używana do projektowania algorytmów sortujących.</p>
+<p><strong>Dziel i zwyciężaj</strong> to metoda <a href="algorytm/pa/index.html"><strong>projektowania algorytmu</strong></a>, która polega na <strong>podziale problemu na mniejsze podproblemy</strong>, które są następnie rozwiązywane rekurencyjnie. Jest ona najczęściej używana do projektowania algorytmów sortujących.</p>
 <h2 id="sposób-działania"><a class="header" href="#sposób-działania">Sposób Działania</a></h2>
 <p>Metoda <strong>dziel i zwyciężaj</strong> działa w następujących etapach:</p>
 <ol>
@@ -745,16 +999,32 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li>może być <strong>trudna do zrozumienia</strong> dla początkujących programistów,</li>
 <li>może <strong>wymagać dużej ilości czasu</strong>, jeśli podproblemy są duże.</li>
 </ul>
+<h2 id="przykład-zastosowania-12"><a class="header" href="#przykład-zastosowania-12">Przykład Zastosowania</a></h2>
+<p>Przykładem zastosowania metody <strong>dziel i zwyciężaj</strong> może być <strong>algorytm sortowania przez scalanie</strong>. Algorytm ten działa w następujący sposób:</p>
+<ol>
+<li>jeśli tablica zawiera tylko jeden element, to <strong>jest on już posortowany</strong>.</li>
+<li>jeśli tablica zawiera więcej niż jeden element, to <strong>jest ona dzielona na dwie połowy</strong>.</li>
+<li>każda połowa jest <strong>sortowana rekurencyjnie</strong>.</li>
+<li>dwie posortowane <strong>połowy są scalane</strong> w jedną posortowaną tablicę.</li>
+</ol>
+<p><strong>Algorytm sortowania przez scalanie</strong> można zaprojektować używając metody <strong>dziel i zwyciężaj</strong> za pomocą następujących kroków:</p>
+<ol>
+<li><strong>zdefiniuj problem</strong> - w tym przypadku problemem jest sortowanie tablicy liczb.</li>
+<li><strong>zidentyfikuj przypadek bazowy</strong> - w przypadku sortowania przez scalanie przypadkiem bazowym jest tablica zawierająca tylko jeden element.</li>
+<li><strong>zdefiniuj przypadek rekurencyjny</strong> - przypadkiem rekurencyjnym jest tablica zawierająca więcej niż jeden element.</li>
+<li><strong>napisz kod dla przypadku rekurencyjnego</strong> - kod dla przypadku rekurencyjnego dzieli tablicę na dwie połowy i wywołuje funkcję sortowania rekurencyjnie dla każdej połowy.</li>
+<li><strong>napisz kod dla przypadku bazowego</strong> - kod dla przypadku bazowego po prostu zwraca tablicę.</li>
+</ol>
 <h2 id="podsumowanie-22"><a class="header" href="#podsumowanie-22">Podsumowanie</a></h2>
-<p>Metoda <strong>dziel i zwyciężaj</strong> to potężna metoda projektowania algorytmów, która może być używana do rozwiązywania wielu różnych problemów. Nie ma problemu, którego nie moglibyśmy rozwiązać używając tej metody.</p>
+<p>Metoda <strong>dziel i zwyciężaj</strong> to potężna metoda projektowania algorytmów, która może być używana do rozwiązywania <strong>wielu różnych problemów</strong>. Nie ma problemu, którego nie moglibyśmy rozwiązać używając tej metody.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="lista-kroków"><a class="header" href="#lista-kroków">Lista Kroków</a></h1>
-<p><strong>Lista kroków</strong> to metoda projektowania algorytmu za pomocą <strong>listy kroków, które należy wykonać w określonej kolejności</strong>. Metoda ta jest często używana do opisywania prostych algorytmów takich jak przykładowo algorytm obliczania silni.</p>
+<p><strong>Lista kroków</strong> to metoda <a href="algorytm/pa/index.html"><strong>projektowania algorytmu</strong></a> za pomocą <strong>listy kroków, które należy wykonać w określonej kolejności</strong>. Metoda ta jest często używana do opisywania prostych algorytmów takich jak przykładowo algorytm obliczania silni.</p>
 <h2 id="sposób-działania-1"><a class="header" href="#sposób-działania-1">Sposób Działania</a></h2>
 <p>Etapy działania <strong>listy kroków</strong> to:</p>
 <ol>
-<li>algorytm jest opisany jako lista kroków.</li>
-<li>każdy krok listy zawiera opis czynności, którą należy wykonać.</li>
-<li>kroki listy są wykonywane w kolejności, w jakiej są podane.</li>
+<li>algorytm jest <strong>opisany</strong> jako lista kroków.</li>
+<li>każdy krok listy <strong>zawiera opis czynności</strong>, którą należy wykonać.</li>
+<li>kroki listy są <strong>wykonywane</strong> w kolejności, w jakiej są podane.</li>
 </ol>
 <h2 id="zalety-17"><a class="header" href="#zalety-17">Zalety</a></h2>
 <p><strong>Lista kroków</strong> ma kilka zalet takich jak:</p>
@@ -768,16 +1038,18 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li>może być <strong>nieprecyzyjna</strong>, ponieważ nie zawiera informacji o zależnościach między krokami,</li>
 <li>może być <strong>trudna do optymalizacji</strong>, ponieważ nie zawiera informacji o tym, jak można poprawić złożoność algorytmu.</li>
 </ul>
+<h2 id="przykład-zastosowania-13"><a class="header" href="#przykład-zastosowania-13">Przykład Zastosowania</a></h2>
+<p><a href="algorytm/pa/diz.html#przyk%C5%82ad-zastosowania">Przykład zastosowania metody <strong>dziel i zwyciężaj</strong></a> będzie również poprawny dla metody <strong>lista kroków</strong>. W metodzie <a href="algorytm/pa/diz.html"><strong>dziel i zwyciężaj</strong></a> rozpisujemy kroki działania, właśnie na tym polega metoda <strong>listy kroków</strong>.</p>
 <h2 id="podsumowanie-23"><a class="header" href="#podsumowanie-23">Podsumowanie</a></h2>
-<p>Metoda <strong>lista kroków</strong> to prosta i uniwersalna metoda opisywania algorytmów. Może być używana do opisywania algorytmów o dowolnej złożoności, dlatego jest bardzo popularną i przydatną metodą.</p>
+<p>Metoda <strong>lista kroków</strong> to prosta i uniwersalna metoda opisywania algorytmów. Może być używana do opisywania algorytmów o <strong>dowolnej złożoności</strong>, dlatego jest bardzo <strong>popularną i przydatną</strong> metodą.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="pseudokod"><a class="header" href="#pseudokod">Pseudokod</a></h1>
-<p><strong>Pseudokod</strong> to metoda projektowania algorytmu która polega na zapisie algorytmu w języku, który <strong>przypomina język naturalny</strong>. Pseudokod <strong>nie zawiera wszystkich szczegółów implementacyjnych</strong>, takich jak deklaracje zmiennych, alokacja pamięci itp. Jest często używany do opisywania algorytmów w literaturze naukowej i dydaktycznej.</p>
+<p><strong>Pseudokod</strong> to metoda <a href="algorytm/pa/index.html"><strong>projektowania algorytmu</strong></a> która polega na zapisie algorytmu w języku, który <strong>przypomina język naturalny</strong>. Pseudokod <strong>nie zawiera wszystkich szczegółów implementacyjnych</strong>, takich jak deklaracje zmiennych, alokacja pamięci itp. Jest często używany do opisywania algorytmów w literaturze naukowej i dydaktycznej.</p>
 <h2 id="sposób-działania-2"><a class="header" href="#sposób-działania-2">Sposób Działania</a></h2>
 <p>Projektowanie algorytmu używając <strong>pseudokodu</strong> zawiera następujące etapy:</p>
 <ol>
-<li>algorytm jest opisany za pomocą pseudokodu.</li>
-<li>pseudokod jest tłumaczony na język programowania.</li>
-<li>algorytm jest implementowany w języku programowania.</li>
+<li>algorytm jest <strong>opisany</strong> za pomocą pseudokodu.</li>
+<li>pseudokod jest <strong>tłumaczony</strong> na język programowania.</li>
+<li>algorytm jest <strong>implementowany</strong> w języku programowania.</li>
 </ol>
 <h2 id="zalety-18"><a class="header" href="#zalety-18">Zalety</a></h2>
 <p><strong>Pseudokod</strong> ma następujące zalety:</p>
@@ -792,18 +1064,36 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li>może być <strong>nieprecyzyjny</strong>, ponieważ nie zawiera informacji o zależnościach między krokami,</li>
 <li>może być <strong>trudny do optymalizacji</strong>, ponieważ nie zawiera informacji o tym, jak można poprawić złożoność algorytmu.</li>
 </ul>
+<h2 id="przykład-zastosowania-14"><a class="header" href="#przykład-zastosowania-14">Przykład Zastosowania</a></h2>
+<p>Przykładem zastosowania metody <strong>pseudokodu</strong> może być <strong>algorytm obliczania średniej trzech liczb</strong>. Algorytm ten działa w następujący sposób:</p>
+<ol>
+<li><strong>pobierz</strong> 3 liczby od użytkownika.</li>
+<li><strong>dodaj</strong> do siebie wszystkie trzy liczby.</li>
+<li>wynik poprzedniego działania <strong>podziel</strong> przez 3.</li>
+<li><strong>wypisz</strong> wynik.</li>
+</ol>
+<p>Algorytm ten można zaprojektować używając <strong>pseudokodu</strong> w następujący sposób:</p>
+<pre><code>a = INPUT
+b = INPUT
+c = INPUT
+
+avg = (a + b + c)
+avg /= 3
+
+PRINT avg
+</code></pre>
 <h2 id="podsumowanie-24"><a class="header" href="#podsumowanie-24">Podsumowanie</a></h2>
-<p><strong>Pseudokod</strong> to uniwersalna i <strong>zwięzła metoda</strong> opisywania algorytmów. Może być używany do opisywania algorytmów o dowolnej złożoności.</p>
+<p><strong>Pseudokod</strong> to uniwersalna i <strong>zwięzła metoda</strong> opisywania algorytmów. Może być używany do opisywania algorytmów o <strong>dowolnej złożoności</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="drzewo-decyzyjne"><a class="header" href="#drzewo-decyzyjne">Drzewo Decyzyjne</a></h1>
-<p><strong>Drzewo decyzyjne</strong> to metoda projektowania algorytmu która polega na tworzeniu struktury danych, która przedstawia proces podejmowania decyzji w postaci drzewa. Drzewo decyzyjne składa się z węzłów i krawędzi. Węzły reprezentują decyzje, które należy podjąć, a krawędzie reprezentują możliwe wybory.</p>
+<p><strong>Drzewo decyzyjne</strong> to metoda <a href="algorytm/pa/index.html"><strong>projektowania algorytmu</strong></a> która polega na <strong>tworzeniu struktury danych</strong>, która przedstawia proces podejmowania decyzji <strong>w postaci drzewa</strong>. Drzewo decyzyjne składa się z <strong>węzłów i krawędzi</strong>. Węzły reprezentują decyzje, które należy podjąć, a krawędzie reprezentują możliwe wybory.</p>
 <h2 id="sposób-działania-3"><a class="header" href="#sposób-działania-3">Sposób Działania</a></h2>
 <p><strong>Drzewo decyzyjne</strong> działa w następujących etapach:</p>
 <ol>
-<li>rozpoczyna się w korzeniu drzewa.</li>
-<li>wybiera jedną z krawędzi wychodzących z węzła, w którym się znajduje.</li>
-<li>przechodzi do węzła, do którego prowadzi wybrana krawędź.</li>
-<li>powtarza kroki 2 i 3, dopóki nie dotrze do liścia drzewa.</li>
-<li>wykonuje akcję, która jest powiązana z docelowym liściem drzewa.</li>
+<li><strong>rozpoczyna się</strong> w korzeniu drzewa.</li>
+<li><strong>wybiera</strong> jedną z krawędzi wychodzących z węzła, w którym się znajduje.</li>
+<li><strong>przechodzi</strong> do węzła, do którego prowadzi wybrana krawędź.</li>
+<li><strong>powtarza kroki 2 i 3</strong>, dopóki nie dotrze do liścia drzewa.</li>
+<li><strong>wykonuje</strong> akcję, która jest powiązana z docelowym liściem drzewa.</li>
 </ol>
 <h2 id="zalety-19"><a class="header" href="#zalety-19">Zalety</a></h2>
 <p><strong>Drzewa decyzyjne</strong> mają następujące zalety:</p>
@@ -818,16 +1108,20 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li>mogą <strong>nie działać prawidłowo</strong>, jeśli dane wejściowe są niepewne,</li>
 <li>mogą być <strong>nieefektywne</strong>, jeśli drzewo jest zbyt duże.</li>
 </ul>
+<h2 id="przykład-zastosowania-15"><a class="header" href="#przykład-zastosowania-15">Przykład Zastosowania</a></h2>
+<p>Przykładem zastosowania metody <strong>drzewa decyzyjnego</strong> może być <strong>algorytm decydujący czy osoba jest wysportowana</strong>.</p>
+<p>Algorytm ten zaprojektowany używając <strong>drzewa decyzyjnego</strong> będzie wyglądał w następujący sposób:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="algorytm/pa/imgs/1.png">
 <h2 id="podsumowanie-25"><a class="header" href="#podsumowanie-25">Podsumowanie</a></h2>
 <p><strong>Drzewa decyzyjne</strong> to potężne narzędzie, które może być używane do <strong>rozwiązywania problemów o złożonych zależnościach</strong>. Mogą być używane nie tylko w informatyce ale w różnych dziedzinach, takich jak przykładowo medycyna, finanse, marketing i zarządzanie.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="schemat-blokowy"><a class="header" href="#schemat-blokowy">Schemat Blokowy</a></h1>
-<p><strong>Schemat blokowy</strong> to metoda projektowania algorytmu polegająca na <strong>tworzeniu diagramu</strong>, który przedstawia algorytm za pomocą <strong>bloków połączonych liniami</strong>. Bloki reprezentują czynności, które należy wykonać, a linie reprezentują przepływ danych. Schematy blokowe są często używane do opisywania prostych algorytmów takich jak na przykład kalkulator.</p>
+<p><strong>Schemat blokowy</strong> to metoda <a href="algorytm/pa/index.html"><strong>projektowania algorytmu</strong></a> polegająca na <strong>tworzeniu diagramu</strong>, który przedstawia algorytm za pomocą <strong>bloków połączonych liniami</strong>. Bloki reprezentują czynności, które należy wykonać, a linie reprezentują przepływ danych. Schematy blokowe są często używane do opisywania <strong>prostych algorytmów</strong> takich jak na przykład kalkulator.</p>
 <h2 id="sposób-działania-4"><a class="header" href="#sposób-działania-4">Sposób Działania</a></h2>
 <p><strong>Schemat blokowy</strong> działa w następujący sposób:</p>
 <ol>
-<li>algorytm jest opisany jako schemat blokowy.</li>
-<li>schemat blokowy jest odczytywany od bloku <code>START</code> do bloku <code>END</code>.</li>
-<li>każdy blok w schemacie blokowym jest wykonywany w kolejności, w jakiej jest pokazany.</li>
+<li>algorytm jest <strong>opisany</strong> jako schemat blokowy.</li>
+<li>schemat blokowy jest <strong>odczytywany</strong> od bloku <code>START</code> do bloku <code>END</code>.</li>
+<li>każdy blok w schemacie blokowym jest <strong>wykonywany</strong> w kolejności, w jakiej jest pokazany.</li>
 </ol>
 <h2 id="zalety-20"><a class="header" href="#zalety-20">Zalety</a></h2>
 <p><strong>Schematy blokowe</strong> mają następujące zalety:</p>
@@ -841,6 +1135,10 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li>mogą być <strong>nieprecyzyjne</strong>, ponieważ nie zawierają wszystkich szczegółów implementacyjnych,</li>
 <li>mogą być <strong>trudne do optymalizacji</strong>, ponieważ nie zawierają informacji o tym, jak można poprawić złożoność algorytmu.</li>
 </ul>
+<h2 id="przykład-zastosowania-16"><a class="header" href="#przykład-zastosowania-16">Przykład Zastosowania</a></h2>
+<p>Przykładem zastosowania metody <strong>schematu blokowego</strong> może być <strong>algorytm obliczający sumę dwóch liczb</strong>.</p>
+<p>Algorytm ten można zaprojektować używając <strong>schematu blokowego</strong> w następujący sposób:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="algorytm/pa/imgs/2.png">
 <h2 id="podsumowanie-26"><a class="header" href="#podsumowanie-26">Podsumowanie</a></h2>
 <p><strong>Schematy blokowe</strong> to prosty i wizualny sposób opisywania algorytmów. Mogą być używane do opisywania algorytmów prostych, lecz także tych złożonych.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="porównanie"><a class="header" href="#porównanie">Porównanie</a></h1>
@@ -856,12 +1154,13 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <h2 id="podsumowanie-27"><a class="header" href="#podsumowanie-27">Podsumowanie</a></h2>
 <p><strong>Metody <a href="algorytm/pa/diz.html">dziel i zwyciężaj</a></strong> oraz <a href="algorytm/pa/dd.html"><strong>drzewo decyzyjne</strong></a> są <strong>najbardziej efektywne</strong> dla problemów, które można podzielić na mniejsze podproblemy.</p>
 <p><a href="algorytm/pa/lk.html"><strong>Lista kroków</strong></a>, <a href="algorytm/pa/pse.html"><strong>pseudokod</strong></a> i <a href="algorytm/pa/sb.html"><strong>schemat blokowy</strong></a> są łatwe w zrozumieniu i implementacji, ale <strong>mogą być nieefektywne</strong> dla dużych problemów.</p>
-<p>Ogólnie rzecz biorąc, wybór metody projektowania algorytmu <strong>zależy od konkretnych potrzeb problemu</strong>, który ma być rozwiązany.</p>
+<p>Ogólnie rzecz biorąc, wybór metody <a href="algorytm/pa/index.html">projektowania algorytmu</a> <strong>zależy od konkretnych potrzeb problemu</strong>, który ma być rozwiązany.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="złożoność-obliczeniowa"><a class="header" href="#złożoność-obliczeniowa">Złożoność Obliczeniowa</a></h1>
-<p><strong>Złożoność obliczeniowa</strong> to miara ilości zasobów, których algorytm zużywa do wykonania zadania. Zasoby te mogą obejmować <strong>czas, pamięć, przestrzeń dyskową, energię</strong> itp. Złożoność obliczeniową wyrażamy używając <a href="algorytm/zo.html#notacja-big-o"> <strong>notacji Big O</strong></a></p>
+<p><strong>Złożoność obliczeniowa</strong> to miara ilości zasobów, których <a href="algorytm/../index.html"><strong>algorytm</strong></a> zużywa do wykonania zadania. Zasoby te mogą obejmować <strong>czas, pamięć, przestrzeń dyskową, energię</strong> itp. Złożoność obliczeniową wyrażamy używając <a href="algorytm/zo.html#notacja-big-o"> <strong>notacji Big O</strong></a></p>
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/BgLTDT03QtU?si=CEyc4d93dJAqIF9_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h2 id="notacja-big-o"><a class="header" href="#notacja-big-o">Notacja Big O</a></h2>
 <p><strong>Notacja Big O</strong> to sposób opisywania złożoności obliczeniowej. Służy ona do określania, <strong>jak szybko algorytm wykonuje się</strong> w zależności od wielkości danych wejściowych. Wykorzystuje ona symbole matematyczne do opisywania złożoności algorytmu.</p>
-<h3 id="przykłady-1"><a class="header" href="#przykłady-1">Przykłady</a></h3>
+<h3 id="przykłady"><a class="header" href="#przykłady">Przykłady</a></h3>
 <p>Najczęściej używane symbole to:</p>
 <ul>
 <li>\( O(1) \) - oznacza, że złożoność algorytmu jest <strong>stała</strong>, niezależnie od wielkości danych wejściowych.</li>
@@ -870,16 +1169,16 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li>\( O(\log{n}) \) - złożoność algorytmu <strong>rośnie logarytmicznie</strong> wraz z wielkością danych wejściowych.</li>
 </ul>
 <h2 id="czasowa"><a class="header" href="#czasowa">Czasowa</a></h2>
-<p><strong>Czasowa złożoność algorytmu</strong> to miara ilości czasu, jaką algorytm potrzebuje do <strong>wykonania zadania</strong>. Całkowity czas wykonania algorytmu <strong>zależy od wielkości danych wejściowych</strong>.</p>
-<h3 id="przykłady-2"><a class="header" href="#przykłady-2">Przykłady</a></h3>
+<p><strong>Czasowa złożoność algorytmu</strong> to miara ilości czasu, jakiego <a href="algorytm/../index.html"><strong>algorytm</strong></a> potrzebuje do <strong>wykonania zadania</strong>. Całkowity czas wykonania algorytmu <strong>zależy od wielkości danych wejściowych</strong>.</p>
+<h3 id="przykłady-1"><a class="header" href="#przykłady-1">Przykłady</a></h3>
 <p>Oto kilka przykładów <strong>czasowej złożoności algorytmu</strong>: </p>
 <ul>
 <li><strong>algorytm sortowania przez wstawianie</strong> ma złożoność \( O(n^2) \). Oznacza to, że czas wykonania algorytmu jest <strong>proporcjonalny do kwadratu liczby elementów w wejściowej liście</strong>.</li>
 <li><strong>algorytm sortowania szybkiego</strong> ma złożoność \( O(n \log{n}) \). Oznacza to, że czas wykonania algorytmu jest <strong>proporcjonalny do logarytmu naturalnego liczby elementów w wejściowej liście</strong>.</li>
 </ul>
 <h2 id="pamięciowa"><a class="header" href="#pamięciowa">Pamięciowa</a></h2>
-<p><strong>Pamięciowa złożoność algorytmu</strong> to miara ilości pamięci, jaką algorytm potrzebuje do <strong>wykonania zadania</strong>. <strong>Może zależeć od wielkości danych wejściowych</strong>.</p>
-<h3 id="przykłady-3"><a class="header" href="#przykłady-3">Przykłady</a></h3>
+<p><strong>Pamięciowa złożoność algorytmu</strong> to miara ilości pamięci, jakiej <a href="algorytm/../index.html"><strong>algorytm</strong></a> potrzebuje do <strong>wykonania zadania</strong>. Może ona <strong>zależeć od wielkości danych wejściowych</strong>.</p>
+<h3 id="przykłady-2"><a class="header" href="#przykłady-2">Przykłady</a></h3>
 <p>Oto kilka przykładów <strong>pamięciowej złożoności algorytmu</strong>: </p>
 <ul>
 <li><strong>algorytm sortowania przez wstawianie</strong> ma pamięciową złożoność \( O(n) \). Oznacza to, że algorytm <strong>potrzebuje dodatkowej pamięci</strong> proporcjonalnej do liczby elementów w wejściowej liście.</li>
@@ -893,16 +1192,17 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>komunikacyjna</strong> - miara ilości danych, które muszą być przesyłane między różnymi częściami algorytmu.</li>
 </ul>
 <h2 id="optymalizacja"><a class="header" href="#optymalizacja">Optymalizacja</a></h2>
-<p><strong>Optymalizacja złożoności</strong> jest ważną częścią projektowania algorytmów. Celem optymalizacji złożoności algorytmu jest <strong>zmniejszenie ilości zasobów</strong>, które algorytm zużywa do wykonania zadania. Optymalizację złożoności można osiągnąć na <strong>różne sposoby</strong>, takie jak:</p>
+<p><strong>Optymalizacja złożoności</strong> jest ważną częścią <a href="algorytm/../pa/index.html"><strong>projektowania algorytmów</strong></a>. Celem optymalizacji złożoności algorytmu jest <strong>zmniejszenie ilości zasobów</strong>, których <a href="algorytm/../index.html"><strong>algorytm</strong></a> zużywa do wykonania zadania. Optymalizację złożoności można osiągnąć na <strong>różne sposoby</strong>, takie jak:</p>
 <ul>
 <li><strong>upraszczanie algorytmu</strong> - usuwanie niepotrzebnych kroków lub operacji.</li>
 <li><strong>używanie bardziej efektywnych technik</strong> - wybór technik, które są bardziej efektywne pod względem zużycia zasobów.</li>
 <li><strong>użycie równoległości</strong> - wykorzystanie wielu procesorów do wykonania zadania równolegle.</li>
 </ul>
 <h2 id="podsumowanie-28"><a class="header" href="#podsumowanie-28">Podsumowanie</a></h2>
-<p><strong>Złożoność obliczeniowa</strong> to bardzo przydatna miara ilości zasobów, dzięki której możemy <strong>oszacować ile zasobów będzie potrzebował nasz algorytm</strong> do wykonania zadania. Nie powinniśmy <strong>nigdy jej ignorować</strong>, lecz <strong>zawsze brać ją pod uwagę</strong>.</p>
+<p><strong>Złożoność obliczeniowa</strong> to bardzo przydatna miara ilości zasobów, dzięki której możemy <strong>oszacować ile zasobów będzie potrzebował nasz algorytm</strong> do wykonania zadania. Nie powinniśmy <strong>jej nigdy ignorować</strong>, lecz <strong>zawsze brać ją pod uwagę</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="rekurencja"><a class="header" href="#rekurencja">Rekurencja</a></h1>
-<p><strong>Rekurencja</strong> to sposób definiowania lub rozwiązywania problemu poprzez <strong>odniesienie do samego siebie</strong>. Rekurencja w programowaniu to technika, w której <strong>funkcja wywołuje sama siebie</strong>. Jest to <strong>bardzo potężna technika</strong>, która jest wykorzystywana do rozwiązywania wielu problemów algorytmicznych.</p>
+<p><strong>Rekurencja</strong> to sposób definiowania lub rozwiązywania problemu poprzez <strong>odniesienie do samego siebie</strong>. Rekurencja w programowaniu to technika, w której <strong>funkcja wywołuje sama siebie</strong>. Jest to <strong>bardzo potężna technika</strong>, która jest wykorzystywana do rozwiązywania wielu <a href="algorytm/index.html"><strong>problemów algorytmicznych</strong></a>.</p>
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/rf60MejMz3E?si=85jHc0T_51HMldzL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h2 id="zasady-1"><a class="header" href="#zasady-1">Zasady</a></h2>
 <p><strong>Algorytm rekurencyjny</strong> powinien spełniać następujące zasady:</p>
 <ul>
@@ -922,17 +1222,21 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li>może być <strong>trudna</strong> do zrozumienia i zaimplementowania,</li>
 <li>może prowadzić do <strong>problemów z pamięcią</strong>, jeśli ciąg wywołań rekurencyjnych jest zbyt głęboki.</li>
 </ul>
+<h2 id="przykład-1"><a class="header" href="#przykład-1">Przykład</a></h2>
+<p>Algorytmem który ma wariant rekurencyjny jest <strong>algorytm obliczania ciągu Fibonacciego</strong>. Oto ten algorytm w <a href="algorytm/pa/sb.html">schemacie blokowym</a>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="algorytm/imgs/1.png">
+<p>W algorytmietym  zakładamy, że argument <code>n</code> na wejściu jest <strong>numerem wyrazu ciągu</strong>, który chcemy otrzymać w wyniku.</p>
 <h2 id="podsumowanie-29"><a class="header" href="#podsumowanie-29">Podsumowanie</a></h2>
 <p><strong>Rekurencja</strong> jest potężną techniką, która jest wykorzystywana do <strong>rozwiązywania wielu problemów algorytmicznych</strong>. Jednakże należy pamiętać o jej <strong>zaletach i wadach</strong>, aby móc ją wykorzystywać w sposób efektywny.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="algorytmy-sortujące"><a class="header" href="#algorytmy-sortujące">Algorytmy Sortujące</a></h1>
-<p><strong>Algorytmy sortujące</strong> to algorytmy, które służą do <strong>uporządkowania elementów zbioru danych</strong>. Ogólnie rzecz biorąc, sortowanie polega na przestawianiu elementów zbioru w taki sposób, aby spełniały one ustalony porządek.</p>
+<p><strong>Algorytmy sortujące</strong> to <a href="algorytm/as/../index.html">algorytmy</a>, które służą do <strong>uporządkowania elementów zbioru danych</strong>. Ogólnie rzecz biorąc, sortowanie polega na przestawianiu elementów zbioru w taki sposób, aby <strong>spełniały one ustalony porządek</strong>.</p>
 <h2 id="podział"><a class="header" href="#podział">Podział</a></h2>
 <p>Istnieje wiele różnych <strong>algorytmów sortujących</strong>. Można je podzielić na kilka kategorii, w zależności od ich właściwości:</p>
 <ul>
 <li><strong>złożoność czasowa</strong> - można podzielić je na algorytmy o czasie pracy liniowym, kwadratowym, logarytmicznym itd.</li>
 <li><strong>złożoność pamięciowa</strong> - można podzielić je ze względu na ilość pamięci jaką algorytm potrzebuje wykonania zadania.</li>
-<li><strong>stabilność</strong> - podział na algorytmy stabilne i niestabilne. Algorytm stabilny zachowuje kolejność elementów o równej wartości.</li>
 <li><strong>wymagania pamięciowe</strong> - można podzielić je na algorytmy działające w miejscu (in-place) i algorytmy działające w miejscu dodatkowym (out-of-place). Algorytm działający w miejscu nie wymaga dodatkowej pamięci poza pamięcią wymaganą do przechowywania danych wejściowych.</li>
+<li><strong>stabilność</strong> - podział na algorytmy stabilne i niestabilne. Algorytm stabilny zachowuje kolejność elementów o równej wartości.</li>
 </ul>
 <h2 id="wybór"><a class="header" href="#wybór">Wybór</a></h2>
 <p>Wybór <strong>algorytmu sortującego</strong> zależy od wielu czynników, w tym od:</p>
@@ -941,7 +1245,7 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>stabilności</strong> - jeśli kolejność elementów o równej wartości jest ważna, należy wybrać algorytm stabilny.</li>
 <li><strong>wymagań pamięciowych</strong> - jeśli wymagana jest mała ilość pamięci, należy wybrać algorytm działający w miejscu.</li>
 </ul>
-<h2 id="przykłady-4"><a class="header" href="#przykłady-4">Przykłady</a></h2>
+<h2 id="przykłady-3"><a class="header" href="#przykłady-3">Przykłady</a></h2>
 <p>Do najbardziej podstawowych <strong>algorytmów sortujących</strong> należą:</p>
 <ul>
 <li><a href="algorytm/as/bab.html"><strong>bąbelkowe</strong></a> - porównuje kolejne elementy zbioru i zamienia je miejscami, jeśli są w niewłaściwej kolejności.</li>
@@ -953,6 +1257,8 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <p><strong>Algorytmy sortujące</strong> są ważnymi narzędziami stosowanymi w wielu dziedzinach informatyki. Istnieje <strong>wiele różnych algorytmów sortujących</strong>, które różnią się pod względem <strong>czasu pracy, stabilności i wymagań pamięciowych</strong>. Dobór odpowiedniego algorytmu sortującego <strong>zależy od wielu czynników</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="sortowanie-bąbelkowe"><a class="header" href="#sortowanie-bąbelkowe">Sortowanie Bąbelkowe</a></h1>
 <p><strong>Sortowanie bąbelkowe</strong> jest jednym z <strong>najprostszych</strong> algorytmów sortujących. Polega ono na porównywaniu kolejnych elementów zbioru i zamienianiu ich miejscami, jeśli są w niewłaściwej kolejności.</p>
+<p>Animacja pokazująca działanie <strong>sortowania babelkowego</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif">
 <h2 id="cechy"><a class="header" href="#cechy">Cechy</a></h2>
 <h3 id="złożoność-czasowa"><a class="header" href="#złożoność-czasowa">Złożoność Czasowa</a></h3>
 <p><strong>Złożoność czasowa</strong> sortowania bąbelkowego wynosi \( O(n^2) \), gdzie \( n \) jest liczbą elementów w zbiorze. Oznacza to, że czas wykonania algorytmu <strong>rośnie kwadratowo wraz ze wzrostem rozmiaru zbioru</strong>.</p>
@@ -970,11 +1276,20 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>przeniesienie elementów</strong> - jeśli elementy \( i \) i  \( i+1 \) są w niewłaściwej kolejności, algorytm zamieni je miejscami.</li>
 <li><strong>koniec cyklu</strong></li>
 </ol>
-<p>Gdy cykl wewnętrzny zakończy się, algorytm sprawdzi, czy podczas ostatniego przejścia cyklu doszło do wymiany elementów. Jeśli nie, to zbiór jest posortowany i algorytm może zakończyć działanie.</p>
+<p>Gdy cykl wewnętrzny zakończy się, algorytm sprawdzi, czy podczas ostatniego przejścia cyklu doszło do wymiany elementów. Jeśli nie, to zbiór jest posortowany i algorytm może <strong>zakończyć działanie</strong>.</p>
+<p>Oto <strong>schemat blokowy</strong> przedstawiający sposób działania <strong>sortowania bąbelkowego</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="algorytm/as/imgs/1.png">
+<p><strong>Dane wejściowe</strong> dla algorytmu widocznego na schemacie to:</p>
+<ul>
+<li><code>d[]</code> - zbiór liczb do sortowania,</li>
+<li><code>n</code> - długość zbioru <code>d[]</code>.</li>
+</ul>
 <h2 id="podsumowanie-31"><a class="header" href="#podsumowanie-31">Podsumowanie</a></h2>
 <p><strong>Sortowanie bąbelkowe</strong> jest prostym i łatwym w implementacji algorytmem sortującym. Jednak jego złożoność czasowa \( O(n^2) \) sprawia, że <strong>nie jest ono wydajne w przypadku dużych zbiorów danych</strong>. Sortowanie bąbelkowe <strong>jest podstawą</strong>, każdy programista powinien <strong>znać ten algorytm</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="sortowanie-przez-wstawianie"><a class="header" href="#sortowanie-przez-wstawianie">Sortowanie Przez Wstawianie</a></h1>
 <p><strong>Sortowanie przez wstawianie</strong> to również jeden z <strong>najprostszych</strong> algorytmów sortowania. Działa on poprzez pobieranie kolejnych elementów zbioru nieuporządkowanego i wstawianie ich na odpowiednie miejsce w zbiorze posortowanym.</p>
+<p>Animacja pokazująca działanie <strong>sortowania przez wstawianie</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif">
 <h2 id="cechy-1"><a class="header" href="#cechy-1">Cechy</a></h2>
 <h3 id="złożoność-czasowa-1"><a class="header" href="#złożoność-czasowa-1">Złożoność Czasowa</a></h3>
 <p><strong>Złożoność czasowa</strong> sortowania przez wstawianie wynosi \( O(n^2) \), gdzie \( n \) jest liczbą elementów w zbiorze. Oznacza to, że czas wykonania algorytmu <strong>rośnie kwadratowo wraz ze wzrostem rozmiaru zbioru</strong>.</p>
@@ -992,10 +1307,19 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>przeniesienie elementów</strong> - jeśli bieżący element jest mniejszy niż element o indeksie \( j \), algorytm zamieni je miejscami.</li>
 <li><strong>koniec cyklu</strong> - gdy cykl zewnętrzny zakończy się, zbiór będzie posortowany.</li>
 </ol>
+<p>Oto <strong>schemat blokowy</strong> przedstawiający sposób działania <strong>sortowania przez wstawianie</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="algorytm/as/imgs/2.png">
+<p><strong>Dane wejściowe</strong> dla algorytmu widocznego na schemacie to:</p>
+<ul>
+<li><code>d[]</code> - zbiór liczb do sortowania,</li>
+<li><code>n</code> - długość zbioru <code>d[]</code>.</li>
+</ul>
 <h2 id="podsumowanie-32"><a class="header" href="#podsumowanie-32">Podsumowanie</a></h2>
 <p><strong>Sortowanie przez wstawianie</strong> jest algorytmem sortującym, który jest <strong>stabilny</strong> i <strong>działa w miejscu</strong>. Jednak jego złożoność czasowa rzędu \( O(n^2) \) sprawia, że <strong>nie jest ono wydajne w przypadku dużych zbiorów danych</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="sortowanie-przez-wybór"><a class="header" href="#sortowanie-przez-wybór">Sortowanie Przez Wybór</a></h1>
 <p><strong>Sortowanie przez wybór</strong> to algorytm sortowania, który działa poprzez wyszukiwanie elementu o najmniejszej wartości w zbiorze nieuporządkowanym i umieszczanie go na początku zbioru posortowanego. Następnie algorytm powtarza tę operację dla pozostałej części zbioru nieuporządkowanego, aż cały zbiór będzie posortowany.</p>
+<p>Animacja pokazująca działanie <strong>sortowania przez wybór</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif">
 <h2 id="cechy-2"><a class="header" href="#cechy-2">Cechy</a></h2>
 <h3 id="złożoność-czasowa-2"><a class="header" href="#złożoność-czasowa-2">Złożoność Czasowa</a></h3>
 <p><strong>Złożoność czasowa</strong> sortowania przez wybór wynosi \( O(n^2) \), gdzie \( n \) jest liczbą elementów w zbiorze. Oznacza to, że czas wykonania algorytmu <strong>rośnie kwadratowo wraz ze wzrostem rozmiaru zbioru</strong>.</p>
@@ -1012,10 +1336,19 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>przeniesienie elementów</strong> - jeśli bieżący element jest mniejszy niż najmniejszy element w zbiorze, algorytm zamieni je miejscami.</li>
 <li><strong>koniec cyklu</strong> - gdy cykl zewnętrzny zakończy się, zbiór będzie posortowany.</li>
 </ol>
+<p>Oto <strong>schemat blokowy</strong> przedstawiający sposób działania <strong>sortowania przez wybór</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="algorytm/as/imgs/3.png">
+<p><strong>Dane wejściowe</strong> dla algorytmu widocznego na schemacie to:</p>
+<ul>
+<li><code>d[]</code> - zbiór liczb do sortowania,</li>
+<li><code>n</code> - długość zbioru <code>d[]</code>.</li>
+</ul>
 <h2 id="podsumowanie-33"><a class="header" href="#podsumowanie-33">Podsumowanie</a></h2>
 <p><strong>Sortowanie przez wybór</strong> jest algorytmem sortującym, który jest <strong>niestabilny</strong> i <strong>działa w miejscu</strong>. Jednak jego złożoność czasowa rzędu \( O(n^2) \) sprawia, że <strong>nie jest ono wydajne w przypadku dużych zbiorów danych</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="sortowanie-stogowe"><a class="header" href="#sortowanie-stogowe">Sortowanie Stogowe</a></h1>
 <p><strong>Sortowanie stogowe</strong>, zwane również <strong>sortowaniem przez kopcowanie</strong>, to algorytm sortowania, który działa poprzez przekształcanie zbioru nieuporządkowanego w kopiec binarny. Kopiec binarny to struktura danych, w której każdy element jest większy lub równy swoim dzieciom.</p>
+<p>Animacja pokazująca działanie <strong>sortowania stogowego</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Sorting_heapsort_anim.gif">
 <h2 id="cechy-3"><a class="header" href="#cechy-3">Cechy</a></h2>
 <h3 id="złożoność-czasowa-3"><a class="header" href="#złożoność-czasowa-3">Złożoność Czasowa</a></h3>
 <p><strong>Złożoność czasowa</strong> sortowania stogowego wynosi \( O(n \log{n}) \), gdzie \( n \) jest liczbą elementów w zbiorze. Oznacza to, że czas wykonania algorytmu <strong>jest proporcjonalny do logarytmu liczby elementów w zbiorze</strong>.</p>
@@ -1044,10 +1377,13 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 </tbody></table>
 </div>
 <h2 id="podsumowanie-35"><a class="header" href="#podsumowanie-35">Podsumowanie</a></h2>
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/RfXt_qHDEPw?si=K_0649CwV3alqdOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <p><a href="algorytm/as/bab.html"><strong>Sortowanie bąbelkowe</strong></a>, <a href="algorytm/as/pwy.html"><strong>przez wybór</strong></a> oraz <a href="algorytm/as/pws.html"><strong>przez wstawianie</strong></a> są <strong>prostymi i łatwymi do implementacji</strong> algorytmami sortowania. Są one jednak stosunkowo <strong>nieefektywne</strong>, ponieważ wymagają wykonania wielu porównań i przesunięć elementów.</p>
 <p><a href="algorytm/as/stog.html"><strong>Sortowanie stogowe</strong></a> jest <strong>bardziej wydajnym</strong> algorytmem, którego złożoność czasowa wynosi \( O(n \log{n}) \). Jest on jednak <strong>bardziej złożony w implementacji i wymaga dodatkowej pamięci</strong> na przechowywanie kopca.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="wyszukiwanie-binarne"><a class="header" href="#wyszukiwanie-binarne">Wyszukiwanie Binarne</a></h1>
-<p><strong>Wyszukiwanie binarne</strong> to algorytm wyszukiwania, który działa poprzez wielokrotne dzielenie zbioru danych na połowę, aż do znalezienia szukanego elementu.</p>
+<p><strong>Wyszukiwanie binarne</strong> to <a href="algorytm/index.html">algorytm</a> wyszukiwania, który działa poprzez wielokrotne <strong>dzielenie zbioru danych na połowę</strong>, aż do znalezienia szukanego elementu.</p>
+<p>Animacja pokazująca działanie <strong>wyszukiwania binarnego</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif">
 <h2 id="cechy-4"><a class="header" href="#cechy-4">Cechy</a></h2>
 <h3 id="złożoność-czasowa-4"><a class="header" href="#złożoność-czasowa-4">Złożoność Czasowa</a></h3>
 <p><strong>Złożoność czasowa</strong> wyszukiwania binarnego wynosi \( O(\log{n}) \), gdzie \( n \) jest liczbą elementów w zbiorze. Oznacza to, że czas wykonania algorytmu jest <strong>proporcjonalny do logarytmu liczby elementów w zbiorze</strong>.</p>
@@ -1070,9 +1406,11 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>powtarzanie kroków 2 i 3</strong> - algorytm powtarza kroki 2 i 3, aż znajdzie szukany element lub do momentu, gdy zakres wyszukiwania będzie pusty.</li>
 </ol>
 <h2 id="podsumowanie-36"><a class="header" href="#podsumowanie-36">Podsumowanie</a></h2>
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/KXJSjte_OAI?si=VtpShWO7nOWzdUse" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <p><strong>Wyszukiwanie binarne</strong> jest bardzo wydajnym algorytmem wyszukiwania, który jest <strong>często używany w praktyce</strong>. Jest on szczególnie przydatny do <strong>wyszukiwania elementów w uporządkowanych zbiorach danych</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="szyfr-cezara-rot-13"><a class="header" href="#szyfr-cezara-rot-13">Szyfr Cezara (ROT-13)</a></h1>
-<p><strong>Szyfr Cezara</strong> czyli <strong>ROT-13</strong> jest jednym z <strong>najprostszych i najstarszych</strong> algorytmów szyfrujących. Polega on na zastąpieniu każdej litery tekstu jawnego literą, która znajduje się w alfabecie o określoną liczbę pozycji dalej.</p>
+<p><strong>Szyfr Cezara</strong> czyli <strong>ROT-13</strong> jest jednym z <strong>najprostszych i najstarszych</strong> <a href="algorytm/index.html">algorytmów</a> szyfrujących. Polega on na zastąpieniu każdej litery tekstu jawnego literą, która znajduje się w alfabecie o <strong>określoną liczbę pozycji dalej</strong>.</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="algorytm/imgs/2.png">
 <h2 id="cechy-5"><a class="header" href="#cechy-5">Cechy</a></h2>
 <h3 id="złożoność-czasowa-5"><a class="header" href="#złożoność-czasowa-5">Złożoność Czasowa</a></h3>
 <p><strong>Złożoność czasowa</strong> szyfru Cezara wynosi rzędu \( O(n) \), gdzie \( n \) jest długością tekstu. Oznacza to, że <strong>czas wykonania szyfrowania lub odszyfrowywania tekstu jest proporcjonalny do długości tekstu</strong>.</p>
@@ -1083,28 +1421,32 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <h2 id="sposób-działania-10"><a class="header" href="#sposób-działania-10">Sposób Działania</a></h2>
 <p>Algorytm <strong>ROT-13</strong> działa w następujący sposób:</p>
 <ol>
-<li>przejdź przez cały tekst jawny, litera po literze.</li>
+<li><strong>przejdź</strong> przez cały tekst jawny, litera po literze.</li>
 <li>dla każdej litery:
 <ul>
-<li>odszukaj literę w alfabecie, która jest przesunięta na przykład o 13 pozycji w prawo,</li>
-<li>zastąp oryginalną literę znalezioną literą.</li>
+<li><strong>odszukaj</strong> literę w alfabecie, która jest przesunięta na przykład o 13 pozycji w prawo,</li>
+<li><strong>zastąp</strong> oryginalną literę znalezioną literą.</li>
 </ul>
 </li>
 </ol>
 <h2 id="podsumowanie-37"><a class="header" href="#podsumowanie-37">Podsumowanie</a></h2>
-<p><strong>Szyfr Cezara</strong> jest prostym i łatwym w implementacji szyfrem. Jest on jednak stosunkowo słabo bezpieczny oraz bardzo łatwy do złamania, ponieważ można go złamać metodą prób i błędów.</p>
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/JO3taR0xa5Q?si=BaeSghOOiTRLv9dP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p><strong>Szyfr Cezara</strong> jest prostym i łatwym w implementacji szyfrem. Jest on jednak <strong>stosunkowo mało bezpieczny</strong> oraz <strong>bardzo łatwy do złamania</strong>, ponieważ można go złamać metodą prób i błędów.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="algorytmy-heurystyczne"><a class="header" href="#algorytmy-heurystyczne">Algorytmy Heurystyczne</a></h1>
-<p><strong>Algorytmy heurystyczne</strong> to rodzaj algorytmów, które <strong>nie gwarantują znalezienia najlepszego rozwiązania</strong> problemu, ale mogą <strong>znaleźć rozwiązanie dobrej jakości w rozsądnym czasie</strong>. Algorytmy heurystyczne są często używane w problemach, dla których znalezienie najlepszego rozwiązania jest trudne lub niemożliwe, takich jak optymalizacja, planowanie lub rozwiązywanie problemów.</p>
-<h2 id="przykłady-5"><a class="header" href="#przykłady-5">Przykłady</a></h2>
+<p><strong>Algorytmy heurystyczne</strong> to rodzaj <a href="algorytm/index.html">algorytmów</a>, które <strong>nie gwarantują znalezienia najlepszego rozwiązania</strong> problemu, ale mogą <strong>znaleźć rozwiązanie dobrej jakości w rozsądnym czasie</strong>. Algorytmy heurystyczne są często używane w problemach, dla których znalezienie najlepszego rozwiązania jest trudne lub niemożliwe, takich jak <strong>optymalizacja, planowanie lub rozwiązywanie problemów</strong>.</p>
+<blockquote>
+<p>Jeśli chcesz dowiedzieć się więcej na temat <strong>algorytmów heurystycznych</strong> przeczytaj <a href="https://www.baeldung.com/cs/heuristic-vs-algorithm"><strong>arytkuł Baeldung</strong></a> na ten temat.</p>
+</blockquote>
+<h2 id="przykłady-4"><a class="header" href="#przykłady-4">Przykłady</a></h2>
 <p>Do przykładowych <strong>algorytmów heurystycznych</strong> należą:</p>
 <ul>
 <li><strong>Dijkstry</strong> - do znajdowania najkrótszej ścieżki w grafie.</li>
-<li><strong>A</strong> - do znajdowania najkrótszej ścieżki w grafie z przeszkodami.</li>
+<li><strong>A*</strong> - do znajdowania najkrótszej ścieżki w grafie z przeszkodami.</li>
 <li><strong>wyszukiwania tablicy</strong> - do znajdowania elementu w tablicy.</li>
 <li><strong>sortowania przez wstawianie</strong> - do sortowania tablicy.</li>
 </ul>
-<p>Jednym z przykładów zastosowania algorytmów heurystycznych jest znajdowanie najkrótszej trasy między dwoma miastami. Problem ten można rozwiązać za pomocą <strong>algorytmu Dijkstry</strong>, który gwarantuje znalezienie najkrótszej trasy. Jednak algorytm Dijkstry <strong>może być czasochłonny</strong>, jeśli graf jest duży. W takim przypadku można zastosować <strong>algorytm A</strong>, który <strong>jest mniej wydajny</strong> niż algorytm Dijkstry, ale <strong>może znaleźć rozwiązanie w krótszym czasie</strong>.</p>
-<h2 id="typy"><a class="header" href="#typy">Typy</a></h2>
+<p>Jednym z przykładów zastosowania algorytmów heurystycznych jest znajdowanie najkrótszej trasy między dwoma miastami. Problem ten można rozwiązać za pomocą <strong>algorytmu Dijkstry</strong>, który gwarantuje znalezienie najkrótszej trasy. Jednak algorytm Dijkstry <strong>może być czasochłonny</strong>, jeśli graf jest duży. W takim przypadku można zastosować <strong>algorytm A*</strong>, który <strong>jest mniej wydajny</strong> niż algorytm Dijkstry, ale <strong>może znaleźć rozwiązanie w krótszym czasie</strong>.</p>
+<h2 id="typy-1"><a class="header" href="#typy-1">Typy</a></h2>
 <p><strong>Algorytmy heurystyczne</strong> można podzielić na następujące typy:</p>
 <ul>
 <li><strong>lokalne</strong> - zaczynają od jakiegoś rozwiązania i stopniowo je poprawiają.</li>
@@ -1153,6 +1495,7 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <h2 id="podsumowanie-39"><a class="header" href="#podsumowanie-39">Podsumowanie</a></h2>
 <p><strong>Projektowanie klas</strong> jest bardzo ważną częścią procesu tworzenia oprogramowania. Dzięki dobremu projektowaniu klas, <strong>znacząco zwiększamy jakość oprogramowania</strong>. <strong>Jest to złożony proces</strong>, ale warty rezultatu. Każdy programista powinien umieć projektować klasy.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="unified-modeling-language-uml"><a class="header" href="#unified-modeling-language-uml">Unified Modeling Language (UML)</a></h1>
+<img class="right" width="250px" style="margin-left: 10px; padding: 10px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/UML_logo.svg">
 <p><strong>Unified Modeling Language</strong> a w skrócie <strong>UML</strong> to język modelowania oprogramowania, który <strong>umożliwia wizualne przedstawienie struktury i zachowania oprogramowania</strong>. UML jest używany przez programistów i inżynierów oprogramowania <strong>w celu komunikacji i współpracy w zakresie projektowania, rozwoju i utrzymania oprogramowania</strong>.</p>
 <h2 id="elementy"><a class="header" href="#elementy">Elementy</a></h2>
 <p><strong>UML</strong> składa się z wielu elementów, które można <strong>wykorzystać do modelowania różnych aspektów oprogramowania</strong>. Najważniejsze z elementów <strong>UML</strong> to:</p>
@@ -1183,9 +1526,9 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>błędy</strong> - niewłaściwe użycie UML może prowadzić do błędów w oprogramowaniu.</li>
 </ul>
 <h2 id="podsumowanie-40"><a class="header" href="#podsumowanie-40">Podsumowanie</a></h2>
-<p><strong>UML jest potężnym narzędziem</strong>, które może być <strong>wykorzystane do poprawy procesu tworzenia oprogramowania</strong>. UML może <strong>pomóc w poprawie komunikacji, współpracy, przejrzystości i elastyczności systemów oprogramowania</strong>.</p>
+<p><strong>UML jest potężnym narzędziem</strong>, które może być wykorzystane do <strong>poprawy</strong> procesu tworzenia oprogramowania. UML może pomóc w <strong>poprawie komunikacji, współpracy, przejrzystości i elastyczności</strong> systemów oprogramowania.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="diagramy"><a class="header" href="#diagramy">Diagramy</a></h1>
-<p><strong>Diagramy</strong> to <strong>graficzne reprezentacje struktury i aspektów oprogramowania</strong>. Są używane do <strong>modelowania struktury oprogramowania</strong>.</p>
+<p><strong>Diagramy</strong> to graficzne reprezentacje struktury i aspektów oprogramowania. Są używane do <strong>modelowania struktury oprogramowania</strong>.</p>
 <h2 id="rodzaje-1"><a class="header" href="#rodzaje-1">Rodzaje</a></h2>
 <p><a href="pk/uml.html"><strong>UML</strong></a> definiuje wiele różnych <strong>rodzajów diagramów</strong>, które można <strong>wykorzystać do modelowania różnych aspektów oprogramowania</strong>. Najważniejsze z rodzajów diagramów <a href="pk/uml.html"><strong>UML</strong></a> to:</p>
 <ul>
@@ -1210,62 +1553,71 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <li><strong>ułatwienia komunikacji między programistami</strong> - może być używany do przekazywania informacji o strukturze oprogramowania innym programistom.</li>
 <li><strong>ułatwienia testowania oprogramowania</strong> - może być używany do planowania testów oprogramowania.</li>
 </ul>
+<h2 id="przykład-2"><a class="header" href="#przykład-2">Przykład</a></h2>
+<p>Oto przykładowy <strong>diagram UML</strong> prezentujący strukturę sklepu online:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="pk/imgs/1.png">
 <h2 id="podsumowanie-41"><a class="header" href="#podsumowanie-41">Podsumowanie</a></h2>
 <p><strong>Diagramy</strong> są potężnym narzędziem, które może być <strong>wykorzystane do poprawy procesu tworzenia oprogramowania</strong>. Mogą pomóc również w <strong>poprawie komunikacji, współpracy, przejrzystości i elastyczności oprogramowania</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="zakończenie"><a class="header" href="#zakończenie">Zakończenie</a></h1>
-<p>To koniec pracy, mam nadzieje, że praca się podobała.</p>
-<p><strong>Dziękuje za przeczytanie!</strong></p>
+<p>To koniec pracy, mam nadzieje, że praca się podobała. Zachęcam również do dalezsego <strong>poszerzenia wiedzy</strong> z innych dostępnych w źródeł. Projektowanie aplikacji jest <strong>złożonym ale bardzo ciekawym i przydatnym</strong> tematem.</p>
+<p>A normalnym językiem mówiąc to po prostu błagam o 6 czy coś bo siedze nad tym tyle czasu że już mi sie robi nie dobrze jak widzę interfejs tej strony i Markdowna w swoim edytorze. 🥹🥹🥹</p>
+<p><strong>Dziękuje za przeczytanie!</strong> 💗</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Źródła-i-narzędzia"><a class="header" href="#Źródła-i-narzędzia">Źródła i Narzędzia</a></h1>
-<p>Na tej stronie nie ma nic szczególnie ciekawego.</p>
 <h2 id="narzędzia"><a class="header" href="#narzędzia">Narzędzia</a></h2>
-<p>Książka w formacie strony internetowej wygenerowana z plików <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> przy użyciu narzędzia <a href="https://github.com/rust-lang/mdBook">mdBook</a>.</p>
+<p>Książka w formacie strony internetowej <strong>wygenerowana</strong> z plików <a href="https://en.wikipedia.org/wiki/Markdown"><strong>Markdown</strong></a> przy użyciu narzędzia <a href="https://github.com/rust-lang/mdBook"><strong>mdBook</strong></a>.</p>
+<p>Oczywiście <a href="https://bard.google.com/"><strong>Bard</strong></a> też trochę czasem pomagał.</p>
+<p><strong>Diagramy i schematy</strong> były tworzone narzędziem <a href="https://www.drawio.com/"><strong>draw.io</strong></a>.</p>
 <h2 id="Źródła"><a class="header" href="#Źródła">Źródła</a></h2>
 <p>Oto lista posortowana stronami zawierająca łącza do źródeł używanych podczas tworzenia pracy:</p>
 <ol>
 <li><a href="zcc/index.html">Zasady Clean Code</a>
 <ul>
-<li><a href="https://www.freecodecamp.org/news/how-to-write-clean-code/">How to Write Clean Code  - freeCodeCamp</a></li>
+<li><strong>Clean Code Explained</strong> <em>freeCodeCamp</em> - <a href="https://www.freecodecamp.org/news/clean-coding-for-beginners/">https://www.freecodecamp.org/news/clean-coding-for-beginners/</a></li>
+<li><strong>Martin Fowler (software engineer)</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)">https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)</a></li>
 </ul>
 <ol>
 <li><a href="zcc/kiss.html">Keep It Simple, Stupid!</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/KISS_principle">KISS principle - Wikipedia</a></li>
+<li><strong>KISS principle</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/KISS_principle">https://en.wikipedia.org/wiki/KISS_principle</a></li>
+<li><strong>Kelly Johnson (engineer)</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)">https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)</a></li>
 </ul>
 </li>
 <li><a href="zcc/dry.html">Don't Repeat Yourself</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">Don't repeat yourself - Wikipedia</a></li>
+<li><strong>Don't repeat yourself</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">https://en.wikipedia.org/wiki/Don%27t_repeat_yourself</a></li>
 </ul>
 </li>
 <li><a href="zcc/yagni.html">You Ain't Gonna Need It</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it">You aren't gonna need it - Wikipedia</a></li>
+<li><strong>You aren't gonna need it</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it">https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it</a></li>
 </ul>
 </li>
 <li><a href="zcc/stnc.html">Stick To Naming Conventions</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">Naming convention (programming) - Wikipedia</a></li>
+<li><strong>Naming convention (programming)</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">https://en.wikipedia.org/wiki/Naming_convention_(programming)</a></li>
 </ul>
 </li>
 <li><a href="zcc/ff.html">Fail Fast</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Fail-fast">Fail-fast - Wikipedia</a></li>
+<li><strong>Fail-fast</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Fail">https://en.wikipedia.org/wiki/Fail</a></li>
 </ul>
 </li>
 <li><a href="zcc/rtfm.html">Read The Fricking Manual</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/RTFM">RTFM - Wikipedia</a></li>
+<li><strong>RTFM</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/RTFM">https://en.wikipedia.org/wiki/RTFM</a></li>
+<li><strong>Game of Thrones S03E07: Read the Fucking Manual</strong> <em>YouTube</em> - <a href="https://www.youtube.com/watch?v=-XqpAvOaYgY">https://www.youtube.com/watch?v=-XqpAvOaYgY</a></li>
+<li><strong>RTFM</strong> <em>Flickr</em> - <a href="https://farm6.static.flickr.com/5167/5260232213_1bf094dd2c.jpg">https://farm6.static.flickr.com/5167/5260232213_1bf094dd2c.jpg</a></li>
 </ul>
 </li>
 <li><a href="zcc/tdd.html">Test-Driven Development</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-driven development - Wikipedia</a></li>
+<li><strong>Test-driven development</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Test-driven_development">https://en.wikipedia.org/wiki/Test-driven_development</a></li>
 </ul>
 </li>
 <li><a href="zcc/rdd.html">Rubber Duck Debugging</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">Rubber duck debugging - Wikipedia</a></li>
-<li><a href="https://www.youtube.com/watch?v=fdaqudiSo5c">Rubber Duck Debugging Google for Developers - YouTube</a></li>
+<li><strong>Rubber duck debugging</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">https://en.wikipedia.org/wiki/Rubber_duck_debugging</a></li>
+<li><strong>Rubber Duck Debugging Google for Developers</strong> <em>YouTube</em> - <a href="https://www.youtube.com/watch?v=fdaqudiSo5c">https://www.youtube.com/watch?v=fdaqudiSo5c</a></li>
 </ul>
 </li>
 </ol>
@@ -1274,46 +1626,152 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 <ol>
 <li><a href="zpo/solid/index.html">SOLID</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/SOLID">SOLID - Wikipedia</a></li>
+<li><strong>SOLID</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/SOLID">https://en.wikipedia.org/wiki/SOLID</a></li>
+<li><strong>Robert C. Martin</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Robert_C._Martin">https://en.wikipedia.org/wiki/Robert_C._Martin</a></li>
 </ul>
 <ol>
 <li><a href="zpo/solid/srp.html">Single-Responsibility Principle</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Single-responsibility_principle">Single-responsibility principle - Wikipedia</a></li>
+<li><strong>Single-responsibility principle</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Single-responsibility_principle">https://en.wikipedia.org/wiki/Single-responsibility_principle</a></li>
 </ul>
 </li>
 <li><a href="zpo/solid/ocp.html">Open-Closed Principle</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle">Open–closed principle - Wikipedia</a></li>
+<li><strong>Open–closed principle</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle">https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle</a></li>
+<li><strong>Bertrand Meyer</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">https://en.wikipedia.org/wiki/Bertrand_Meyer</a></li>
 </ul>
 </li>
 <li><a href="zpo/solid/lsp.html">Liskov Substitution Principle</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Liskov_substitution_principle">Liskov substitution principle - Wikipedia</a></li>
+<li><strong>Liskov substitution principle</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Liskov_substitution_principle">https://en.wikipedia.org/wiki/Liskov_substitution_principle</a></li>
+<li><strong>Barbara Liskov</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">https://en.wikipedia.org/wiki/Barbara_Liskov</a></li>
 </ul>
 </li>
 <li><a href="zpo/solid/isp.html">Interface Segregation Principle</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Interface_segregation_principle">Interface segregation principle - Wikipedia</a></li>
+<li><strong>Interface segregation principle</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Interface_segregation_principle">https://en.wikipedia.org/wiki/Interface_segregation_principle</a></li>
 </ul>
 </li>
 <li><a href="zpo/solid/dip.html">Dependency Inversion Principle</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Dependency_inversion_principle">Dependency inversion principle - Wikipedia</a></li>
+<li><strong>Dependency inversion principle</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Dependency_inversion_principle">https://en.wikipedia.org/wiki/Dependency_inversion_principle</a></li>
 </ul>
 </li>
 </ol>
 </li>
 <li><a href="zpo/lod.html">Law of Demeter</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Law_of_Demeter">Law of Demeter - Wikipedia</a></li>
+<li><strong>Law of Demeter</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Law_of_Demeter">https://en.wikipedia.org/wiki/Law_of_Demeter</a></li>
 </ul>
 </li>
 <li><a href="zpo/coi.html">Composition Over Inheritance</a>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Composition_over_inheritance">Composition over inheritance - Wikipedia</a></li>
+<li><strong>Composition over inheritance</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Composition_over_inheritance">https://en.wikipedia.org/wiki/Composition_over_inheritance</a></li>
 </ul>
 </li>
+</ol>
+</li>
+<li><a href="dk.mg">Dokumentowanie Kodu</a>
+<ul>
+<li><strong>Software documentation</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Software_documentation">https://en.wikipedia.org/wiki/Software_documentation</a></li>
+<li><strong>Dokumentacja</strong> <em>blasty.pl</em> - <a href="https://www.blasty.pl/upload/images/fb-thumb/2019/10/dokumentacja_2019-10-07_11-46-51.jpg">https://www.blasty.pl/upload/images/fb-thumb/2019/10/dokumentacja_2019-10-07_11-46-51.jpg</a></li>
+</ul>
+</li>
+<li><a href="algorytm/index.html">Algorytm</a>
+<ul>
+<li><strong>Algorithm</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Algorithm">https://en.wikipedia.org/wiki/Algorithm</a></li>
+<li><strong>What's an algorithm? by David J. Malan</strong> <em>YouTube</em> - <a href="https://www.youtube.com/watch?v=6hfOvs8pY1k">https://www.youtube.com/watch?v=6hfOvs8pY1k</a></li>
+</ul>
+<ol>
+<li><a href="algorytm/pa/README.html">Projektowanie Algorytmu</a>
+<ol>
+<li><a href="algorytm/pa/diz.html">Dziel i Zwyciężaj</a>
+<ul>
+<li><strong>Divide-and-conquer algorithm</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm">https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm</a></li>
+</ul>
+</li>
+<li><a href="algorytm/pa/lk.html">Lista Kroków</a></li>
+<li><a href="algorytm/pa/pse.html">Pseudokod</a>
+<ul>
+<li><strong>Pseudocode</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Pseudocode">https://en.wikipedia.org/wiki/Pseudocode</a></li>
+</ul>
+</li>
+<li><a href="algorytm/pa/dd.html">Drzewo Decyzyjne</a>
+<ul>
+<li><strong>Decision tree</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Decision_tree">https://en.wikipedia.org/wiki/Decision_tree</a></li>
+</ul>
+</li>
+<li><a href="algorytm/pa/sb.html">Schemat Blokowy</a>
+<ul>
+<li><strong>Flowchart</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Flowchart">https://en.wikipedia.org/wiki/Flowchart</a></li>
+</ul>
+</li>
+<li><a href="algorytm/pa/por.html">Porównanie</a></li>
+</ol>
+</li>
+<li><a href="algorytm/zo.html">Złożoność Obliczeniowa</a>
+<ul>
+<li><strong>Computational complexity</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Computational_complexity">https://en.wikipedia.org/wiki/Computational_complexity</a></li>
+</ul>
+</li>
+<li><a href="algorytm/rek.html">Rekurencja</a>
+<ul>
+<li><strong>Recursion (computer science)</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)">https://en.wikipedia.org/wiki/Recursion_(computer_science)</a></li>
+</ul>
+</li>
+<li><a href="algorytm/as/README.html">Algorytmy Sortujące</a>
+<ul>
+<li><strong>Sorting algorithm</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Sorting_algorithm">https://en.wikipedia.org/wiki/Sorting_algorithm</a></li>
+</ul>
+<ol>
+<li><a href="algorytm/as/bab.html">Bąbelkowe</a>
+<ul>
+<li><strong>Bubble sort</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Bubble_sort">https://en.wikipedia.org/wiki/Bubble_sort</a></li>
+</ul>
+</li>
+<li><a href="algorytm/as/pws.html">Przez Wstawianie</a>
+<ul>
+<li><strong>Insertion sort</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Insertion_sort">https://en.wikipedia.org/wiki/Insertion_sort</a></li>
+</ul>
+</li>
+<li><a href="algorytm/as/pwy.html">Przez Wybór</a>
+<ul>
+<li><strong>Selection sort</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Selection_sort">https://en.wikipedia.org/wiki/Selection_sort</a></li>
+</ul>
+</li>
+<li><a href="algorytm/as/stog.html">Stogowe</a>
+<ul>
+<li><strong>Heapsort</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Heapsort">https://en.wikipedia.org/wiki/Heapsort</a></li>
+</ul>
+</li>
+<li><a href="algorytm/as/por.html">Porównanie</a></li>
+</ol>
+</li>
+<li><a href="algorytm/wb.html">Wyszukiwanie Binarne</a>
+<ul>
+<li><strong>Binary search algorithm</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm">https://en.wikipedia.org/wiki/Binary_search_algorithm</a></li>
+</ul>
+</li>
+<li><a href="algorytm/sc.html">Szyfr Cezara</a>
+<ul>
+<li><strong>ROT13</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/ROT13">https://en.wikipedia.org/wiki/ROT13</a></li>
+</ul>
+</li>
+<li><a href="algorytm/ah.html">Algorytmy Heurystyczne</a>
+<ul>
+<li><strong>Heuristic (computer science)</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Heuristic_(computer_science)">https://en.wikipedia.org/wiki/Heuristic_(computer_science)</a></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a href="pk/README.html">Projektowanie Klas</a>
+<ol>
+<li><a href="pk/uml.html">Unified Modeling Language</a>
+<ul>
+<li><strong>Unified Modeling Language</strong> <em>Wikipedia</em> - <a href="https://en.wikipedia.org/wiki/Unified_Modeling_Language">https://en.wikipedia.org/wiki/Unified_Modeling_Language</a></li>
+</ul>
+</li>
+<li><a href="pk/diag.html">Diagramy</a></li>
 </ol>
 </li>
 </ol>

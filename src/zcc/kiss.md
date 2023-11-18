@@ -3,6 +3,8 @@
 **Keep it simple, stupid!** czyli po polsku **nie komplikuj, głupcze!** lub w skrócie **KISS**, to jedna z **najważniejszych i najbardziej podstawowych** zasad [**clean code**](index.html). Mówi ona, że rozwiązania powinny być **jak najprostsze**, ponieważ **im coś jest prostsze, tym łatwiej jest to zrozumieć**. Oznacza to że w kodzie powinno się **unikać trudnych do zrozumienia** i dalszego eksploatowania rozwiązań.
 
 ## Pochodzenie
+<img class="right" width="200px" style="margin-left: 15px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Kelly Johnson, 1975" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/ClarenceLeonardKellyJohnson.jpg">
+
 Wbrew pozorom zasada ta nie została pierwotnie stworzona z myślą o programowaniu. Została ona sformułowana przez amerykańskiego wojskowego inżyniera lotnictwa [Kelly'ego Johnsona](https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)) w latach 60-tych, a jej przekazem miało być tworzenie samolotów w tak **prosty sposób**, aby każdy **nawet najmniej uzdolniony mechanik** mógł je naprawić w każdych, nawet najcięższych warunkach takich jak polowe oraz przy użyciu najbardziej podstawowych narzędzi.
 
 ## Zalety
@@ -50,7 +52,10 @@ b jest większe od a
 a jest mniejsze od b
 a nie jest równe b
 ```
-Jak widać **kod ten wyświetla nie potrzebne informacje**, jeśli zostaje wyświetlona informacja że `b jest większe od a` to logicznym jest że `a jest mniejsze od b` oraz `a nie jest równe b`, **te informacje wywołują nie potrzebny bałagan** w kodzie oraz w wyniku programu.
+
+<div class="warning">
+    Jak widać <b>kod ten wyświetla nie potrzebne informacje</b>, jeśli zostaje wyświetlona informacja że <code>b jest większe od a</code> to logicznym jest że <code>a jest mniejsze od b</code> oraz <code>a nie jest równe b</code>, <b>te informacje wywołują nie potrzebny bałagan</b> w kodzie oraz w wyniku programu.
+</div>
 
 ### Po Zastosowaniu
 Tak natomiast wygląda kod **po zastosowaniu** w nim zasady KISS:

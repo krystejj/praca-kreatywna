@@ -1,6 +1,10 @@
 # Wyszukiwanie Binarne
 
-**Wyszukiwanie binarne** to algorytm wyszukiwania, który działa poprzez wielokrotne dzielenie zbioru danych na połowę, aż do znalezienia szukanego elementu.
+**Wyszukiwanie binarne** to [algorytm](index.html) wyszukiwania, który działa poprzez wielokrotne **dzielenie zbioru danych na połowę**, aż do znalezienia szukanego elementu.
+
+Animacja pokazująca działanie **wyszukiwania binarnego**:
+
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif">
 
 ## Cechy
 
@@ -24,4 +28,6 @@
 4. **powtarzanie kroków 2 i 3** - algorytm powtarza kroki 2 i 3, aż znajdzie szukany element lub do momentu, gdy zakres wyszukiwania będzie pusty.
 
 ## Podsumowanie
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/KXJSjte_OAI?si=VtpShWO7nOWzdUse" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 **Wyszukiwanie binarne** jest bardzo wydajnym algorytmem wyszukiwania, który jest **często używany w praktyce**. Jest on szczególnie przydatny do **wyszukiwania elementów w uporządkowanych zbiorach danych**.

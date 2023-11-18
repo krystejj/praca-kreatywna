@@ -21,6 +21,10 @@ Kod **przed zastosowaniem** metody FF:
 result = input("Wpisz `tak` lub `nie`: ")
 ```
 
+<div class="warning">
+    Ten kod, jest <b>niezgodny z zasadą Fail Fast</b>, ponieważ po pobraniu wartości od użytkownika <b>nie ma sprawdzenia</b> czy podana wartość jest poprawna.
+</div>
+
 ### Po Zastosowaniu
 Tak natomiast wygląda kod **po zastosowaniu** w nim zasady FF:
 ```python
@@ -33,4 +37,6 @@ if result != "tak" AND result != "nie":
 Zastosowanie metody FF zmieniło to, że gdy zostanie podana inna wartość niż `tak` lub `nie` program **wyświetli informacje o nie prawidłowej odpowiedzi i zakończy swoje działanie**. Nie będzie kontynuował działania z **nieprawidłowymi informacjami**.
 
 ## Podsumowanie
+> Więcej o **Fail Fast** na przykładzie **Javy** możesz dowiedzieć się z [artykułu SoftwareSkill](https://softwareskill.pl/fail-fast).
+
 Zasada **FF** jest **bardzo ważną zasadą jeśli chodzi o bezpieczeństwo**. Dzięki niej, tworzymy program, który jest w stanie **rozpoznać nieprawidłowe informacje i odrzucić je** a nie kontynuować swoje działanie z **nieprawidłowymi danymi** i **spowodować potencjalne szkody**.

@@ -1,6 +1,8 @@
 # Złożoność Obliczeniowa
 
-**Złożoność obliczeniowa** to miara ilości zasobów, których algorytm zużywa do wykonania zadania. Zasoby te mogą obejmować **czas, pamięć, przestrzeń dyskową, energię** itp. Złożoność obliczeniową wyrażamy używając [ **notacji Big O**](#notacja-big-o)
+**Złożoność obliczeniowa** to miara ilości zasobów, których [**algorytm**](../index.html) zużywa do wykonania zadania. Zasoby te mogą obejmować **czas, pamięć, przestrzeń dyskową, energię** itp. Złożoność obliczeniową wyrażamy używając [ **notacji Big O**](#notacja-big-o)
+
+<iframe width="560" height="315" style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://www.youtube-nocookie.com/embed/BgLTDT03QtU?si=CEyc4d93dJAqIF9_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Notacja Big O
 **Notacja Big O** to sposób opisywania złożoności obliczeniowej. Służy ona do określania, **jak szybko algorytm wykonuje się** w zależności od wielkości danych wejściowych. Wykorzystuje ona symbole matematyczne do opisywania złożoności algorytmu.
@@ -13,7 +15,7 @@ Najczęściej używane symbole to:
 - \\( O(\log{n}) \\) - złożoność algorytmu **rośnie logarytmicznie** wraz z wielkością danych wejściowych.
 
 ## Czasowa
-**Czasowa złożoność algorytmu** to miara ilości czasu, jaką algorytm potrzebuje do **wykonania zadania**. Całkowity czas wykonania algorytmu **zależy od wielkości danych wejściowych**.
+**Czasowa złożoność algorytmu** to miara ilości czasu, jakiego [**algorytm**](../index.html) potrzebuje do **wykonania zadania**. Całkowity czas wykonania algorytmu **zależy od wielkości danych wejściowych**.
 
 ### Przykłady
 Oto kilka przykładów **czasowej złożoności algorytmu**: 
@@ -21,7 +23,7 @@ Oto kilka przykładów **czasowej złożoności algorytmu**:
 - **algorytm sortowania szybkiego** ma złożoność \\( O(n \log{n}) \\). Oznacza to, że czas wykonania algorytmu jest **proporcjonalny do logarytmu naturalnego liczby elementów w wejściowej liście**.
 
 ## Pamięciowa
-**Pamięciowa złożoność algorytmu** to miara ilości pamięci, jaką algorytm potrzebuje do **wykonania zadania**. **Może zależeć od wielkości danych wejściowych**.
+**Pamięciowa złożoność algorytmu** to miara ilości pamięci, jakiej [**algorytm**](../index.html) potrzebuje do **wykonania zadania**. Może ona **zależeć od wielkości danych wejściowych**.
 
 ### Przykłady
 Oto kilka przykładów **pamięciowej złożoności algorytmu**: 
@@ -35,10 +37,10 @@ Oprócz **czasowej i pamięciowej** złożoności algorytmów, można również 
 - **komunikacyjna** - miara ilości danych, które muszą być przesyłane między różnymi częściami algorytmu.
 
 ## Optymalizacja
-**Optymalizacja złożoności** jest ważną częścią projektowania algorytmów. Celem optymalizacji złożoności algorytmu jest **zmniejszenie ilości zasobów**, które algorytm zużywa do wykonania zadania. Optymalizację złożoności można osiągnąć na **różne sposoby**, takie jak:
+**Optymalizacja złożoności** jest ważną częścią [**projektowania algorytmów**](../pa/index.html). Celem optymalizacji złożoności algorytmu jest **zmniejszenie ilości zasobów**, których [**algorytm**](../index.html) zużywa do wykonania zadania. Optymalizację złożoności można osiągnąć na **różne sposoby**, takie jak:
 - **upraszczanie algorytmu** - usuwanie niepotrzebnych kroków lub operacji.
 - **używanie bardziej efektywnych technik** - wybór technik, które są bardziej efektywne pod względem zużycia zasobów.
 - **użycie równoległości** - wykorzystanie wielu procesorów do wykonania zadania równolegle.
 
 ## Podsumowanie
-**Złożoność obliczeniowa** to bardzo przydatna miara ilości zasobów, dzięki której możemy **oszacować ile zasobów będzie potrzebował nasz algorytm** do wykonania zadania. Nie powinniśmy **nigdy jej ignorować**, lecz **zawsze brać ją pod uwagę**.
+**Złożoność obliczeniowa** to bardzo przydatna miara ilości zasobów, dzięki której możemy **oszacować ile zasobów będzie potrzebował nasz algorytm** do wykonania zadania. Nie powinniśmy **jej nigdy ignorować**, lecz **zawsze brać ją pod uwagę**.

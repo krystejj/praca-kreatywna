@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -174,11 +174,16 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="open-closed-principle-ocp"><a class="header" href="#open-closed-principle-ocp">Open-Closed Principle (OCP)</a></h1>
-<p>Zasada <strong>open-closed principle</strong> czyli po polsku <strong>zasada otwarte-zamknięte</strong> lub w skrócie <strong>OCP</strong>, to druga zasada <a href="index.html"><strong>SOLID</strong></a>. Jej oryginalna treść to <strong>&quot;software entities should be open for extension, but closed for modification&quot;</strong>. Tłumacząc na polski, mówi ona, że każdy element kodu <strong>(klasa, metoda, itd.)</strong> powinien być <strong>otwarty na rozszerzenie</strong>, ale <strong>zamknięty na modyfikację</strong>.</p>
+<img class="right" height="200px" style="margin-left: 30px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Bertrand Meyer" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Bertrand_Meyer_recent.jpg">
+<p>Zasada <strong>open-closed principle</strong> czyli po polsku <strong>zasada otwarte-zamknięte</strong> lub w skrócie <strong>OCP</strong>, to druga zasada <a href="index.html"><strong>SOLID</strong></a>. Mówi ona, że każdy element kodu (klasa, metoda, itd.) powinien być <strong>otwarty na rozszerzenie</strong>, ale <strong>zamknięty na modyfikację</strong>.</p>
+<p><br /><br /><br /><br /></p>
+<blockquote>
+<p>&quot;Software entities should be open for extension, but closed for modification.&quot; - <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">Bertrand Meyer</a></p>
+</blockquote>
 <h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
 <p><strong>OCP</strong> ma kilka zalet:</p>
 <ul>
-<li><strong>większa rozszerzalność kodu</strong> - gdy klasa jest otwarta na rozszerzenie, można dodać nowe funkcje lub zadania bez naruszania istniejącego kodu.</li>
+<li><strong>zwiększa rozszerzalność kodu</strong> - gdy klasa jest otwarta na rozszerzenie, można dodać nowe funkcje lub zadania bez naruszania istniejącego kodu.</li>
 <li><strong>ułatwia utrzymanie kodu i zapobiega występywaniu błędów</strong> - gdy klasa jest zamknięta na modyfikację, zmiany są ograniczone do nowych rozszerzeń, co ułatwia utrzymanie kodu i zapobiega błędom.</li>
 <li><strong>upraszcza etap testowania kodu</strong> - gdy klasa jest otwarta na rozszerzenie, można napisać testy dla nowych rozszerzeń, co pomaga zapewnić ich poprawne działanie.</li>
 </ul>
@@ -189,6 +194,19 @@
 <li><strong>używaj interfejsów</strong> - interfejsy pozwalają na dodanie nowych funkcji lub zadań do istniejącej klasy bez modyfikowania jej.</li>
 <li><strong>używaj abstrakcji</strong> - abstrakcja pozwala na ukrycie szczegółów implementacji, co ułatwia rozszerzanie kodu.</li>
 </ul>
+<h2 id="przykład-zastosowania"><a class="header" href="#przykład-zastosowania">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>Shape</code> reprezentującą kształt. Klasa ta posiada następujące pola i metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/3.png">
+<p>Klasa ta implementuje metody do rysowania, obliczania pola powierzchni i obwodu różnych kształtów.</p>
+<div class="warning">
+    Jeśli chcemy dodać nowy kształt, np. koło lub kwadrat, musimy zmodyfikować klasę <code>Shape</code>. Możemy to zrobić, dodając do klasy nowe metody do rysowania kwadratu, obliczania jego pola powierzchni i obwodu.
+    <br /><br />
+    To <b>naruszenie zasady OCP</b>, ponieważ wymaga modyfikacji istniejącego kodu.
+</div>
+<p>Aby naprawić to naruszenie, możemy <strong>uczynić klasę</strong> <code>Shape</code> <strong>abstrakcyjną</strong>, będzie ona reprezentować abstrakcyjny kształt. Klasa ta będzie definiować metody abstrakcyjne do rysowania, obliczania pola powierzchni i obwodu kształtu.</p>
+<p>Konkretne klasy kształtów, takie jak <code>Circle</code> czy <code>Square</code>, będą <strong>dziedziczyć</strong> po klasie <code>Shape</code> i <strong>implementować</strong> metody abstrakcyjne.</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/4.png">
+<p>W tym przypadku, aby dodać nowy kształt, wystarczy utworzyć nową klasę <strong>dziedziczącą</strong> po klasie <code>Shape</code> i <strong>zaimplementować</strong> metody abstrakcyjne. <strong>Nie musimy modyfikować istniejącego kodu.</strong></p>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
 <p>Zasada <strong>OCP</strong> to również ważna zasada programowania obiektowego, która <strong>pomaga w tworzeniu łatwiej rozszerzalnego kodu, w którym będzie mniejsze prawdopodobieństwo wystąpienia problemów</strong>. Stosowanie jej sprawi, że <strong>późniejsze wzbogacanie o nowe funkcje i testowanie naszego kodu będzie dużo prostsze</strong>.</p>
 

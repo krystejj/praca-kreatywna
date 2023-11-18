@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -193,6 +193,9 @@
 <p>Kod <strong>przed zastosowaniem</strong> metody FF:</p>
 <pre><code class="language-python">result = input(&quot;Wpisz `tak` lub `nie`: &quot;)
 </code></pre>
+<div class="warning">
+    Ten kod, jest <b>niezgodny z zasadą Fail Fast</b>, ponieważ po pobraniu wartości od użytkownika <b>nie ma sprawdzenia</b> czy podana wartość jest poprawna.
+</div>
 <h3 id="po-zastosowaniu"><a class="header" href="#po-zastosowaniu">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady FF:</p>
 <pre><code class="language-python">result = input(&quot;Wpisz `tak` lub `nie`: &quot;)
@@ -203,6 +206,9 @@ if result != &quot;tak&quot; AND result != &quot;nie&quot;:
 </code></pre>
 <p>Zastosowanie metody FF zmieniło to, że gdy zostanie podana inna wartość niż <code>tak</code> lub <code>nie</code> program <strong>wyświetli informacje o nie prawidłowej odpowiedzi i zakończy swoje działanie</strong>. Nie będzie kontynuował działania z <strong>nieprawidłowymi informacjami</strong>.</p>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
+<blockquote>
+<p>Więcej o <strong>Fail Fast</strong> na przykładzie <strong>Javy</strong> możesz dowiedzieć się z <a href="https://softwareskill.pl/fail-fast">artykułu SoftwareSkill</a>.</p>
+</blockquote>
 <p>Zasada <strong>FF</strong> jest <strong>bardzo ważną zasadą jeśli chodzi o bezpieczeństwo</strong>. Dzięki niej, tworzymy program, który jest w stanie <strong>rozpoznać nieprawidłowe informacje i odrzucić je</strong> a nie kontynuować swoje działanie z <strong>nieprawidłowymi danymi</strong> i <strong>spowodować potencjalne szkody</strong>.</p>
 
                     </main>

@@ -1,15 +1,17 @@
 # Algorytmy Heurystyczne
 
-**Algorytmy heurystyczne** to rodzaj algorytmów, które **nie gwarantują znalezienia najlepszego rozwiązania** problemu, ale mogą **znaleźć rozwiązanie dobrej jakości w rozsądnym czasie**. Algorytmy heurystyczne są często używane w problemach, dla których znalezienie najlepszego rozwiązania jest trudne lub niemożliwe, takich jak optymalizacja, planowanie lub rozwiązywanie problemów.
+**Algorytmy heurystyczne** to rodzaj [algorytmów](index.html), które **nie gwarantują znalezienia najlepszego rozwiązania** problemu, ale mogą **znaleźć rozwiązanie dobrej jakości w rozsądnym czasie**. Algorytmy heurystyczne są często używane w problemach, dla których znalezienie najlepszego rozwiązania jest trudne lub niemożliwe, takich jak **optymalizacja, planowanie lub rozwiązywanie problemów**.
+
+> Jeśli chcesz dowiedzieć się więcej na temat **algorytmów heurystycznych** przeczytaj [**arytkuł Baeldung**](https://www.baeldung.com/cs/heuristic-vs-algorithm) na ten temat.
 
 ## Przykłady
 Do przykładowych **algorytmów heurystycznych** należą:
 - **Dijkstry** - do znajdowania najkrótszej ścieżki w grafie.
-- **A** - do znajdowania najkrótszej ścieżki w grafie z przeszkodami.
+- **A\*** - do znajdowania najkrótszej ścieżki w grafie z przeszkodami.
 - **wyszukiwania tablicy** - do znajdowania elementu w tablicy.
 - **sortowania przez wstawianie** - do sortowania tablicy.
 
-Jednym z przykładów zastosowania algorytmów heurystycznych jest znajdowanie najkrótszej trasy między dwoma miastami. Problem ten można rozwiązać za pomocą **algorytmu Dijkstry**, który gwarantuje znalezienie najkrótszej trasy. Jednak algorytm Dijkstry **może być czasochłonny**, jeśli graf jest duży. W takim przypadku można zastosować **algorytm A**, który **jest mniej wydajny** niż algorytm Dijkstry, ale **może znaleźć rozwiązanie w krótszym czasie**.
+Jednym z przykładów zastosowania algorytmów heurystycznych jest znajdowanie najkrótszej trasy między dwoma miastami. Problem ten można rozwiązać za pomocą **algorytmu Dijkstry**, który gwarantuje znalezienie najkrótszej trasy. Jednak algorytm Dijkstry **może być czasochłonny**, jeśli graf jest duży. W takim przypadku można zastosować **algorytm A\***, który **jest mniej wydajny** niż algorytm Dijkstry, ale **może znaleźć rozwiązanie w krótszym czasie**.
 
 ## Typy
 **Algorytmy heurystyczne** można podzielić na następujące typy:

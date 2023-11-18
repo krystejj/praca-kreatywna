@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -174,7 +174,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="stick-to-naming-conventions-stnc"><a class="header" href="#stick-to-naming-conventions-stnc">Stick To Naming Conventions (STNC)</a></h1>
-<p><strong>Stick to naming conventions</strong> czyli po polsku <strong>trzymaj się konwencji nazewnictwa</strong> lub w skrócie <strong>STNC</strong>, to <strong>bardzo prosta i krótka</strong> zasada <a href="index.html"><strong>clean code</strong></a>. Mówi ona, że powinniśmy <strong>trzymać się konwencji</strong> nazewniczych ustalonych przez twórców danego języka. Oznacza to że nazywając funkcje, klasy i inne elementy kodu, powinniśmy <strong>stosować konwencje nazewnicze języka z którego korzystamy</strong>.</p>
+<p><strong>Stick to naming conventions</strong> czyli po polsku <strong>trzymaj się konwencji nazewniczych</strong> lub w skrócie <strong>STNC</strong>, to <strong>bardzo prosta i krótka</strong> zasada <a href="index.html"><strong>clean code</strong></a>. Mówi ona, że powinniśmy <strong>trzymać się konwencji</strong> nazewniczych ustalonych przez twórców danego języka. Oznacza to że nazywając funkcje, klasy i inne elementy kodu, powinniśmy <strong>stosować konwencje nazewnicze języka z którego korzystamy</strong>.</p>
+<blockquote>
+<p>Konwencje nazewnicze oraz poradniki dotyczące stylu <strong>zawsze znajdziemy w dokumentacji</strong> języka programowania. Przykładowo, dla <strong>Pythona</strong> możemy znaleźć je <a href="https://peps.python.org/pep-0008/">tutaj</a>.</p>
+</blockquote>
 <h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
 <p>Przykładowymi zaletami stosowania <strong>STNC</strong> są:</p>
 <ul>
@@ -190,6 +193,9 @@
 def capitalizeName(Name):
     return Name.capitalize()
 </code></pre>
+<div class="warning">
+    Ten kod, jest <b>niezgodny z zasadą STNC</b>, ponieważ <b>nie stosuje się</b> do konwencji nazewniczych Pythona.
+</div>
 <h3 id="po-zastosowaniu"><a class="header" href="#po-zastosowaniu">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady STNC:</p>
 <pre><code class="language-python">my_name = &quot;adam&quot;
@@ -199,7 +205,7 @@ def capitalize_name(name):
 </code></pre>
 <p>Po zastosowaniu metody STNC <strong>zmieniły się nazwy zmiennych i funkcji w kodzie</strong>. Python używa <strong>snake case</strong> do nazewnictwa zmiennych i funkcji, dlatego ta zmiana była wymagana aby była <strong>zgodna z konwencjami</strong>. Zmiana ta <strong>nie zmieniła sposobu działania programu</strong>, lecz poprawiła <strong>czytelność i klarowność</strong> kodu.</p>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
-<p>Zasada <strong>STNC</strong> to prawdopodobnie <strong>najprostsza</strong> ze wszystkich zasad. Sprawia że pisany przez nas kod będzie <strong>łatwiej zrozumiały</strong> dla innych programistów.</p>
+<p>Zasada <strong>STNC</strong> to prawdopodobnie <strong>najprostsza</strong> ze wszystkich zasad. Sprawia że pisany przez nas kod będzie <strong>łatwiej zrozumiały</strong> dla innych programistów, co pomaga w współpracy oraz zrozumieniu się nawzajem.</p>
 
                     </main>
 

@@ -2,6 +2,10 @@
 
 **Sortowanie stogowe**, zwane również **sortowaniem przez kopcowanie**, to algorytm sortowania, który działa poprzez przekształcanie zbioru nieuporządkowanego w kopiec binarny. Kopiec binarny to struktura danych, w której każdy element jest większy lub równy swoim dzieciom.
 
+Animacja pokazująca działanie **sortowania stogowego**:
+
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Sorting_heapsort_anim.gif">
+
 ## Cechy
 
 ### Złożoność Czasowa

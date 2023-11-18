@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -175,6 +175,8 @@
                     <main>
                         <h1 id="sortowanie-bąbelkowe"><a class="header" href="#sortowanie-bąbelkowe">Sortowanie Bąbelkowe</a></h1>
 <p><strong>Sortowanie bąbelkowe</strong> jest jednym z <strong>najprostszych</strong> algorytmów sortujących. Polega ono na porównywaniu kolejnych elementów zbioru i zamienianiu ich miejscami, jeśli są w niewłaściwej kolejności.</p>
+<p>Animacja pokazująca działanie <strong>sortowania babelkowego</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif">
 <h2 id="cechy"><a class="header" href="#cechy">Cechy</a></h2>
 <h3 id="złożoność-czasowa"><a class="header" href="#złożoność-czasowa">Złożoność Czasowa</a></h3>
 <p><strong>Złożoność czasowa</strong> sortowania bąbelkowego wynosi \( O(n^2) \), gdzie \( n \) jest liczbą elementów w zbiorze. Oznacza to, że czas wykonania algorytmu <strong>rośnie kwadratowo wraz ze wzrostem rozmiaru zbioru</strong>.</p>
@@ -192,7 +194,14 @@
 <li><strong>przeniesienie elementów</strong> - jeśli elementy \( i \) i  \( i+1 \) są w niewłaściwej kolejności, algorytm zamieni je miejscami.</li>
 <li><strong>koniec cyklu</strong></li>
 </ol>
-<p>Gdy cykl wewnętrzny zakończy się, algorytm sprawdzi, czy podczas ostatniego przejścia cyklu doszło do wymiany elementów. Jeśli nie, to zbiór jest posortowany i algorytm może zakończyć działanie.</p>
+<p>Gdy cykl wewnętrzny zakończy się, algorytm sprawdzi, czy podczas ostatniego przejścia cyklu doszło do wymiany elementów. Jeśli nie, to zbiór jest posortowany i algorytm może <strong>zakończyć działanie</strong>.</p>
+<p>Oto <strong>schemat blokowy</strong> przedstawiający sposób działania <strong>sortowania bąbelkowego</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/1.png">
+<p><strong>Dane wejściowe</strong> dla algorytmu widocznego na schemacie to:</p>
+<ul>
+<li><code>d[]</code> - zbiór liczb do sortowania,</li>
+<li><code>n</code> - długość zbioru <code>d[]</code>.</li>
+</ul>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
 <p><strong>Sortowanie bąbelkowe</strong> jest prostym i łatwym w implementacji algorytmem sortującym. Jednak jego złożoność czasowa \( O(n^2) \) sprawia, że <strong>nie jest ono wydajne w przypadku dużych zbiorów danych</strong>. Sortowanie bąbelkowe <strong>jest podstawą</strong>, każdy programista powinien <strong>znać ten algorytm</strong>.</p>
 

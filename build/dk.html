@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -174,9 +174,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="dokumentowanie-kodu"><a class="header" href="#dokumentowanie-kodu">Dokumentowanie Kodu</a></h1>
-<p><strong>Dokumentacja kodu</strong> to proces tworzenia opisu/dokumentacji kodu źródłowego, która ma na celu <strong>ułatwienie jego zrozumienia i wykorzystania</strong>. Może być przeznaczona dla programistów, użytkowników końcowych, a nawet osób nietechnicznych.</p>
+<p><strong>Dokumentowanie kodu</strong> to proces opisu kodu źródłowego, który ma na celu <strong>ułatwienie jego zrozumienia i wykorzystania</strong>. Dokumentacja może być przeznaczona dla programistów, użytkowników końcowych, a nawet osób nietechnicznych.</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/1.png">
 <h2 id="cele"><a class="header" href="#cele">Cele</a></h2>
-<p><strong>Dokumentacja kodu</strong> ma następujące cele:</p>
+<p><strong>Dokumentowanie kodu</strong> ma następujące cele:</p>
 <ul>
 <li><strong>ułatwienie zrozumienia kodu przez programistów</strong> - dobrze napisana dokumentacja pomaga programistom zrozumieć, jak działa kod, jakie są jego ograniczenia i możliwości. Może również pomóc programistom znaleźć i naprawić błędy w kodzie.</li>
 <li><strong>ułatwienie utrzymania kodu przez programistów</strong> - dokumentacja kodu pomaga programistom zrozumieć, jak kod został napisany i dlaczego. Powinna pomóc programistom także wprowadzić zmiany w kodzie bez wprowadzania błędów.</li>
@@ -198,8 +199,92 @@
 <li><strong>klarowność i jednoznaczność</strong> - dokumentacja powinna być napisana w sposób jasny i jednoznaczny, aby każdy mógł ją zrozumieć.</li>
 <li><strong>łatwość wyszukiwania</strong> - dokumentacja powinna być zorganizowana w sposób, który ułatwia użytkownikowi znalezienie potrzebnych informacji.</li>
 </ul>
+<h2 id="przykład"><a class="header" href="#przykład">Przykład</a></h2>
+<p>Oto przykładowa klasa <code>BankAccount</code> napisana w języku <strong>Java</strong>. Klasa ta <strong>zawiera dokumentację</strong> kodu oraz <strong>jest poprawnie opisana</strong>.</p>
+<pre><code class="language-java">/**
+ * Klasa reprezentująca rachunek bankowy.
+ *
+ * @author Jan Kowalski
+ * @version 1.0
+ */
+public class BankAccount {
+    // Numer konta bankowego.
+    private String accountNumber;
+
+    // Saldo konta bankowego.
+    private double balance;
+
+    /**
+     * Konstruktor klasy BankAccount.
+     * @param accountNumber Numer konta bankowego.
+     * @param balance Saldo konta bankowego.
+     */
+    public BankAccount(String accountNumber, double balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
+
+    /**
+     * Zwraca numer konta bankowego.
+     * @return Numer konta bankowego.
+     */
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    /**
+     * Zwraca saldo konta bankowego.
+     * @return Saldo konta bankowego.
+     */
+    public double getBalance() {
+        return balance;
+    }
+
+    /**
+     * Dokonuje wpłaty na konto bankowe.
+     * @param amount Kwota wpłaty.
+     */
+    public void deposit(double amount) {
+        balance += amount;
+    }
+
+    /**
+     * Dokonuje wypłaty z konta bankowego.
+     * @param amount Kwota wypłaty.
+     */
+    public void withdraw(double amount) {
+        balance -= amount;
+    }
+}
+</code></pre>
+<p>Dokumentacja kodu w Javie jest <strong>tworzona za pomocą komentarzy</strong>. Komentarze w Javie mogą być tworzone na dwa sposoby:</p>
+<ol>
+<li><code>// To jest komentarz.</code></li>
+<li><code>/* To jest komentarz. */</code></li>
+</ol>
+<p>W tym przykładzie dokumentacja <strong>zawiera następujące informacje</strong>:</p>
+<ul>
+<li><strong>nazwa klasy</strong> - <code>BankAccount</code></li>
+<li><strong>autor</strong> - <code>Jan Kowalski</code></li>
+<li><strong>wersja</strong> - <code>1.0</code></li>
+<li><strong>opis ogólny</strong> - klasa reprezentująca rachunek bankowy.</li>
+<li><strong>opis pól:</strong>
+<ul>
+<li><code>accountNumber</code> - numer konta bankowego.</li>
+<li><code>balance</code> - saldo konta bankowego.</li>
+</ul>
+</li>
+<li><strong>opis metod:</strong>
+<ul>
+<li><code>getAccountNumber()</code> - zwraca numer konta bankowego.</li>
+<li><code>getBalance()</code> - zwraca saldo konta bankowego.</li>
+<li><code>deposit()</code> - dokonuje wpłaty na konto bankowe.</li>
+<li><code>withdraw()</code> - dokonuje wypłaty z konta bankowego.</li>
+</ul>
+</li>
+</ul>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
-<p><strong>Dokumentacja kodu</strong> jest <strong>ważną częścią procesu tworzenia oprogramowania</strong>. Dobra dokumentacja <strong>ułatwia zrozumienie kodu, jego utrzymanie i wykorzystanie</strong>.</p>
+<p><strong>Dokumentowanie kodu</strong> jest ważną częścią procesu tworzenia oprogramowania. Dobra dokumentacja <strong>ułatwia zrozumienie kodu, jego utrzymanie i wykorzystanie</strong>.</p>
 
                     </main>
 

@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -174,7 +174,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="law-of-demeter-lod"><a class="header" href="#law-of-demeter-lod">Law of Demeter (LoD)</a></h1>
-<p>Zasada <strong>law of demeter</strong> czyli po polsku <strong>prawo demeter</strong> lub w skrócie <strong>LoD</strong>, to zasada programowania obiektowego, która mówi, że <strong>byt (np. klasa) powinien komunikować się tylko z tymi bytami, które są mu bezpośrednio powiązane</strong>.</p>
+<p>Zasada <strong>law of Demeter</strong> czyli po polsku <strong>prawo Demeter</strong> lub w skrócie <strong>LoD</strong>, to zasada programowania obiektowego, która mówi, że <strong>byt (np. klasa) powinien komunikować się tylko z tymi bytami, które są mu bezpośrednio powiązane</strong>.</p>
+<blockquote>
+<p>Ta zasada została nazwana od nazwy projektu <strong>Demeter Project</strong>, który został tak nazwany na cześć <a href="https://en.wikipedia.org/wiki/Demeter"><strong>Demeter</strong></a>, greckiej bogini rolnictwa.</p>
+</blockquote>
 <h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
 <p><strong>LoD</strong> ma kilka zalet:</p>
 <ul>
@@ -188,8 +191,18 @@
 <li><strong>używaj wstrzykiwania zależności</strong> - wstrzykiwanie zależności to technika, która pozwala na przekazanie obiektu do konstruktora lub metody. Wstrzykiwanie zależności może pomóc w zapewnieniu, że klasy komunikują się tylko z obiektami, które są im bezpośrednio powiązane.</li>
 <li><strong>używaj interfejsów</strong> - interfejsy zapewniają spójne metody dla różnych implementacji. Używanie interfejsów może pomóc w zapewnieniu, że klasy komunikują się tylko z bytami, które są potrzebne.</li>
 </ul>
+<h2 id="przykłady-zastosowania"><a class="header" href="#przykłady-zastosowania">Przykłady Zastosowania</a></h2>
+<p>Oto kilka przykładów zastosowania <strong>prawa Demetera</strong>:</p>
+<ul>
+<li>zamiast wysyłać wiadomość do obiektu, aby poprosić go o pobranie właściwości innego obiektu, możesz poprosić pierwszy obiekt o podanie Ci odwołania do drugiego obiektu, a następnie <strong>pobrać właściwości samodzielnie</strong>,</li>
+<li>zamiast wysyłać wiadomość do obiektu, aby wykonać operację na innym obiekcie, możesz poprosić pierwszy obiekt o utworzenie drugiego obiektu, a następnie <strong>wykonać operację samodzielnie</strong>,</li>
+<li>zamiast wysyłać wiadomość do obiektu, aby poprosić go o wykonanie złożonej operacji, możesz <strong>podzielić operację na mniejsze kroki</strong> i <strong>wysyłać oddzielne wiadomości</strong> dla każdego kroku.</li>
+</ul>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
-<p>Zasada <strong>LoD</strong> to zasada programowania obiektowego, która <strong>pomaga w pisaniu kodu, którego działanie jest bardziej logiczne</strong>. Stosowanie jej sprawi, że np. <strong>etapy rozszerzania funkcjonalności i testowania kodu będą prostsze i szybsze</strong>.</p>
+<blockquote>
+<p>Więcej o prawie Demeter na przykładzie <strong>Javy</strong> możesz dowiedzieć się z <a href="https://www.baeldung.com/java-demeter-law">artykułu Baeldung</a>.</p>
+</blockquote>
+<p>Zasada <strong>LoD</strong> to zasada programowania obiektowego, która pomaga w pisaniu kodu, którego działanie jest <strong>bardziej logiczne</strong>. Stosowanie jej sprawi, że np. etapy rozszerzania funkcjonalności i testowania kodu będą <strong>prostsze i szybsze</strong>.</p>
 
                     </main>
 

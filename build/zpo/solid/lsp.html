@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -174,7 +174,12 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="liskov-substitution-principle-lsp"><a class="header" href="#liskov-substitution-principle-lsp">Liskov Substitution Principle (LSP)</a></h1>
-<p>Zasada <strong>liskov substitution principle</strong> czyli po polsku <strong>zasada podstawienia Liskov</strong> lub w skrócie <strong>LSP</strong>, to trzecia zasada <a href="index.html"><strong>SOLID</strong></a>. Wymyślona przez amerykańską informatyczkę <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbarę Liskov</a> w roku 1987. Jej oryginalna treść to <strong>&quot;if S subtypes T, what holds for T-objects holds for S-objects&quot;</strong>. Tłumacząc na polski, mówi ona, że <strong>jeśli S jest podtypem T, to obiekty typu S mogą być używane wszędzie tam, gdzie oczekiwane są obiekty typu T</strong>.</p>
+<img class="right" height="200px" style="margin-left: 30px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Barbara Liskov, 2010" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Barbara_Liskov_MIT_computer_scientist_2010.jpg">
+<p>Zasada <strong>Liskov substitution principle</strong> czyli po polsku <strong>zasada podstawienia Liskov</strong> lub w skrócie <strong>LSP</strong>, to trzecia zasada <a href="index.html"><strong>SOLID</strong></a>. Wymyślona przez amerykańską informatyczkę <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbarę Liskov</a> w roku 1987. Mówi ona, że <strong>jeśli S jest podtypem T, to obiekty typu S mogą być używane wszędzie tam, gdzie oczekiwane są obiekty typu T</strong>.</p>
+<p><br /><br /><br /></p>
+<blockquote>
+<p>&quot;If S subtypes T, what holds for T-objects holds for S-objects.&quot; - <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbara Liskov</a></p>
+</blockquote>
 <h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
 <p><strong>LSP</strong> ma kilka zalet:</p>
 <ul>
@@ -188,6 +193,21 @@
 <li><strong>należy unikać nadpisywania metod typu bazowego</strong> - nadpisanie metody typu bazowego może spowodować, że podtyp nie będzie zachowywał się w taki sam sposób jak typ bazowy.</li>
 <li><strong>należy unikać dodawania nowych ograniczeń do podtypów</strong> - dodanie nowego ograniczenia do podtypu może spowodować, że podtyp nie będzie mógł być używany w miejscu typu bazowego.</li>
 </ul>
+<h2 id="przykład-zastosowania"><a class="header" href="#przykład-zastosowania">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>Shape</code> reprezentującą kształt oraz <code>Circle</code> dziedziczącą po <code>Shape</code>. Klasy te posiadają następujące pola i metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/5.png">
+<pre><code class="language-python">def get_area(self):
+    return self.width * self.height
+</code></pre>
+<p>Klasa <code>Shape</code> implementuje metodę <code>get_area()</code>, która oblicza pole powierzchni kształtu.</p>
+<div class="warning">
+    Klasa <code>Circle</code> dziedziczy po klasie <code>Shape</code>, więc posiada również metodę <code>get_area()</code>, która oblicza pole powierzchni w taki sam sposób jak zaimplementowano to w klasie <code>Shape</code>.
+    <br /><br />
+    <b>Narusza to zasadę LSP</b>, ponieważ metoda <code>get_area()</code> liczy pole powierzchni dla prostokąta, co powoduje że metoda <code>get_area()</code> w klasie <code>Circle</code> także będzie liczyć pole powierzchni dla prostokąta zamiast koła.
+</div>
+<p>Aby naprawić to naruszenie, możemy <strong>zmodyfikować</strong> klasę <code>Circle</code> i <strong>zastąpić</strong> metodę <code>get_area()</code> własną implementacją.</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/6.png">
+<p>W tym przypadku klasa <code>Circle</code> jest pełnoprawnym podtypem klasy <code>Shape</code> i <strong>zachowuje spójność zachowań oraz prawidłowo oblicza pole powierzchni koła</strong>.</p>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
 <p>Zasada <strong>LSP</strong> to kolejna ważna zasada programowania obiektowego, która <strong>pomaga w tworzeniu łatwiejszego do utrzymania i łatwiej rozszerzalnego kodu</strong>. Stosowanie jej sprawi, że <strong>utrzymywanie naszego kodu w przyszłości będzie prostsze</strong>.</p>
 

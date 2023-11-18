@@ -15,4 +15,4 @@ Oto **tabela porównująca** [**metodę dziel i zwyciężaj**](diz.md), [**lista
 
 [**Lista kroków**](lk.md), [**pseudokod**](pse.md) i [**schemat blokowy**](sb.md) są łatwe w zrozumieniu i implementacji, ale **mogą być nieefektywne** dla dużych problemów.
 
-Ogólnie rzecz biorąc, wybór metody projektowania algorytmu **zależy od konkretnych potrzeb problemu**, który ma być rozwiązany.
+Ogólnie rzecz biorąc, wybór metody [projektowania algorytmu](index.html) **zależy od konkretnych potrzeb problemu**, który ma być rozwiązany.

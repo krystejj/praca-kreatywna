@@ -30,7 +30,10 @@ Witaj, Ania!
 Witaj, Karol!
 Witaj, Laura!
 ```
-Jak widać kod działa poprawnie, wyświetla porządane informacje w prawidłowy sposób.
+
+<div class="warning">
+    Ten kod, pomimo że działa prawidłowo, jest on <b>niezgodny z zasadą DRY</b>, ponieważ zawiera powtórzenia. Przy chęci zmiany treści wiadomości, musielibyśmy edytować ją w <b>trzech różnych miejscach</b> w kodzie.
+</div>
 
 ### Po Zastosowaniu
 Tak natomiast wygląda kod **po zastosowaniu** w nim zasady DRY:

@@ -1,6 +1,6 @@
 # Diagramy
 
-**Diagramy** to **graficzne reprezentacje struktury i aspektów oprogramowania**. Są używane do **modelowania struktury oprogramowania**.
+**Diagramy** to graficzne reprezentacje struktury i aspektów oprogramowania. Są używane do **modelowania struktury oprogramowania**.
 
 ## Rodzaje
 [**UML**](uml.md) definiuje wiele różnych **rodzajów diagramów**, które można **wykorzystać do modelowania różnych aspektów oprogramowania**. Najważniejsze z rodzajów diagramów [**UML**](uml.md) to:
@@ -22,6 +22,11 @@
 - **modelowania struktury oprogramowania** - może być używany do przedstawiania klas, które istnieją w oprogramowaniu, oraz relacji między nimi.
 - **ułatwienia komunikacji między programistami** - może być używany do przekazywania informacji o strukturze oprogramowania innym programistom.
 - **ułatwienia testowania oprogramowania** - może być używany do planowania testów oprogramowania.
+
+## Przykład
+Oto przykładowy **diagram UML** prezentujący strukturę sklepu online:
+
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/1.png">
 
 ## Podsumowanie
 **Diagramy** są potężnym narzędziem, które może być **wykorzystane do poprawy procesu tworzenia oprogramowania**. Mogą pomóc również w **poprawie komunikacji, współpracy, przejrzystości i elastyczności oprogramowania**.

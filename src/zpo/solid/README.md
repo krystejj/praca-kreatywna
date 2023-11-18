@@ -1,6 +1,8 @@
 # SOLID
 
-Zasada **SOLID** to **zbiór pięciu zasad programowania obiektowego**, które **mają na celu ułatwienie zrozumienia kodu oraz sprawienia go elastyczniejszym i łatwiejszym do utrzymywania**. Zasady te zostały opracowane przez amerykańskiego programistę [Roberta Cecila Martina](https://en.wikipedia.org/wiki/Robert_C._Martin) i są powszechnie **akceptowane jako dobre praktyki programowania obiektowego**.
+<img class="right" width="250px" style="margin-left: 15px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Roberta Cecil Martin, 2020" src="https://upload.wikimedia.org/wikipedia/commons/2/27/Robert_C._Martin_surrounded_by_computers.jpg">
+
+Zasada **SOLID** to **zbiór pięciu [zasad programowania obiektowego](../index.html)**, które mają na celu **ułatwienie zrozumienia kodu obiektowego** oraz sprawienia go **elastyczniejszym i łatwiejszym do utrzymywania**. Zasady te zostały opracowane przez amerykańskiego programistę [Roberta Cecila Martina](https://en.wikipedia.org/wiki/Robert_C._Martin) i są powszechnie **akceptowane jako dobre praktyki programowania obiektowego**.
 
 ## Zasady
 Wyżej wspomnianymi pięcioma zasadami **SOLID** są:

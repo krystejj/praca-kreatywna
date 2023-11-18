@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -175,6 +175,8 @@
                     <main>
                         <h1 id="sortowanie-przez-wstawianie"><a class="header" href="#sortowanie-przez-wstawianie">Sortowanie Przez Wstawianie</a></h1>
 <p><strong>Sortowanie przez wstawianie</strong> to również jeden z <strong>najprostszych</strong> algorytmów sortowania. Działa on poprzez pobieranie kolejnych elementów zbioru nieuporządkowanego i wstawianie ich na odpowiednie miejsce w zbiorze posortowanym.</p>
+<p>Animacja pokazująca działanie <strong>sortowania przez wstawianie</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif">
 <h2 id="cechy"><a class="header" href="#cechy">Cechy</a></h2>
 <h3 id="złożoność-czasowa"><a class="header" href="#złożoność-czasowa">Złożoność Czasowa</a></h3>
 <p><strong>Złożoność czasowa</strong> sortowania przez wstawianie wynosi \( O(n^2) \), gdzie \( n \) jest liczbą elementów w zbiorze. Oznacza to, że czas wykonania algorytmu <strong>rośnie kwadratowo wraz ze wzrostem rozmiaru zbioru</strong>.</p>
@@ -192,6 +194,13 @@
 <li><strong>przeniesienie elementów</strong> - jeśli bieżący element jest mniejszy niż element o indeksie \( j \), algorytm zamieni je miejscami.</li>
 <li><strong>koniec cyklu</strong> - gdy cykl zewnętrzny zakończy się, zbiór będzie posortowany.</li>
 </ol>
+<p>Oto <strong>schemat blokowy</strong> przedstawiający sposób działania <strong>sortowania przez wstawianie</strong>:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/2.png">
+<p><strong>Dane wejściowe</strong> dla algorytmu widocznego na schemacie to:</p>
+<ul>
+<li><code>d[]</code> - zbiór liczb do sortowania,</li>
+<li><code>n</code> - długość zbioru <code>d[]</code>.</li>
+</ul>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
 <p><strong>Sortowanie przez wstawianie</strong> jest algorytmem sortującym, który jest <strong>stabilny</strong> i <strong>działa w miejscu</strong>. Jednak jego złożoność czasowa rzędu \( O(n^2) \) sprawia, że <strong>nie jest ono wydajne w przypadku dużych zbiorów danych</strong>.</p>
 

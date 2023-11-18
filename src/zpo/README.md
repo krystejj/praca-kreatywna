@@ -9,11 +9,15 @@ Celem zasad programowania obiektowego jest ułatwienie tworzenia kodu, który je
 - **testowalny** - można go łatwo przetestować, aby upewnić się, że działa poprawnie.
 
 ## Podstawowe Zasady
-Stosowanie zasad programowania obiektowego wymaga pewnego doświadczenia i umiejętności. Jednak **istnieje kilka ogólnych wskazówek**, które mogą pomóc w ich stosowaniu:
-- **rozważmy, jaka jest odpowiedzialność każdej klasy** - każda klasa powinna mieć tylko jedną odpowiedzialność.
-- **używajmy interfejsów i metod abstrakcyjnych** - aby zapewnić otwartość dla rozszerzania.
-- **testujmy podtypy** - aby upewnić się, że zachowują się w taki sam sposób jak ich typy bazowe.
-- **używajmy wstrzykiwania zależności** - aby zapewnić odwracanie zależności.
+Najbardziej kluczowe zasady **programowania obiektowego** to:
+- [**SOLID**](solid.md) - zbiór 5 zasad pozwalających na pisanie elastycznijeszego i ławtiejszego w utrzymaniu kodu.
+    - [**Single-responsibility principle**](solid/srp.md) - klasa powinna skupiać się na wykonywaniu tylko jednego zadania.
+    - [**Open-closed principle**](solid/ocp.md) - kod powinien być zaprojektowany z myślą o możliwości późniejszego łatwego rozszerzania go.
+    - [**Liskov substitution principle**](solid/lsp.md) - kod, który działa z typem bazowym, powinien również działać z podtypem.
+    - [**Interface segregation principle**](solid/isp.md) - lepiej jest mieć wiele interfejsów specyficznych niż jeden interfejs ogólny.
+    - [**Dependency inversion principle**](solid/dip.md) - kod powinien opierać się na abstrakcjach a nie implementacjach.
+- [**Law of Demeter**](lod.md) - kod powinien ograniczać dostęp z klas do klas, z którymi nie ma bezpośredniego związku.
+- [**Composition over inheritance**](coi.md) - lepiej jest używać kompozycji niż dziedziczenia.
 
 ## Podsumowanie
 Stosowanie zasad programowania obiektowego **wymaga pewnego wysiłku i czasu**, ale **przyniesie wiele korzyści**. Kod, który jest zgodny z tymi zasadami, **jest bardziej elastyczny, utrzymywalny i testowalny**.

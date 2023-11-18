@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -174,7 +174,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="you-aint-gonna-need-it-yagni"><a class="header" href="#you-aint-gonna-need-it-yagni">You Ain't Gonna Need It (YAGNI)</a></h1>
-<p><strong>You ain't gonna need it</strong> czyli po polsku <strong>nie będziesz tego potrzebował</strong> lub w skrócie <strong>YAGNI</strong>, to także jedna z <strong>najbardziej podstawowych</strong> zasad <a href="index.html"><strong>clean code</strong></a>. Zakłada ona, że nie powinniśmy pisać tak zwanego <strong>dead code</strong> czyli kodu który jest po prostu <strong>nie używany</strong>. Nawet gdy planujemy użyć tego kodu w późniejszych etapach tworzenia programu, <strong>nie warto jest go tworzyć teraz</strong>, a tylko wtedy gdy już będzie nam potrzebny. Piszemy kod, którego potrzebujemy tylko w <strong>aktualnym momencie</strong>, a nie później.</p>
+<p><strong>You ain't gonna need it</strong> czyli po polsku <strong>nie będziesz tego potrzebował</strong> lub w skrócie <strong>YAGNI</strong>, to także jedna z <strong>najbardziej podstawowych</strong> zasad <a href="index.html"><strong>clean code</strong></a>. Zakłada ona, że nie powinniśmy pisać tak zwanego <strong>martwego kodu (dead code)</strong> czyli kodu który jest po prostu <strong>nie używany</strong>. </p>
+<div class="warning">
+    Nawet gdy planujemy użyć tego kodu w późniejszych etapach tworzenia programu, <b>nie warto jest go tworzyć teraz</b>, a tylko wtedy gdy już będzie nam potrzebny. Piszemy kod, którego potrzebujemy tylko w <b>aktualnym momencie</b>, a nie później.
+</div>
 <h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
 <p>Jedne z wielu zalet stosowania <strong>YAGNI</strong> to:</p>
 <ul>
@@ -203,7 +206,9 @@ print(sum(5, 8))
 <p><strong>Wynikiem</strong> uruchomienia tego kodu jest:</p>
 <pre><code>13
 </code></pre>
-<p>Jak widać kod działa poprawnie, wyświetla porządane informacje w prawidłowy sposób.</p>
+<div class="warning">
+    Pomimo tego że ten kod działa prawidłowo, jest <b>niezgodny z zasadą YAGNI</b>, ponieważ zawiera w sobie nigdy nie używaną funkcję.
+</div>
 <h3 id="po-zastosowaniu"><a class="header" href="#po-zastosowaniu">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady YAGNI:</p>
 <pre><code class="language-python">def sum(a, b):
@@ -214,7 +219,7 @@ print(sum(5, 8))
 <p><strong>Wynik</strong> uruchomienia tego kodu jest <strong>identyczny</strong> jak przed zastosowaniem zasady.</p>
 <p>Jedyna rzecz jaka zmieniła się po zastosowaniu metody YAGNI, to <strong>usunięcie funkcji</strong> <code>sub</code> z kodu. Usunięcie tej funkcji nastąpiło dlatego, gdyż była ona po prostu <strong>nie używana</strong> co sprawiało ją <strong>bezużyteczną i zaśmiecającą kod</strong>.</p>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
-<p>Zasada <strong>YAGNI</strong> to kolejna <strong>banalna ale ważna zasada</strong>. Pozwala na pisanie <strong>krótszego kodu</strong> który jest <strong>pozbawiony nie używanych funkcji i innych nie używanych elementów</strong>.</p>
+<p>Zasada <strong>YAGNI</strong> to kolejna <strong>banalna ale ważna zasada</strong>. Pozwala na pisanie <strong>krótszego kodu</strong> który jest pozbawiony nie używanych funkcji i innych nie używanych elementów.</p>
 
                     </main>
 

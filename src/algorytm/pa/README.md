@@ -1,6 +1,6 @@
 # Projektowanie Algorytmu
 
-**Projektowanie algorytmu** to proces tworzenia algorytmu, który rozwiązuje określony problem.
+**Projektowanie algorytmu** to proces tworzenia [**algorytmu**](../index.html), który rozwiązuje określony problem.
 
 ## Etapy
 Proces **projektowania algorytmu** powinniśmy podzielić na następujące etapy:

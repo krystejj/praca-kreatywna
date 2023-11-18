@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -176,6 +176,7 @@
                         <h1 id="keep-it-simple-stupid-kiss"><a class="header" href="#keep-it-simple-stupid-kiss">Keep It Simple, Stupid! (KISS)</a></h1>
 <p><strong>Keep it simple, stupid!</strong> czyli po polsku <strong>nie komplikuj, głupcze!</strong> lub w skrócie <strong>KISS</strong>, to jedna z <strong>najważniejszych i najbardziej podstawowych</strong> zasad <a href="index.html"><strong>clean code</strong></a>. Mówi ona, że rozwiązania powinny być <strong>jak najprostsze</strong>, ponieważ <strong>im coś jest prostsze, tym łatwiej jest to zrozumieć</strong>. Oznacza to że w kodzie powinno się <strong>unikać trudnych do zrozumienia</strong> i dalszego eksploatowania rozwiązań.</p>
 <h2 id="pochodzenie"><a class="header" href="#pochodzenie">Pochodzenie</a></h2>
+<img class="right" width="200px" style="margin-left: 15px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" alt="Kelly Johnson, 1975" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/ClarenceLeonardKellyJohnson.jpg">
 <p>Wbrew pozorom zasada ta nie została pierwotnie stworzona z myślą o programowaniu. Została ona sformułowana przez amerykańskiego wojskowego inżyniera lotnictwa <a href="https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)">Kelly'ego Johnsona</a> w latach 60-tych, a jej przekazem miało być tworzenie samolotów w tak <strong>prosty sposób</strong>, aby każdy <strong>nawet najmniej uzdolniony mechanik</strong> mógł je naprawić w każdych, nawet najcięższych warunkach takich jak polowe oraz przy użyciu najbardziej podstawowych narzędzi.</p>
 <h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
 <p><strong>KISS</strong> ma wiele zalet, w tym:</p>
@@ -221,7 +222,9 @@ else:
 a jest mniejsze od b
 a nie jest równe b
 </code></pre>
-<p>Jak widać <strong>kod ten wyświetla nie potrzebne informacje</strong>, jeśli zostaje wyświetlona informacja że <code>b jest większe od a</code> to logicznym jest że <code>a jest mniejsze od b</code> oraz <code>a nie jest równe b</code>, <strong>te informacje wywołują nie potrzebny bałagan</strong> w kodzie oraz w wyniku programu.</p>
+<div class="warning">
+    Jak widać <b>kod ten wyświetla nie potrzebne informacje</b>, jeśli zostaje wyświetlona informacja że <code>b jest większe od a</code> to logicznym jest że <code>a jest mniejsze od b</code> oraz <code>a nie jest równe b</code>, <b>te informacje wywołują nie potrzebny bałagan</b> w kodzie oraz w wyniku programu.
+</div>
 <h3 id="po-zastosowaniu"><a class="header" href="#po-zastosowaniu">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady KISS:</p>
 <pre><code class="language-python">def compare(a, b):

@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -188,6 +188,18 @@
 <li><strong>rozważ, jakie są potrzeby klas implementujących interfejs</strong> - czy klasa potrzebuje wszystkich metod interfejsu? Jeśli nie, rozdziel ten interfejs na dwa mniejsze. Jeden, który zawiera metody, których używa ta konkretna klasa, oraz drugi, który zawiera resztę.</li>
 <li><strong>zastanów się, czy można podzielić interfejs na mniejsze, bardziej specyficzne interfejsy</strong> - czy można utworzyć osobne interfejsy dla różnych grup klas?</li>
 </ul>
+<h2 id="przykład-zastosowania"><a class="header" href="#przykład-zastosowania">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>BankAccount</code> reprezentującą rachunek bankowy. Klasa ta posiada następujące pola i metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/7.png">
+<p>Klasa ta implementuje metody do wykonywania podstawowych operacji na rachunku bankowym, takich jak wpłata, wypłata, sprawdzenie salda oraz historii transakcji.</p>
+<div class="warning">
+    Ta implementacja <b>narusza zasadę ISP</b>, ponieważ metoda <code>get_transaction_history()</code> nie jest istotna dla wszystkich rachunków bankowych.
+</div>
+<p>Aby naprawić to naruszenie, możemy <strong>podzielić</strong> klasę <code>BankAccount</code> na dwie klasy:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/8.png">
+<p>Klasa <code>TransactionAccount</code> dziedziczy po klasie <code>BankAccount</code> i <strong>implementuje</strong> metodę <code>get_transaction_history()</code>.</p>
+<p>Klasa <code>SavingAccount</code> dziedziczy również po klasie <code>BankAccount</code>, ale <strong>nie implementuje</strong> metody <code>get_transaction_history()</code> tylko <code>get_interest_rate()</code>.</p>
+<p>W ten sposób klienci, którzy <strong>potrzebują dostępu do historii transakcji</strong>, mogą korzystać z klasy <code>TransactionAccount</code>. Za to klienci, którzy <strong>nie potrzebują dostępu do historii transakcji</strong>, mogą korzystać z klasy <code>SavingAccount</code>.</p>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
 <p>Zasada <strong>ISP</strong> to następna znacząca zasada programowania obiektowego, która <strong>pomaga w tworzeniu bardziej uporządkowanego i prostszego w rozszerzaniu kodu</strong>. Stosowanie jej sprawi, że <strong>rozszerzanie, testowanie oraz interpretowanie naszego kodu będzie dużo prostsze</strong>.</p>
 

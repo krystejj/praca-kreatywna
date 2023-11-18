@@ -1,5 +1,7 @@
 # Unified Modeling Language (UML)
 
+<img class="right" width="250px" style="margin-left: 10px; padding: 10px; border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/UML_logo.svg">
+
 **Unified Modeling Language** a w skrócie **UML** to język modelowania oprogramowania, który **umożliwia wizualne przedstawienie struktury i zachowania oprogramowania**. UML jest używany przez programistów i inżynierów oprogramowania **w celu komunikacji i współpracy w zakresie projektowania, rozwoju i utrzymania oprogramowania**.
 
 ## Elementy
@@ -27,4 +29,4 @@
 - **błędy** - niewłaściwe użycie UML może prowadzić do błędów w oprogramowaniu.
 
 ## Podsumowanie
-**UML jest potężnym narzędziem**, które może być **wykorzystane do poprawy procesu tworzenia oprogramowania**. UML może **pomóc w poprawie komunikacji, współpracy, przejrzystości i elastyczności systemów oprogramowania**.
+**UML jest potężnym narzędziem**, które może być wykorzystane do **poprawy** procesu tworzenia oprogramowania. UML może pomóc w **poprawie komunikacji, współpracy, przejrzystości i elastyczności** systemów oprogramowania.

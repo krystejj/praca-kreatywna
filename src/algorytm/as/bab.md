@@ -2,6 +2,10 @@
 
 **Sortowanie bąbelkowe** jest jednym z **najprostszych** algorytmów sortujących. Polega ono na porównywaniu kolejnych elementów zbioru i zamienianiu ich miejscami, jeśli są w niewłaściwej kolejności.
 
+Animacja pokazująca działanie **sortowania babelkowego**:
+
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif">
+
 ## Cechy
 
 ### Złożoność Czasowa
@@ -22,7 +26,15 @@
 5. **przeniesienie elementów** - jeśli elementy \\( i \\) i  \\( i+1 \\) są w niewłaściwej kolejności, algorytm zamieni je miejscami.
 6. **koniec cyklu**
 
-Gdy cykl wewnętrzny zakończy się, algorytm sprawdzi, czy podczas ostatniego przejścia cyklu doszło do wymiany elementów. Jeśli nie, to zbiór jest posortowany i algorytm może zakończyć działanie.
+Gdy cykl wewnętrzny zakończy się, algorytm sprawdzi, czy podczas ostatniego przejścia cyklu doszło do wymiany elementów. Jeśli nie, to zbiór jest posortowany i algorytm może **zakończyć działanie**.
+
+Oto **schemat blokowy** przedstawiający sposób działania **sortowania bąbelkowego**:
+
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/1.png">
+
+**Dane wejściowe** dla algorytmu widocznego na schemacie to:
+- `d[]` - zbiór liczb do sortowania,
+- `n` - długość zbioru `d[]`.
 
 ## Podsumowanie
 **Sortowanie bąbelkowe** jest prostym i łatwym w implementacji algorytmem sortującym. Jednak jego złożoność czasowa \\( O(n^2) \\) sprawia, że **nie jest ono wydajne w przypadku dużych zbiorów danych**. Sortowanie bąbelkowe **jest podstawą**, każdy programista powinien **znać ten algorytm**.

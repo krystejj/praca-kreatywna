@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -174,7 +174,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="single-responsibility-principle-srp"><a class="header" href="#single-responsibility-principle-srp">Single-Responsibility Principle (SRP)</a></h1>
-<p>Zasada <strong>single-responsibility principle</strong> czyli po polsku <strong>zasada jednej odpowiedzialności</strong> lub w skrócie <strong>SRP</strong>, to pierwsza z zasad <a href="index.html"><strong>SOLID</strong></a>. Jej oryginalna treść to <strong>&quot;a module should be responsible to one, and only one, actor&quot;</strong>. Tłumacząc na polski, mówi ona, że każda <strong>klasa powinna mieć tylko jedną odpowiedzialność</strong>, czyli <strong>powinna być odpowiedzialna tylko za jedną funkcję lub zadanie</strong>.</p>
+<p>Zasada <strong>single-responsibility principle</strong> czyli po polsku <strong>zasada jednej odpowiedzialności</strong> lub w skrócie <strong>SRP</strong>, to pierwsza z zasad <a href="index.html"><strong>SOLID</strong></a>. Mówi ona, że każda <strong>klasa powinna mieć tylko jedną odpowiedzialność</strong>, czyli <strong>powinna być odpowiedzialna tylko za jedną funkcję lub zadanie</strong>.</p>
+<blockquote>
+<p>&quot;A module should be responsible to one, and only one, actor.&quot; - <a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert Cecil Martin</a></p>
+</blockquote>
 <h2 id="zalety"><a class="header" href="#zalety">Zalety</a></h2>
 <p><strong>SRP</strong> ma kilka zalet:</p>
 <ul>
@@ -188,6 +191,15 @@
 <li><strong>rozważ, jakie są obowiązki klasy</strong> - czy klasa ma tylko jedną odpowiedzialność?</li>
 <li><strong>zastanów się, czy klasa potrzebuje więcej niż jednej odpowiedzialności</strong> - czy można podzielić ją na dwie różne klasy?</li>
 </ul>
+<h2 id="przykład-zastosowania"><a class="header" href="#przykład-zastosowania">Przykład Zastosowania</a></h2>
+<p>Załóżmy, że mamy klasę <code>User</code> reprezentującą użytkownika systemu. Klasa ta posiada następujące pola oraz metody:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/1.png">
+<div class="warning">
+    Klasa ta <b>narusza zasadę SRP</b>, ponieważ ma więcej niż jedną odpowiedzialność. Klasa ta odpowiada za reprezentowanie użytkownika, ale również za zapisywanie, aktualizowanie i usuwanie użytkowników z bazy danych.
+</div>
+<p>Aby naprawić to naruszenie, możemy <strong>podzielić</strong> klasę <code>User</code> na dwie klasy:</p>
+<img style="border: 1px solid rgb(49, 49, 49); border-radius: 20px;" src="imgs/2.png">
+<p>Klasa <code>User</code> nadal odpowiada za reprezentowanie użytkownika, natomiast klasa <code>UserRepository</code> odpowiada za dostęp do bazy danych i wykonywanie operacji na użytkownikach. W ten sposób każda klasa <strong>posiada jedną odpowiedzialność</strong>.</p>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
 <p>Zasada <strong>SRP</strong> to ważna zasada programowania obiektowego, która <strong>pomaga w tworzeniu bardziej czytelnego, testowalnego i rozszerzalnego kodu</strong>. Stosowanie jej sprawi, że <strong>praca z naszym kodem w przyszłości będzie dużo prostsza i przyjemniejsza</strong>.</p>
 

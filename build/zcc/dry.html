@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -202,7 +202,9 @@ print(&quot;Witaj, Laura!&quot;)
 Witaj, Karol!
 Witaj, Laura!
 </code></pre>
-<p>Jak widać kod działa poprawnie, wyświetla porządane informacje w prawidłowy sposób.</p>
+<div class="warning">
+    Ten kod, pomimo że działa prawidłowo, jest on <b>niezgodny z zasadą DRY</b>, ponieważ zawiera powtórzenia. Przy chęci zmiany treści wiadomości, musielibyśmy edytować ją w <b>trzech różnych miejscach</b> w kodzie.
+</div>
 <h3 id="po-zastosowaniu"><a class="header" href="#po-zastosowaniu">Po Zastosowaniu</a></h3>
 <p>Tak natomiast wygląda kod <strong>po zastosowaniu</strong> w nim zasady DRY:</p>
 <pre><code class="language-python">def greeting(name):

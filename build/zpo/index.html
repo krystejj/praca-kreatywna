@@ -8,7 +8,7 @@
 
         <!-- Custom HTML head -->
         
-        <meta name="description" content="Praca kreatywna na lekcję projektowania oprogramowania.">
+        <meta name="description" content="Praca kreatywna o projektowaniu aplikacji na lekcję projektowania oprogramowania.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -183,12 +183,19 @@
 <li><strong>testowalny</strong> - można go łatwo przetestować, aby upewnić się, że działa poprawnie.</li>
 </ul>
 <h2 id="podstawowe-zasady"><a class="header" href="#podstawowe-zasady">Podstawowe Zasady</a></h2>
-<p>Stosowanie zasad programowania obiektowego wymaga pewnego doświadczenia i umiejętności. Jednak <strong>istnieje kilka ogólnych wskazówek</strong>, które mogą pomóc w ich stosowaniu:</p>
+<p>Najbardziej kluczowe zasady <strong>programowania obiektowego</strong> to:</p>
 <ul>
-<li><strong>rozważmy, jaka jest odpowiedzialność każdej klasy</strong> - każda klasa powinna mieć tylko jedną odpowiedzialność.</li>
-<li><strong>używajmy interfejsów i metod abstrakcyjnych</strong> - aby zapewnić otwartość dla rozszerzania.</li>
-<li><strong>testujmy podtypy</strong> - aby upewnić się, że zachowują się w taki sam sposób jak ich typy bazowe.</li>
-<li><strong>używajmy wstrzykiwania zależności</strong> - aby zapewnić odwracanie zależności.</li>
+<li><a href="solid.html"><strong>SOLID</strong></a> - zbiór 5 zasad pozwalających na pisanie elastycznijeszego i ławtiejszego w utrzymaniu kodu.
+<ul>
+<li><a href="solid/srp.html"><strong>Single-responsibility principle</strong></a> - klasa powinna skupiać się na wykonywaniu tylko jednego zadania.</li>
+<li><a href="solid/ocp.html"><strong>Open-closed principle</strong></a> - kod powinien być zaprojektowany z myślą o możliwości późniejszego łatwego rozszerzania go.</li>
+<li><a href="solid/lsp.html"><strong>Liskov substitution principle</strong></a> - kod, który działa z typem bazowym, powinien również działać z podtypem.</li>
+<li><a href="solid/isp.html"><strong>Interface segregation principle</strong></a> - lepiej jest mieć wiele interfejsów specyficznych niż jeden interfejs ogólny.</li>
+<li><a href="solid/dip.html"><strong>Dependency inversion principle</strong></a> - kod powinien opierać się na abstrakcjach a nie implementacjach.</li>
+</ul>
+</li>
+<li><a href="lod.html"><strong>Law of Demeter</strong></a> - kod powinien ograniczać dostęp z klas do klas, z którymi nie ma bezpośredniego związku.</li>
+<li><a href="coi.html"><strong>Composition over inheritance</strong></a> - lepiej jest używać kompozycji niż dziedziczenia.</li>
 </ul>
 <h2 id="podsumowanie"><a class="header" href="#podsumowanie">Podsumowanie</a></h2>
 <p>Stosowanie zasad programowania obiektowego <strong>wymaga pewnego wysiłku i czasu</strong>, ale <strong>przyniesie wiele korzyści</strong>. Kod, który jest zgodny z tymi zasadami, <strong>jest bardziej elastyczny, utrzymywalny i testowalny</strong>.</p>

@@ -1,13 +1,13 @@
 # Algorytmy Sortujące
 
-**Algorytmy sortujące** to algorytmy, które służą do **uporządkowania elementów zbioru danych**. Ogólnie rzecz biorąc, sortowanie polega na przestawianiu elementów zbioru w taki sposób, aby spełniały one ustalony porządek.
+**Algorytmy sortujące** to [algorytmy](../index.html), które służą do **uporządkowania elementów zbioru danych**. Ogólnie rzecz biorąc, sortowanie polega na przestawianiu elementów zbioru w taki sposób, aby **spełniały one ustalony porządek**.
 
 ## Podział
 Istnieje wiele różnych **algorytmów sortujących**. Można je podzielić na kilka kategorii, w zależności od ich właściwości:
 - **złożoność czasowa** - można podzielić je na algorytmy o czasie pracy liniowym, kwadratowym, logarytmicznym itd.
 - **złożoność pamięciowa** - można podzielić je ze względu na ilość pamięci jaką algorytm potrzebuje wykonania zadania.
-- **stabilność** - podział na algorytmy stabilne i niestabilne. Algorytm stabilny zachowuje kolejność elementów o równej wartości.
 - **wymagania pamięciowe** - można podzielić je na algorytmy działające w miejscu (in-place) i algorytmy działające w miejscu dodatkowym (out-of-place). Algorytm działający w miejscu nie wymaga dodatkowej pamięci poza pamięcią wymaganą do przechowywania danych wejściowych.
+- **stabilność** - podział na algorytmy stabilne i niestabilne. Algorytm stabilny zachowuje kolejność elementów o równej wartości.
 
 ## Wybór
 Wybór **algorytmu sortującego** zależy od wielu czynników, w tym od:

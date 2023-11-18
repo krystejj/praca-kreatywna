@@ -10,7 +10,7 @@
     - [Stick To Naming Conventions](zcc/stnc.md)
     - [Fail Fast](zcc/ff.md)
     - [Code as Documentation](zcc/cad.md)
-    - [Read The Fricking Manual](zcc/rtfm.md)
+    - [Read The Fucking Manual](zcc/rtfm.md)
     - [Test-Driven Development](zcc/tdd.md)
     - [Rubber Duck Debugging](zcc/rdd.md)
 - [Zasady Programowania Obiektowego](zpo/README.md)

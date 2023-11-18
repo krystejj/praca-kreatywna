@@ -1,6 +1,6 @@
-# Read The Fricking Manual (RTFM)
+# Read The Fucking Manual (RTFM)
 
-**Read the fricking manual** czyli po polsku **przeczytaj cholerną instrukcję** lub w skrócie **RTFM** to zasada, która bardziej dotyczy nauki i znajdywania odpowiedzi na pytania niż pisania kodu. Mówi ona, że **przed zadaniem pytania, należy najpierw sprawdzić, czy odpowiedź nie jest dostępna w dokumentacji**. Oczywiście, nie zawsze można znaleźć odpowiedź w dokumentacji. W takich przypadkach należy zadać pytanie, ale **najpierw należy sprawdzić, czy pytanie nie zostało już zadane i czy odpowiedź nie jest dostępna w internecie**. Zasada ta może być również stosowana w innych dziedzinach niż informatyka. 
+**Read the fucking manual** czyli po polsku **przeczytaj cholerną instrukcję** lub w skrócie **RTFM** to zasada, która bardziej dotyczy nauki i znajdywania odpowiedzi na pytania niż pisania kodu. Mówi ona, że **przed zadaniem pytania, należy najpierw sprawdzić, czy odpowiedź nie jest dostępna w dokumentacji**. Oczywiście, nie zawsze można znaleźć odpowiedź w dokumentacji. W takich przypadkach należy zadać pytanie, ale **najpierw należy sprawdzić, czy pytanie nie zostało już zadane i czy odpowiedź nie jest dostępna w internecie**. Zasada ta może być również stosowana w innych dziedzinach niż informatyka. 
 
 > RTFM jest również slangiem, często używanym na forach internetowych.
 
